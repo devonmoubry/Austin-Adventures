@@ -4,6 +4,7 @@ require('file-loader?emitFile=false!./images/averie-woodard-123973.jpg');
 require('file-loader?emitFile=false!./images/piyanut-suntaranil-223184.jpg');
 require('file-loader?emitFile=false!./images/aaron-burden-75599.jpg');
 require('file-loader?emitFile=false!./images/averie-woodard-123972.jpg');
+require('file-loader?emitFile=false!./images/favicon.ico');
 
 import app from './scripts/app.js';
 
