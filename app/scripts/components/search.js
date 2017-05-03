@@ -25,9 +25,9 @@ class Search extends React.Component {
     return (
       <main>
         <div className="search-container">
-          <h1 tabIndex="0">Search</h1>
-          <input className="text-input" type="text" ref="inputSearch" placeholder="ARTIST" autoFocus ></input>
-          <input onClick={this.handleSearch} className="submit-input" type="submit" value="SEARCH"></input>
+          <i className="fa fa-search" aria-hidden="true"></i>
+          <input className="text-input" type="text" ref="inputSearch" placeholder="Search for a zip code or address" autoFocus ></input>
+          <input onClick={this.handleSearch} className="submit-input" type="submit"></input>
         </div>
         <SearchResultsList />
       </main>

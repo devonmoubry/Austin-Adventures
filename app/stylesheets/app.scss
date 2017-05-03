@@ -1,12 +1,15 @@
 .welcome-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   //overflow: hidden;
 
   .welcome-text .app-title {
     display: flex;
     justify-content: center;
-    font-family: 'Love Ya Like A Sister', cursive;
+    // font-family: 'Love Ya Like A Sister', cursive;
     font-size: 6vw;
-    color: #7f0509;
+    // color: #7f0509;
     margin: 0;
     padding: 2vh;
   }
@@ -14,48 +17,63 @@
   p {
     display: flex;
     justify-content: center;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 4vw;
-    color: #005E7A;
+    // font-family: 'Patrick Hand', cursive;
+    font-size: 3vw;
+    // color: #005E7A;
+  }
+  .link-button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 1vw;
+    font-size: 3vw;
   }
 
 }
 
 .welcome-container:before {
-  content: ' ';
-  background-image: url('../images/averie-woodard-123973.jpg');
-  opacity: 0.3;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  // content: ' ';
+  // background-image: url('../images/averie-woodard-123973.jpg');
+  // opacity: 0.3;
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  // width: 100%;
+  // height: 100%;
+  // background-size: cover;
 }
 
 .login-container {
-  background-image: url('../images/piyanut-suntaranil-223184.jpg');
+  // background-image: url('../images/piyanut-suntaranil-223184.jpg');
 }
 
 .signup-container {
-  background-image: url('../images/piyanut-suntaranil-223184.jpg');
+  // background-image: url('../images/piyanut-suntaranil-223184.jpg');
 }
 
 .search-container {
-  background-image: url('../images/aaron-burden-75599.jpg');
+  display: flex;
+  justify-content: center;
+  margin: 2vh 2vw;
+
+  .text-input {
+    font-size: 3vw;
+    width: 70vw;
+  }
+  // background-image: url('../images/aaron-burden-75599.jpg');
 }
 
 h1 {
-  font-family: 'Love Ya Like A Sister', cursive;
+  // font-family: 'Love Ya Like A Sister', cursive;
   font-size: 6vw;
-  color: #7f0509;
+  // color: #7f0509;
   margin: 0;
   padding: 2vh;
 }
 p {
-  font-family: 'Patrick Hand', cursive;
+  // font-family: 'Patrick Hand', cursive;
   font-size: 4vw;
-  color: #005E7A;
+  // color: #005E7A;
 }
 img {
   width: 100%;
