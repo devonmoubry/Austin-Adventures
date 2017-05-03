@@ -18,8 +18,8 @@ class Welcome extends React.Component {
           </div>
         <Link className="link-button" to="/login">Please login.</Link>
         <Link className="link-button" to="/signup">New User? Please sign up!</Link>
+        <Link className="link-button" to="/search">Find hikes</Link>
         </div>
-        <Search />
       </main>
     );
   }

@@ -19,7 +19,7 @@ export default function app() {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/welcome" component={Welcome} />
-          <Route path="/welcome/search" component={Search} />
+          <Route path="/search" component={Search} />
         </div>
       </Router>
     </Provider>,

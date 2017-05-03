@@ -25,10 +25,10 @@ class Signup extends React.Component {
       <main className="signup-container">
         <h1>Sign up</h1>
         <form id="signup">
-          <input className="text-input" type="text" ref="signupFullName" placeholder="FULL NAME"></input>
-          <input className="text-input" type="text" ref="signupEmail" placeholder="VALID EMAIL"></input>
-          <input className="text-input" type="password" ref="signupPassword" placeholder="CREATE PASSWORD"></input>
-          <input onClick={this.handleSubmit} className="submit-input" type="submit" value="SIGNUP"></input>
+          <input className="text-input" type="text" ref="signupFullName" placeholder="full name"></input>
+          <input className="text-input" type="text" ref="signupEmail" placeholder="valid email"></input>
+          <input className="text-input" type="password" ref="signupPassword" placeholder="create password"></input>
+          <input onClick={this.handleSubmit} className="submit-input" type="submit" value="signup"></input>
         </form>
       </main>
     );

@@ -12,26 +12,19 @@ class SearchResult extends React.Component {
     this.handleFav = this.handleFav.bind(this)
   }
 
-  getImageURL(images) {
-    if (images.length === 0) {
-      return 'http://herniamovers.com/assets/boxes_packages/large/image_not_available.gif'
-    } else {
-      return 'the right photo'
-    }
-  }
-
   handleFav(event) {
     event.preventDefault();
-
-    this.props.dispatch(favHike());
+    const id = this.props.hike.unique_id;
+    const name = this.props.hike.name;
+    const usertoken = this.props.usertoken;
+    this.props.dispatch(favHike(id, name, usertoken));
   }
 
   render() {
-
+    
     return(
       <li className="search-result">
-        <img tabIndex="0" />
-        <p tabIndex="0">{}</p>
+        <p tabIndex="0">{this.props.hike.name}</p>
         <input className="submit-input" onClick={this.handleFav} type="submit" value="Favorite"></input>
       </li>
     )
