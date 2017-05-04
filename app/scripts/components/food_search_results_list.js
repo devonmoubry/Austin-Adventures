@@ -20,8 +20,8 @@ class FoodSearchResultsList extends React.Component {
     })
   }
   render() {
-    let restaurants = this.props.foodSearchResults;
-    if (restaurants === null) {
+    let restaurants = this.props.reducer.foodSearchResults;
+    if (restaurants === null || restaurants === undefined) {
       return (<span />)
     } else if (restaurants.length > 0) {
       return(

@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Route, Link, NavLink } from "react-router-dom";
 import container from "../containers/all.js";
 //components
+import Search from "./search.js"
 import SearchResult from "./search_result.js"
 
 class SearchResultsList extends React.Component {
@@ -20,8 +21,8 @@ class SearchResultsList extends React.Component {
     })
   }
   render() {
-    let hikes = this.props.searchResults;
-    if (hikes === null) {
+    let hikes = this.props.reducer.searchResults;
+    if (hikes === null || hikes === undefined) {
       return (<span />)
     } else if (hikes.length > 0) {
       return(

@@ -24,7 +24,7 @@ export default function AppReducer(state, action) {
         foodSearchResults: action.restaurants
       };
       return Object.assign({}, state, newState);
-      
+
     case "LOGGED_IN":
       console.log("LOGGED_IN");
       console.log("action.usertoken", action.usertoken);
