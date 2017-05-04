@@ -19,8 +19,6 @@ class Search extends React.Component {
   constructor(props) {
     super(props)
 
-    this.handleHikeSearch = this.handleHikeSearch.bind(this)
-    this.handleFoodSearch = this.handleFoodSearch.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
     this.mapOptions = this.mapOptions.bind(this)
   }
@@ -42,8 +40,8 @@ class Search extends React.Component {
 
   mapStyle() {
     return {
-      width : 100,
-      height : 100
+      width : '100%',
+      height : 400
     }
   }
 
@@ -62,16 +60,6 @@ class Search extends React.Component {
           style= {this.mapStyle()}
           options={this.mapOptions()}
         />
-        <div className="search-container">
-          <i className="fa fa-search" aria-hidden="true"></i>
-          <input className="text-input" type="text" ref="hikeSearch" placeholder="Search for a zip code or address" defaultValue="Austin" autoFocus ></input>
-          <input onClick={this.handleHikeSearch} className="submit-input" type="submit" value="hikes"></input>
-          <i className="fa fa-search" aria-hidden="true"></i>
-          <input className="text-input" type="text" ref="restaurantSearch" placeholder="Search for a zip code or address" defaultValue="cafe" ></input>
-          <input onClick={this.handleFoodSearch} className="submit-input" type="submit" value="restaurants"></input>
-        </div>
-        <SearchResultsList />
-        <FoodSearchResultsList />
       </main>
     );
   }
