@@ -79,3 +79,18 @@ img {
   width: 100%;
   height: 100vh;
 }
+
+.popover {
+  background-color: #fafafa;
+  width: 60%;
+  font-size: 10px;
+  p {
+    font-size: 10px;
+    padding: 2px;
+  }
+  overflow: scroll;
+}
+
+.mapboxgl-popup.mapboxgl-popup-anchor-right {
+ 
+}
