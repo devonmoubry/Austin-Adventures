@@ -76,21 +76,19 @@ p {
   // color: #005E7A;
 }
 img {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
 }
 
 .popover {
-  background-color: #fafafa;
-  width: 60%;
   font-size: 10px;
   p {
     font-size: 10px;
     padding: 2px;
   }
-  overflow: scroll;
+  float: right;
 }
 
-.mapboxgl-popup.mapboxgl-popup-anchor-right {
- 
+.mapboxgl-popup-content {
+  max-width: 300px;
 }
