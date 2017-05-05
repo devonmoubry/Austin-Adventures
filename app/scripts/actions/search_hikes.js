@@ -1,4 +1,4 @@
-export default function searchHikes (hikeSearch) {
+export default function searchHikes () {
   return (dispatch) => {
     return $.ajax({
       type: 'GET',

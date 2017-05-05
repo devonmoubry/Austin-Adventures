@@ -19,6 +19,7 @@ class Search extends React.Component {
   constructor(props) {
     super(props)
 
+    this.handleFoodSearch = this.handleFoodSearch.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
     this.mapOptions = this.mapOptions.bind(this)
   }
@@ -29,12 +30,7 @@ class Search extends React.Component {
     this.props.dispatch(searchHikes(hikeSearch));
   }
 
-  handleFoodSearch(event) {
-    event.preventDefault();
-    console.log(event);
-    console.log(this.refs.restaurantSearch.value);
-    const restaurantSearch = this.refs.restaurantSearch.value;
-    console.log(restaurantSearch);
+  handleFoodSearch() {
     this.props.dispatch(searchRestaurants(restaurantSearch));
   }
 
@@ -47,10 +43,17 @@ class Search extends React.Component {
 
   mapOptions() {
     return {
-      style : 'mapbox://styles/mapbox/dark-v9'
+      style : 'mapbox://styles/mapbox/streets-v9',
+      center: [-97.7780803, 30.2672225],
+      zoom: 9
     }
   }
 
+  componentDidMount() {
+    this.props.dispatch(searchHikes());
+    this.props.dispatch(searchRestaurants());
+  }
+//marker-15 restaurant-15
   render() {
     return (
       <main>
@@ -60,6 +63,8 @@ class Search extends React.Component {
           style= {this.mapStyle()}
           options={this.mapOptions()}
         />
+        <SearchResultsList />
+        <FoodSearchResultsList />
       </main>
     );
   }

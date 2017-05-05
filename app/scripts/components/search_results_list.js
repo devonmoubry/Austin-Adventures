@@ -22,6 +22,7 @@ class SearchResultsList extends React.Component {
   }
   render() {
     let hikes = this.props.reducer.searchResults;
+    console.log('hikes', hikes);
     if (hikes === null || hikes === undefined) {
       return (<span />)
     } else if (hikes.length > 0) {

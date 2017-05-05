@@ -1,5 +1,4 @@
-export default function searchRestaurants (restaurantSearch) {
-  console.log('awesome sauce', restaurantSearch);
+export default function searchRestaurants () {
   return (dispatch) => {
     return $.ajax({
       type: 'GET',
