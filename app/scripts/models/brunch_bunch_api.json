@@ -2,6 +2,7 @@
   [{
     "id": "001",
     "name": "VOX Table",
+    "coordinates": [-97.764215, 30.252538],
     "address": "110 South Lamar Suite 2140",
     "city": "Austin",
     "state": "Texas",
@@ -17,6 +18,7 @@
   {
     "id": "002",
     "name": "Sway",
+    "coordinates": [-97.754566, 30.250097],
     "address": "1417 South 1st Street",
     "city": "Austin",
     "state": "Texas",
@@ -32,6 +34,7 @@
   {
     "id": "003",
     "name": "Jacoby's Restaurant & Mercantile",
+    "coordinates": [-97.707374, 30.251503],
     "address": "3235 East Cesar Chavez Street",
     "city": "Austin",
     "state": "Texas",
@@ -47,6 +50,7 @@
   {
     "id": "004",
     "name": "Monger's Market + Kitchen",
+    "coordinates": [-97.717623, 30.254495],
     "address": "2401 E. Cesar Chavez",
     "city": "Austin",
     "state": "Texas",
@@ -62,6 +66,7 @@
   {
     "id": "005",
     "name": "Geraldine's",
+    "coordinates": [-97.739163, 30.259977],
     "address": "605 Davis Street",
     "city": "Austin",
     "state": "Texas",
@@ -77,6 +82,7 @@
   {
     "id": "006",
     "name": "Café no Sé",
+    "coordinates": [-97.750424, 30.247111],
     "address": "1603 South Congress Avenue",
     "city": "Austin",
     "state": "Texas",
@@ -92,6 +98,7 @@
   {
     "id": "007",
     "name": "Central Standard",
+    "coordinates": [-97.750156, 30.247731],
     "address": "1603 South Congress Avenue",
     "city": "Austin",
     "state": "Texas",
@@ -107,6 +114,7 @@
   {
     "id": "008",
     "name": "Juan In a Million",
+    "coordinates": [-97.719066, 30.255354],
     "address": "2300 E. Cesar Chavez St.",
     "city": "Austin",
     "state": "Texas",
@@ -122,6 +130,7 @@
   {
     "id": "009",
     "name": "Juliet Ristorante",
+    "coordinates": [-97.760068, 30.261849],
     "address": "1500 Barton Springs Rd.",
     "city": "Austin",
     "state": "Texas",
@@ -137,6 +146,7 @@
   {
     "id": "010",
     "name": "The Peached Tortilla",
+    "coordinates": [-97.74027, 30.330704],
     "address": "5520 Burnet Rd. #100",
     "city": "Austin",
     "state": "Texas",
@@ -152,6 +162,7 @@
   {
     "id": "011",
     "name": "Wu Chow",
+    "coordinates": [-97.748163, 30.268841],
     "address": "500 W. Fifth",
     "city": "Austin",
     "state": "Texas",
@@ -167,6 +178,7 @@
   {
     "id": "012",
     "name": "Juniper",
+    "coordinates": [-97.717276, 30.254710],
     "address": "2400 E. Cesar Chavez #304",
     "city": "Austin",
     "state": "Texas",
@@ -182,6 +194,7 @@
   {
     "id": "013",
     "name": "Banger's Sausage House & Beer Garden",
+    "coordinates": [-97.738413, 30.258905],
     "address": "79 Rainey",
     "city": "Austin",
     "state": "Texas",
@@ -197,6 +210,7 @@
   {
     "id": "014",
     "name": "The Bonneville",
+    "coordinates": [-97.746166, 30.264053],
     "address": "202 W. Cesar Chavez",
     "city": "Austin",
     "state": "Texas",
@@ -212,6 +226,7 @@
   {
     "id": "015",
     "name": "Searsucker",
+    "coordinates": [],
     "address": "415 Colorado Street",
     "city": "Austin",
     "state": "Texas",
@@ -227,6 +242,7 @@
   {
     "id": "016",
     "name": "Jo's Coffee Downtown",
+    "coordinates": [],
     "address": "242 West Second Street",
     "city": "Austin",
     "state": "Texas",
@@ -242,6 +258,7 @@
   {
     "id": "017",
     "name": "Russian House",
+    "coordinates": [],
     "address": "307 E. Fifth",
     "city": "Austin",
     "state": "Texas",
@@ -257,6 +274,7 @@
   {
     "id": "018",
     "name": "Threadgill's",
+    "coordinates": [],
     "address": "301 W. Riverside",
     "city": "Austin",
     "state": "Texas",
@@ -272,6 +290,7 @@
   {
     "id": "019",
     "name": "Swift's Attic",
+    "coordinates": [],
     "address": "315 Congress Avenue Suite 200",
     "city": "Austin",
     "state": "Texas",
@@ -287,6 +306,7 @@
   {
     "id": "020",
     "name": "El Naranjo",
+    "coordinates": [],
     "address": "85 Rainey Street",
     "city": "Austin",
     "state": "Texas",
@@ -302,6 +322,7 @@
   {
     "id": "021",
     "name": "Manuel's",
+    "coordinates": [],
     "address": "301 Congress Avenue",
     "city": "Austin",
     "state": "Texas",
@@ -317,6 +338,7 @@
   {
     "id": "022",
     "name": "Cherrywood Coffeehouse",
+    "coordinates": [],
     "address": "1400 E. 38th½ St.",
     "city": "Austin",
     "state": "Texas",
@@ -332,6 +354,7 @@
   {
     "id": "023",
     "name": "Lucy's Fried Chicken",
+    "coordinates": [],
     "address": "5408 Burnet Rd.",
     "city": "Austin",
     "state": "Texas",
@@ -347,6 +370,7 @@
   {
     "id": "024",
     "name": "Jack Allen's Kitchen",
+    "coordinates": [],
     "address": "7720 Hwy. 71 W.",
     "city": "Austin",
     "state": "Texas",
@@ -362,6 +386,7 @@
   {
     "id": "025",
     "name": "Cafe Malta",
+    "coordinates": [],
     "address": "3421 W. William Cannon",
     "city": "Austin",
     "state": "Texas",
@@ -377,6 +402,7 @@
   {
     "id": "026",
     "name": "Manuel's",
+    "coordinates": [],
     "address": "10201 Jollyville Rd.",
     "city": "Austin",
     "state": "Texas",
@@ -392,6 +418,7 @@
   {
     "id": "027",
     "name": "Bonhomie",
+    "coordinates": [],
     "address": "5350 Burnet Road",
     "city": "Austin",
     "state": "Texas",
@@ -407,6 +434,7 @@
   {
     "id": "028",
     "name": "El Mesón Taquería",
+    "coordinates": [],
     "address": "2038 S. Lamar",
     "city": "Austin",
     "state": "Texas",
@@ -422,6 +450,7 @@
   {
     "id": "029",
     "name": "Josephine House",
+    "coordinates": [],
     "address": "1601 Waterston",
     "city": "Austin",
     "state": "Texas",
@@ -437,6 +466,7 @@
   {
     "id": "030",
     "name": "Old Thousand",
+    "coordinates": [],
     "address": "1000 E 11th St Ste 150",
     "city": "Austin",
     "state": "Texas",
@@ -452,6 +482,7 @@
   {
     "id": "031",
     "name": "Luke’s Inside Out",
+    "coordinates": [],
     "address": "1109 S Lamar Blvd",
     "city": "Austin",
     "state": "Texas",
@@ -467,6 +498,7 @@
   {
     "id": "032",
     "name": "Grizzelda’s",
+    "coordinates": [],
     "address": "105 Tillery St",
     "city": "Austin",
     "state": "Texas",
@@ -482,6 +514,7 @@
   {
     "id": "033",
     "name": "Eberly",
+    "coordinates": [],
     "address": "615 S Lamar Blvd",
     "city": "Austin",
     "state": "Texas",
@@ -497,6 +530,7 @@
   {
     "id": "034",
     "name": "El Burro",
+    "coordinates": [],
     "address": "1100 S Lamar Blvd Suite 1125",
     "city": "Austin",
     "state": "Texas",
@@ -512,6 +546,7 @@
   {
     "id": "035",
     "name": "Soursop",
+    "coordinates": [],
     "address": "440 E Saint Elmo Rd Ste G-2",
     "city": "Austin",
     "state": "Texas",
@@ -527,6 +562,7 @@
   {
     "id": "036",
     "name": "Coast Bar and Kitchen",
+    "coordinates": [],
     "address": "360 Nueces St #20",
     "city": "Austin",
     "state": "Texas",
@@ -542,6 +578,7 @@
   {
     "id": "037",
     "name": "My Name Is Joe Coffee Co.",
+    "coordinates": [],
     "address": "501 Colorado St",
     "city": "Austin",
     "state": "Texas",
@@ -557,6 +594,7 @@
   {
     "id": "038",
     "name": "EastSide Tavern",
+    "coordinates": [],
     "address": "1510 E Cesar Chavez St",
     "city": "Austin",
     "state": "Texas",
@@ -572,6 +610,7 @@
   {
     "id": "039",
     "name": "Second Bar + Kitchen",
+    "coordinates": [],
     "address": "3121 Palm Way",
     "city": "Austin",
     "state": "Texas",
@@ -587,6 +626,7 @@
   {
     "id": "040",
     "name": "Isla",
+    "coordinates": [],
     "address": "208 W 4th St",
     "city": "Austin",
     "state": "Texas",
@@ -602,6 +642,7 @@
   {
     "id": "041",
     "name": "Revelry Kitchen + Bar",
+    "coordinates": [],
     "address": "1410 E 6th St",
     "city": "Austin",
     "state": "Texas",
@@ -617,6 +658,7 @@
   {
     "id": "042",
     "name": "Vinaigrette",
+    "coordinates": [],
     "address": "2201 College Ave",
     "city": "Austin",
     "state": "Texas",
@@ -632,6 +674,7 @@
   {
     "id": "043",
     "name": "Foreign & Domestic",
+    "coordinates": [],
     "address": "306 E 53rd St",
     "city": "Austin",
     "state": "Texas",
@@ -647,6 +690,7 @@
   {
     "id": "044",
     "name": "Patika",
+    "coordinates": [],
     "address": "2159 S Lamar Blvd",
     "city": "Austin",
     "state": "Texas",
@@ -662,6 +706,7 @@
   {
     "id": "045",
     "name": "The Factory",
+    "coordinates": [],
     "address": "7718 Burnet Rd",
     "city": "Austin",
     "state": "Texas",
@@ -677,6 +722,7 @@
   {
     "id": "046",
     "name": "Epicerie",
+    "coordinates": [],
     "address": "2307 Hancock Dr",
     "city": "Austin",
     "state": "Texas",
@@ -692,6 +738,7 @@
   {
     "id": "047",
     "name": "Bouldin Creek Café",
+    "coordinates": [],
     "address": "1900 S 1st St",
     "city": "Austin",
     "state": "Texas",
@@ -707,6 +754,7 @@
   {
     "id": "048",
     "name": "Magnolia Cafe South",
+    "coordinates": [],
     "address": "1920 S Congress Ave",
     "city": "Austin",
     "state": "Texas",
@@ -722,6 +770,7 @@
   {
     "id": "049",
     "name": "Launderette",
+    "coordinates": [],
     "address": "2115 Holly St",
     "city": "Austin",
     "state": "Texas",
@@ -737,6 +786,7 @@
   {
     "id": "050",
     "name": "Weather Up",
+    "coordinates": [],
     "address": "1808 East Cesar Chavez",
     "city": "Austin",
     "state": "Texas",
@@ -752,6 +802,7 @@
   {
     "id": "051",
     "name": "Austin Java",
+    "coordinates": [],
     "address": "1608 Barton Spring Rd",
     "city": "Austin",
     "state": "Texas",
@@ -767,6 +818,7 @@
   {
     "id": "052",
     "name": "Mighty Cone",
+    "coordinates": [],
     "address": "1720 Barton Springs Road",
     "city": "Austin",
     "state": "Texas",
@@ -782,6 +834,7 @@
   {
     "id": "053",
     "name": "Alta's Cafe",
+    "coordinates": [],
     "address": "74 Trinity Street",
     "city": "Austin",
     "state": "Texas",

@@ -19,7 +19,7 @@ class Search extends React.Component {
   constructor(props) {
     super(props)
 
-    this.handleFoodSearch = this.handleFoodSearch.bind(this)
+    //this.handleFoodSearch = this.handleFoodSearch.bind(this)
 
     this.getMap = this.getMap.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
@@ -27,15 +27,15 @@ class Search extends React.Component {
     this.putMarkersOnTheMap = this.putMarkersOnTheMap.bind(this)
   }
 
-  handleHikeSearch(event) {
-    event.preventDefault();
-    const hikeSearch = this.refs.hikeSearch.value;
-    this.props.dispatch(searchHikes(hikeSearch));
-  }
-
-  handleFoodSearch() {
-    this.props.dispatch(searchRestaurants(restaurantSearch));
-  }
+  // handleHikeSearch(event) {
+  //   event.preventDefault();
+  //   const hikeSearch = this.refs.hikeSearch.value;
+  //   this.props.dispatch(searchHikes(hikeSearch));
+  // }
+  //
+  // handleFoodSearch() {
+  //   this.props.dispatch(searchRestaurants(restaurantSearch));
+  // }
 
   getMap(map) {
     this.map = map;
@@ -61,7 +61,7 @@ class Search extends React.Component {
       console.log('Loaded map. Now putting hikes on map...');
 
       const hikes = this.props.reducer.searchResults;
-      const features = hikes.map(function(hike) {
+      const hikeFeatures = hikes.map(function(hike) {
         const coordinates = [hike['lon'], hike['lat']];
         const popoverHtml = `
           <div class="popover">
@@ -82,6 +82,31 @@ class Search extends React.Component {
           }
         }
       });
+
+      const brunches = this.props.reducer.foodSearchResults;
+      const brunchFeatures = brunches.map(function(brunch) {
+        const coordinates = brunch.coordinates;
+        const popoverHtml = `
+          <div class="popover">
+            <strong>${brunch['name']}</strong>
+            <p>${brunch['review']}</p>
+          </div>
+        `;
+
+        return {
+          'type': 'Feature',
+          'properties': {
+            'description': popoverHtml,
+            'icon': 'restaurant' // https://github.com/mapbox/mapbox-gl-styles
+          },
+          'geometry': {
+            'type': 'Point',
+            'coordinates': coordinates
+          }
+        }
+      });
+
+      const features = hikeFeatures.concat(brunchFeatures);
 
       // https://www.mapbox.com/mapbox-gl-js/example/geojson-markers/
       this.map.addLayer({
