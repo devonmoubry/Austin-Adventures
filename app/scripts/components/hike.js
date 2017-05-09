@@ -16,6 +16,7 @@ class HikeComponent extends React.Component {
     // iterate through this.props.searchResult
     const clickId = Number(id);
     const hikes = this.props.reducer.searchResults;
+    // https://lodash.com/docs/4.17.4#filter
     let theHike = _.filter(hikes, { 'unique_id': clickId });
     return theHike[0];
   }

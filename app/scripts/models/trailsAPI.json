@@ -9,7 +9,7 @@
         "directions": "From IH35 in Austin take 7th street east, follow the signs to 183 south towards lockhart. Take 183S to Scenic Loop Road which you will stay on til it dead ends at McKinney Falls Pkwy",
         "lat": 30.182943,
         "lon": -97.725541,
-        "description": "Mckinney Falls State Park is home to &quot;Old Baldy&quot;, one of the oldest bald cypress trees in Texas. Visitors here can look upon the stabilized ruins of McKinney's homestead. Activities here include hiking, mountain biking, swimming, fishing and camping.",
+        "description": "Mckinney Falls State Park is home to 'Old Baldy', one of the oldest bald cypress trees in Texas. Visitors here can look upon the stabilized ruins of McKinney's homestead. Activities here include hiking, mountain biking, swimming, fishing and camping.",
         "date_created": null,
         "children": [],
         "activities": [{
@@ -146,7 +146,7 @@
         "name": "Slaughter Creek",
         "parent_id": null,
         "unique_id": 3552,
-        "directions": "From the 290/71 Y in South Austin, take 290W, approx the 3d traffic light will be Camp Ben McCullough Road.  Take it to the left and the Slaughter Creek Water Management Area will be about a mile on your left.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Trail is closed if the gate is closed.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;No fee.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Small parking lot, if all spaces are full, the trail is conisdered to have max capacity users on it.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Large, disabled accessible parto-let on premises.",
+        "directions": "From the 290/71 Y in South Austin, take 290W, approx the 3d traffic light will be Camp Ben McCullough Road.  Take it to the left and the Slaughter Creek Water Management Area will be about a mile on your left. Trail is closed if the gate is closed. No fee. Small parking lot, if all spaces are full, the trail is conisdered to have max capacity users on it. Large, disabled accessible parto-let on premises.",
         "lat": 30.20626,
         "lon": -97.90679,
         "description": null,
@@ -372,7 +372,7 @@
             "attribs": {
                 "\"length\"": "\"3\""
             },
-            "description": "Commons Ford Ranch Metropolitan Park covers 215 acres of land in Austin, Texas. The park is open Tuesday-Sunday from 1 p.m.- 6 p.m.<br /><br />There are 3 miles of trail that wind throughout this park. Passing picnic areas and volleyball courts, the trails lead through the park and along the lake. There are two trails in total, one features waterfalls and the other offers beautiful lake views. Take a leisurely walk or take a run on these well-maintained paths.",
+            "description": "Commons Ford Ranch Metropolitan Park covers 215 acres of land in Austin, Texas. The park is open Tuesday-Sunday from 1 p.m.- 6 p.m. There are 3 miles of trail that wind throughout this park. Passing picnic areas and volleyball courts, the trails lead through the park and along the lake. There are two trails in total, one features waterfalls and the other offers beautiful lake views. Take a leisurely walk or take a run on these well-maintained paths.",
             "length": 3.0,
             "activity_type": {
                 "created_at": "2012-08-15T16:12:21Z",
@@ -461,7 +461,7 @@
         "name": "Dove Springs District Park",
         "parent_id": null,
         "unique_id": 22269,
-        "directions": "5801 Ainez Dr., 78744 &lt;br /&gt;512.447.5875",
+        "directions": "5801 Ainez Dr., 78744 512.447.5875",
         "lat": 30.187425,
         "lon": -97.739583,
         "description": "Along with a large park and pool, Dove Springs also features a rec center and adjoins two golf courses. Additional facilities include 10 barbeque pits, 2 baseball fields, a basketball court, a multipurpose field, 1 picnic shelter, 10 picnic tables, a playground, a softball field, a swimming pool, tennis courts, a volleyball court and 1.3 miles of trails.",
@@ -531,7 +531,7 @@
         "name": "Eilers (Deep Eddy) Park",
         "parent_id": null,
         "unique_id": 22271,
-        "directions": "401 Deep Eddy Ave., 78703&lt;br /&gt;512.472.8546",
+        "directions": "401 Deep Eddy Ave., 78703 512.472.8546",
         "lat": 30.277501,
         "lon": -97.772992,
         "description": "The main attraction here is Deep Eddy Pool, but there is also a toddler play area, an ADA accessible ramp to the hike and bike trail, and dock onto Town Lake for fish and bird-spotting. There is a new smoker available in the park area. Other amenities include barbeque pits, fishing pier, picnic tables, a playground, a swimming pool and short trails.",
@@ -582,7 +582,7 @@
             "attribs": {
                 "\"length\"": "\"0\""
             },
-            "description": "Franklin Park is a small 5 acre park located in Southeast Austin; it's perfect for gathering with family and friends and escaping the city. <br /><br />There are 0.3 miles of well-manicured trails that navigate through this park. Trails lead to barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, and volleyball courts!<br /><br />There are plenty of opportunities to get out at Franklin Park.",
+            "description": "Franklin Park is a small 5 acre park located in Southeast Austin; it's perfect for gathering with family and friends and escaping the city. There are 0.3 miles of well-manicured trails that navigate through this park. Trails lead to barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, and volleyball courts! There are plenty of opportunities to get out at Franklin Park.",
             "length": 0.0,
             "activity_type": {
                 "created_at": "2012-08-15T16:12:21Z",
@@ -757,7 +757,7 @@
             "attribs": {
                 "\"length\"": "\"0\""
             },
-            "description": "Northwest Balcones Park is a 6 acre park located in the northern suburbs of Austin. This park is mainly a traditional neighborhood park. It has barbeque pits, basketball courts, multipurpose fields, picnic shelters, and a playground. Although its main purpose serves as a place for recreation fields and picnic areas it does have a 1 mile trail.<br /><br />The 1 mile trail loops around half of the park and looks out upon open fields. It's the perfect place to get out and stretch your legs a little.",
+            "description": "Northwest Balcones Park is a 6 acre park located in the northern suburbs of Austin. This park is mainly a traditional neighborhood park. It has barbeque pits, basketball courts, multipurpose fields, picnic shelters, and a playground. Although its main purpose serves as a place for recreation fields and picnic areas it does have a 1 mile trail. The 1 mile trail loops around half of the park and looks out upon open fields. It's the perfect place to get out and stretch your legs a little.",
             "length": 0.0,
             "activity_type": {
                 "created_at": "2012-08-15T16:12:21Z",

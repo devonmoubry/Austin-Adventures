@@ -17,6 +17,7 @@ class BrunchComponent extends React.Component {
     // iterate through this.props.searchResult
     console.log('brunches', this.props.reducer.foodSearchResults);
     const brunches = this.props.reducer.foodSearchResults;
+    // https://lodash.com/docs/4.17.4#filter
     let theBrunch = _.filter(brunches, { 'id': id });
     return theBrunch[0];
   }
@@ -34,8 +35,8 @@ class BrunchComponent extends React.Component {
         <h1>Austin Adventures</h1>
         <p><a href={'http://' + brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</p>
         <p>{brunch['phone number']}</p>
-        <p>{brunch['brunch']}</p>
-        <p>{brunch['review']}</p>
+        <p>Brunch: {brunch['brunch']}</p>
+        <p>Review: {brunch['review']}</p>
         <button onClick={this.handleYelpButton} className="yelp-button" type="submit"><i className="fa fa-yelp" aria-hidden="true"></i></button>
       </div>
     );
