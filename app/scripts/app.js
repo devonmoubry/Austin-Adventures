@@ -9,6 +9,8 @@ import Login from "./components/login.js";
 import Signup from "./components/signup.js";
 import Welcome from "./components/welcome.js";
 import Search from "./components/search.js";
+import BrunchComponent from "./components/brunch.js";
+import HikeComponent from "./components/hike.js";
 
 export default function app() {
   render(
@@ -20,6 +22,8 @@ export default function app() {
           <Route path="/signup" component={Signup} />
           <Route path="/welcome" component={Welcome} />
           <Route path="/search" component={Search} />
+          <Route path="/brunch/:id" component={BrunchComponent} />
+          <Route path="/hike/:id" component={HikeComponent} />
         </div>
       </Router>
     </Provider>,

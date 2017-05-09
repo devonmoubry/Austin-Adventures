@@ -14,12 +14,12 @@ import SearchResult from "./search_result.js"
 import SearchResultsList from "./search_results_list.js"
 import FoodSearchResultsList from "./food_search_results_list.js"
 import FoodSearchResult from "./food_search_result.js"
+import BrunchComponent from "./brunch.js"
+import HikeComponent from "./hike.js"
 
 class Search extends React.Component {
   constructor(props) {
     super(props)
-
-    //this.handleFoodSearch = this.handleFoodSearch.bind(this)
 
     this.getMap = this.getMap.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
@@ -27,24 +27,14 @@ class Search extends React.Component {
     this.putMarkersOnTheMap = this.putMarkersOnTheMap.bind(this)
   }
 
-  // handleHikeSearch(event) {
-  //   event.preventDefault();
-  //   const hikeSearch = this.refs.hikeSearch.value;
-  //   this.props.dispatch(searchHikes(hikeSearch));
-  // }
-  //
-  // handleFoodSearch() {
-  //   this.props.dispatch(searchRestaurants(restaurantSearch));
-  // }
-
   getMap(map) {
     this.map = map;
   }
 
   mapStyle() {
     return {
-      width : 800,
-      height : 400
+      width : "100%",
+      height : "100%"
     }
   }
 
@@ -63,17 +53,13 @@ class Search extends React.Component {
       const hikes = this.props.reducer.searchResults;
       const hikeFeatures = hikes.map(function(hike) {
         const coordinates = [hike['lon'], hike['lat']];
-        const popoverHtml = `
-          <div class="popover">
-            <strong>${hike['name']}</strong>
-            <p>${hike['description']}</p>
-          </div>
-        `;
+        const id = hike.unique_id;
 
         return {
           'type': 'Feature',
           'properties': {
-            'description': popoverHtml,
+            'id': id,
+            'type': 'hike',
             'icon': 'triangle' // https://github.com/mapbox/mapbox-gl-styles
           },
           'geometry': {
@@ -86,17 +72,12 @@ class Search extends React.Component {
       const brunches = this.props.reducer.foodSearchResults;
       const brunchFeatures = brunches.map(function(brunch) {
         const coordinates = brunch.coordinates;
-        const popoverHtml = `
-          <div class="popover">
-            <strong>${brunch['name']}</strong>
-            <p>${brunch['review']}</p>
-          </div>
-        `;
-
+        const id = brunch['id'];
         return {
           'type': 'Feature',
           'properties': {
-            'description': popoverHtml,
+            'id': id,
+            'type': 'brunch',
             'icon': 'restaurant' // https://github.com/mapbox/mapbox-gl-styles
           },
           'geometry': {
@@ -131,10 +112,24 @@ class Search extends React.Component {
       // Copied verbatim from: https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/
       this.map.on('click', 'places', function (e) {
         console.log('Clicked on a hike icon!');
-        new mapboxgl.Popup()
-                    .setLngLat(e.features[0].geometry.coordinates)
-                    .setHTML(e.features[0].properties.description)
-                    .addTo(this.map);
+
+        // 1. a React component for the hike (in a popover)
+        const componentType = e.features[0].properties.type;
+        if (componentType == 'brunch') {
+          console.log('brunch bunch');
+          return (
+            this.props.history.push(`/brunch/${e.features[0].properties.id}`)
+          )
+        } else if (componentType == 'hike') {
+          console.log('take a hike');
+          return (
+            this.props.history.push(`/hike/${e.features[0].properties.id}`)
+          )
+        } else {
+          return (
+            <span />
+          )
+        }
       }.bind(this));
 
       console.log('Finished putting hikes on the map!');
@@ -158,8 +153,6 @@ class Search extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions()}
         />
-        <SearchResultsList />
-        <FoodSearchResultsList />
       </main>
     );
   }

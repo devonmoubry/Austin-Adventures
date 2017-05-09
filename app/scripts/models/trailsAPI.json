@@ -1,1 +1,878 @@
-{"places":[{"city":"Austin","state":"Texas","country":"United States","name":"Mckinney Falls State Park","parent_id":null,"unique_id":3470,"directions":"From IH35 in Austin take 7th street east, follow the signs to 183 south towards lockhart. Take 183S to Scenic Loop Road which you will stay on til it dead ends at McKinney Falls Pkwy","lat":30.182943,"lon":-97.725541,"description":"Mckinney Falls State Park is home to &quot;Old Baldy&quot;, one of the oldest bald cypress trees in Texas. Visitors here can look upon the stabilized ruins of McKinney's homestead. Activities here include hiking, mountain biking, swimming, fishing and camping.","date_created":null,"children":[],"activities":[{"name":"Mckinney Falls State Park","unique_id":"2-99","place_id":3470,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=99","attribs":{"\"length\"":"\"3\""},"description":"Mckinney Falls State Park features 3 miles of hiking trails near Austin, TX.","length":3.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":3.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Walnut Creek Trails","parent_id":null,"unique_id":3475,"directions":"MoPac north to Parmer Lane stay on Parmer til Lamar, take a right, entrance to the park is on your right.","lat":30.40031,"lon":-97.681,"description":null,"date_created":null,"children":[],"activities":[{"name":"Walnut Creek Trails","unique_id":"2-446","place_id":3475,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=446","attribs":{"\"length\"":"\"15\""},"description":"Walnut Creek Trails features 15 miles of hiking trails near Austin, TX.","length":15.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":5.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Emma Long Motocross Park","parent_id":null,"unique_id":3487,"directions":"Take MoPac North to the RR2222 exit. Go left on Northland and then right on 2222 4.5 miles from the light at City Park Road. Turn left and take City Park Road 3.8 miles (staying right at the fork) to Oak Shore Road. Take a left on Oak Shore and continue .9 miles until you see the Emma Long Motocross sign on the left.","lat":30.3443,"lon":-97.82718,"description":null,"date_created":null,"children":[],"activities":[{"name":"Emma Long Motocross Park","unique_id":"2-1225","place_id":3487,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=1225","attribs":{"\"length\"":"\"6\""},"description":"Emma Long Motocross Park features 6 miles of hiking trails near Austin, TX.","length":6.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":"http://images.tripleblaze.com/2011/10/IMAG1453-0.jpg","rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Reimers Ranch Park","parent_id":null,"unique_id":3489,"directions":"Travis County Milton Reimers Ranch Park is approximately 30 miles southwest of Austin. Take Highway 71 west of Austin through the town of Bee Cave and turn left onto FM 3238 (Hamilton Pool Road). Travel 12 miles to the Park entrance, on your right.","lat":30.36366,"lon":-98.12226,"description":null,"date_created":null,"children":[],"activities":[{"name":"Reimers Ranch Park","unique_id":"2-462","place_id":3489,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=462","attribs":{"\"length\"":"\"12\""},"description":"Reimers Ranch Park features 12 miles of hiking trails near Austin, TX.","length":12.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Slaughter Creek","parent_id":null,"unique_id":3552,"directions":"From the 290/71 Y in South Austin, take 290W, approx the 3d traffic light will be Camp Ben McCullough Road.  Take it to the left and the Slaughter Creek Water Management Area will be about a mile on your left.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Trail is closed if the gate is closed.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;No fee.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Small parking lot, if all spaces are full, the trail is conisdered to have max capacity users on it.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Large, disabled accessible parto-let on premises.","lat":30.20626,"lon":-97.90679,"description":null,"date_created":null,"children":[],"activities":[{"name":"Slaughter Creek","unique_id":"2-1382","place_id":3552,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=1382","attribs":{"\"length\"":"\"5\""},"description":"Slaughter Creek features 5 miles of hiking trails near Austin, TX.","length":5.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Blunn Creek Greenbelt","parent_id":null,"unique_id":22258,"directions":"1901 East Side Dr., 78704","lat":30.244538,"lon":-97.745082,"description":"This lovely trail follows Blunn Creek between Little Stacy Park and Big Stacy Park. Popular with neighborhood residents, it is peaceful and picturesque, especially when the creek is flowing. Amenities include barbeque pits, multipurpose fields and approximately 1 miles of trails.","date_created":null,"children":[],"activities":[{"name":"Blunn Creek Greenbelt","unique_id":"2-6686","place_id":22258,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6686","attribs":{"\"length\"":"\"1\""},"description":"This lovely trail follows Blunn Creek between Little Stacy Park and Big Stacy Park. Popular with neighborhood residents, it is peaceful and picturesque, especially when the creek is flowing. Amenities include barbeque pits, multipurpose fields and approximately 1 miles of trails.","length":1.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Blunn Creek Preserve","parent_id":null,"unique_id":22259,"directions":"1200 St. Edwards Dr., 78704","lat":30.244538,"lon":-97.745082,"description":"This park contains a large loop trail with side branches, creek crossings and two scenic overlooks.","date_created":null,"children":[],"activities":[{"name":"Blunn Creek Preserve","unique_id":"2-7278","place_id":22259,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7278","attribs":{"\"length\"":"\"0\""},"description":"This park contains a large loop trail with side branches, creek crossings and two scenic overlooks.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Boggy Creek Greenbelt","parent_id":null,"unique_id":22260,"directions":"1114 Nile St., 78702","lat":30.270587,"lon":-97.713451,"description":"There are shady trees, open expanses of grass, picnic tables, and characteristic Central Texas vegetation and songbirds at Boggy Creek. A quiet place to wander. Amenities include picnic shelters, picnic tables, and a volleyball court.","date_created":null,"children":[],"activities":[{"name":"Boggy Creek Greenbelt","unique_id":"2-7191","place_id":22260,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7191","attribs":{"\"length\"":"\"1\""},"description":"There are shady trees, open expanses of grass, picnic tables, and characteristic Central Texas vegetation and songbirds at Boggy Creek. A quiet place to wander. Amenities include picnic shelters, picnic tables, and a volleyball court.","length":1.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Bull Creek Greenbelt Lower","parent_id":null,"unique_id":22261,"directions":"7806 N. Capital of Texas Highway, 78731","lat":30.366969,"lon":-97.786472,"description":"The Lower Bull Creek Greenbelt extends from the northern trail entrance at Old Spicewood Springs road on the east side of Loop 360 (next to the Treetops Apartments) to the Bull Creek District Park on Lakewood Drive. Other amenities include a fishing pier, natural swimming area, picnic tables, 6 miles of trail and a volleyball court.","date_created":null,"children":[],"activities":[{"name":"Bull Creek Greenbelt Lower","unique_id":"2-6501","place_id":22261,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6501","attribs":{"\"length\"":"\"6\""},"description":"The key feature of the greenbelt is a 3.5 mile hike and bike trail built and maintained entirely by the Bull Creek Foundation, an all-volunteer affiliate of the Austin Parks Foundation.","length":6.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Circle C Ranch Metropolitan Park","parent_id":null,"unique_id":22264,"directions":"6301 W. Slaughter Ln., 78749","lat":30.203178,"lon":-97.884771,"description":"The full name of this park is Circle C Ranch Metropolitan Park on Slaughter Creek. Lots of trails, piles of soccer fields, and a large disc golf course make this park special. Amenities include 2 basketball courts, disc golf, a multi-purpose field, picnic tables, a playground, 7 soccer fields and 2 volleyball courts.","date_created":null,"children":[],"activities":[{"name":"Circle C Ranch Metropolitan Park","unique_id":"2-7149","place_id":22264,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7149","attribs":{"\"length\"":"\"6\""},"description":"The full name of this park is Circle C Ranch Metropolitan Park on Slaughter Creek. Lots of trails, piles of soccer fields, and a large disc golf course make this park special.","length":6.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Commons Ford Ranch Metropolitan Park","parent_id":null,"unique_id":22266,"directions":"30.339084, -97.884085","lat":30.338978,"lon":-97.883764,"description":"Commons Ford Ranch Metropolitan Park covers 215 acres of land in Austin, Texas. Butting up to the entrance of Lake Travis, this park is a great day-use area for some boating, fishing, and picnicking. Swimming is not allowed. \r\n\r\nThis park boasts a barbeque pit, a fishing pier, picnic shelters and picnic tables, two reservable facilities, and volleyball courts. \r\n\r\nThe park is open Tuesday-Sunday from 1 p.m.- 6 p.m.","date_created":null,"children":[],"activities":[{"name":"Commons Ford Ranch Metropolitan Park","unique_id":"2-6913","place_id":22266,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6913","attribs":{"\"length\"":"\"3\""},"description":"Commons Ford Ranch Metropolitan Park covers 215 acres of land in Austin, Texas. The park is open Tuesday-Sunday from 1 p.m.- 6 p.m.<br /><br />There are 3 miles of trail that wind throughout this park. Passing picnic areas and volleyball courts, the trails lead through the park and along the lake. There are two trails in total, one features waterfalls and the other offers beautiful lake views. Take a leisurely walk or take a run on these well-maintained paths.","length":3.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Dick Nichols District Park","parent_id":null,"unique_id":22267,"directions":"8011 Beckett Rd., 78749","lat":30.215647,"lon":-97.863164,"description":"This district park is a neighborhood favorite. There is a kids water-play area and hike and bike trails that wander throughout. Additional facilities include 9 barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, swimming pools, tennis courts and volleyball areas.","date_created":null,"children":[],"activities":[{"name":"Dick Nichols District Park","unique_id":"2-6917","place_id":22267,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6917","attribs":{"\"length\"":"\"1\""},"description":"Great hiking area.","length":1.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Dottie Jordan Park","parent_id":null,"unique_id":22268,"directions":"30.314432, -97.674479","lat":30.313498,"lon":-97.673178,"description":"Dottie Jordan Park boasts 11 acres right near downtown Austin.","date_created":null,"children":[],"activities":[{"name":"Dottie Jordan Park","unique_id":"2-6700","place_id":22268,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6700","attribs":{"\"length\"":"\"0\""},"description":"Dottie Jordan Park boasts 11 acres right near downtown Austin. It is more geared toward family activities with barbeque pits, basketball courts, picnic tables, playgrounds, a swimming pool, and tennis courts. It does have about .4 miles of trail, and locals are working on improving and extending those trails.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Dove Springs District Park","parent_id":null,"unique_id":22269,"directions":"5801 Ainez Dr., 78744 &lt;br /&gt;512.447.5875","lat":30.187425,"lon":-97.739583,"description":"Along with a large park and pool, Dove Springs also features a rec center and adjoins two golf courses. Additional facilities include 10 barbeque pits, 2 baseball fields, a basketball court, a multipurpose field, 1 picnic shelter, 10 picnic tables, a playground, a softball field, a swimming pool, tennis courts, a volleyball court and 1.3 miles of trails.","date_created":null,"children":[],"activities":[{"name":"Dove Springs District Park","unique_id":"2-6934","place_id":22269,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6934","attribs":{"\"length\"":"\"1\""},"description":"Nice walking trail.","length":1.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Eastwoods Park","parent_id":null,"unique_id":22270,"directions":"3001 Harris Park Ave., 78705","lat":30.290799,"lon":-97.732147,"description":"This lovely park is a hidden city gem. Used by many UT students as a place to study or wind down with a game of tennis, basketball or softball. Facilities include barbeque pits, basketball courts, fields, picnic tables, a playground, splash pad, tennis courts and half-mile of trail.","date_created":null,"children":[],"activities":[{"name":"Eastwoods Park","unique_id":"2-7261","place_id":22270,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7261","attribs":{"\"length\"":"\"0\""},"description":"This lovely park is a hidden city gem. Used by many UT students as a place to study or wind down with a game of tennis, basketball or softball. Facilities include barbeque pits, basketball courts, fields, picnic tables, a playground, splash pad, tennis courts and half-mile of trail.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Eilers (Deep Eddy) Park","parent_id":null,"unique_id":22271,"directions":"401 Deep Eddy Ave., 78703&lt;br /&gt;512.472.8546","lat":30.277501,"lon":-97.772992,"description":"The main attraction here is Deep Eddy Pool, but there is also a toddler play area, an ADA accessible ramp to the hike and bike trail, and dock onto Town Lake for fish and bird-spotting. There is a new smoker available in the park area. Other amenities include barbeque pits, fishing pier, picnic tables, a playground, a swimming pool and short trails.","date_created":null,"children":[],"activities":[{"name":"Eilers (Deep Eddy) Park","unique_id":"2-7106","place_id":22271,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7106","attribs":{"\"length\"":"\"0\""},"description":"The main attraction here is Deep Eddy Pool, but there is also a toddler play area, an ADA accessible ramp to the hike and bike trail, and dock onto Town Lake for fish and bird-spotting. There is a new smoker available in the park area. Other amenities include barbeque pits, fishing pier, picnic tables, a playground, a swimming pool and short trails.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Franklin Park","parent_id":null,"unique_id":22272,"directions":"30.198701, -97.739722","lat":30.1989,"lon":-97.739792,"description":"Franklin Park is a small 5 acre park located in Southeast Austin; it's perfect for gathering with family and friends and escaping the city. Within the park there are barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, trails, and volleyball courts!","date_created":null,"children":[],"activities":[{"name":"Franklin Park","unique_id":"2-6854","place_id":22272,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6854","attribs":{"\"length\"":"\"0\""},"description":"Franklin Park is a small 5 acre park located in Southeast Austin; it's perfect for gathering with family and friends and escaping the city. <br /><br />There are 0.3 miles of well-manicured trails that navigate through this park. Trails lead to barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, and volleyball courts!<br /><br />There are plenty of opportunities to get out at Franklin Park.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Garrison District Park","parent_id":null,"unique_id":22274,"directions":"6001 Manchaca Rd., 78745","lat":30.212848,"lon":-97.801801,"description":"This wonderfully shaded park offers a jogging trail along with plenty of sand and grass for running. The Garrison pool is a favorite spot for families, perfect for cooling down after an afternoon of play. Amenities include barbeque pits, baseball fields, basketball courts, picnic shelter, picnic tables, a playground, softball fields, a swimming pool and about a mile of trails.","date_created":null,"children":[],"activities":[{"name":"Garrison District Park","unique_id":"2-6396","place_id":22274,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6396","attribs":{"\"length\"":"\"1\""},"description":"This wonderfully shaded park offers a jogging trail along with plenty of sand and grass for running. The Garrison pool is a favorite spot for families, perfect for cooling down after an afternoon of play. Amenities include barbeque pits, baseball fields, basketball courts, picnic shelter, picnic tables, a playground, softball fields, a swimming pool and about a mile of trails.","length":1.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Latta Branch Greenbelt","parent_id":null,"unique_id":22277,"directions":"7910 Beckett Rd., 78749","lat":30.215647,"lon":-97.863164,"description":"Amenities include about 2 miles of trails and picnic shelters.","date_created":null,"children":[],"activities":[{"name":"Latta Branch Greenbelt","unique_id":"2-6344","place_id":22277,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6344","attribs":{"\"length\"":"\"2\""},"description":"Amenities include about 2 miles of trails and picnic shelters.","length":2.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Mary Moore Searight Metropolitan Park","parent_id":null,"unique_id":22278,"directions":"907 Slaughter Ln., 78748","lat":30.173679,"lon":-97.807473,"description":"Park amenities include barbeque pits, basketball courts, disc golf, a fishing pier, multipurpose fields, picnic shelter, picnic tables, playground, soccer fields, tennis courts, trail, and volleyball courts.","date_created":null,"children":[],"activities":[{"name":"Mary Moore Searight Metropolitan Park","unique_id":"2-7257","place_id":22278,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=7257","attribs":{"\"length\"":"\"0\""},"description":"Park amenities include barbeque pits, basketball courts, disc golf, a fishing pier, multipurpose fields, picnic shelter, picnic tables, playground, soccer fields, tennis courts, trail, and volleyball courts.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Nicholas Dawson Park","parent_id":null,"unique_id":22279,"directions":"614 Gibson St., 78704","lat":30.251964,"lon":-97.754943,"description":"Nick Dawson is a quiet neighborhood park with some colorful community-built artwork.","date_created":null,"children":[],"activities":[{"name":"Nicholas Dawson Park","unique_id":"2-6095","place_id":22279,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6095","attribs":{"\"length\"":"\"0\""},"description":"A new portion of trail has been installed and some mulch and grasses have been installed.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Northwest Balcones Park","parent_id":null,"unique_id":22283,"directions":"30.425826, -97.801477","lat":30.426275,"lon":-97.801868,"description":"Northwest Balcones Park is a 6 acre park located in the northern suburbs of Austin. This park is mainly a traditional neighborhood park. It has barbeque pits, basketball courts, multipurpose fields, picnic shelters, and a playground. Although its main purpose serves as a place for recreation fields and picnic areas it does have a 1 mile trail.","date_created":null,"children":[],"activities":[{"name":"Northwest Balcones Park","unique_id":"2-6884","place_id":22283,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6884","attribs":{"\"length\"":"\"0\""},"description":"Northwest Balcones Park is a 6 acre park located in the northern suburbs of Austin. This park is mainly a traditional neighborhood park. It has barbeque pits, basketball courts, multipurpose fields, picnic shelters, and a playground. Although its main purpose serves as a place for recreation fields and picnic areas it does have a 1 mile trail.<br /><br />The 1 mile trail loops around half of the park and looks out upon open fields. It's the perfect place to get out and stretch your legs a little.","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Schroeter Park","parent_id":null,"unique_id":22284,"directions":"11701 Big Trail, 78759","lat":30.414445,"lon":-97.737815,"description":"Schroeter features a large wildflower area in the spring. Neighbors have installed solar trail lights on the short wooded trail, and conduct regular cleanup events. Amenities include barbeque pits, basketball courts, picnic shelters/tables, a playground and a mile of trails.","date_created":null,"children":[],"activities":[{"name":"Schroeter Park","unique_id":"2-6322","place_id":22284,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6322","attribs":{"\"length\"":"\"1\""},"description":"Schroeter features a large wildflower area in the spring. Neighbors have installed solar trail lights on the short wooded trail, and conduct regular cleanup events. Amenities include barbeque pits, basketball courts, picnic shelters/tables, a playground and a mile of trails.","length":1.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Shoal Creek Greenbelt-Central","parent_id":null,"unique_id":22285,"directions":"2631 Shoal Creek Blvd., 78705","lat":30.291838,"lon":-97.749833,"description":"This part of the Shoal Creek Greenbelt begins at the north end of Pease Park and continues north to Sieders Springs at 34th St. There is an off-leash dog area from about 24th St. to 29th St. Features include an off-leash dog area, picnic shelter, picnic tables and 6.8 miles of trails.","date_created":null,"children":[],"activities":[{"name":"Shoal Creek Greenbelt-Central","unique_id":"2-6688","place_id":22285,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6688","attribs":{"\"length\"":"\"7\""},"description":"Shoal Creek Greenbelt-Central features 7 miles of hiking trails near Austin, TX.","length":7.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]},{"city":"Austin","state":"Texas","country":"United States","name":"Stephenson Preserve","parent_id":null,"unique_id":22286,"directions":"From MoPac Expressway in west Austin, turn onto William Cannon and head east. Turn left onto Brodie Lane and head south. Turn left at the first street, which is Paisano Trail. This narrow road will turn a couple of times to the right and left until it parallels LongView Park. Look for parking on the left. The Stephenson Preserve trail begins in LongView.","lat":30.204629,"lon":-97.826397,"description":"The Stephenson Preserve is part of the City Of Austin's Central and Eastern Preserves group. This park offers a lot of lesurely hiking and great nature views!","date_created":null,"children":[],"activities":[{"name":"Stephenson Preserve","unique_id":"2-6130","place_id":22286,"activity_type_id":2,"activity_type_name":"hiking","url":"http://www.tripleblaze.com/trail.php?c=3&i=6130","attribs":{"\"length\"":"\"0\""},"description":"The Stephenson Preserve is part of the City Of Austin's Central and Eastern Preserves group. This park offers a lot of lesurely hiking and great nature views!","length":0.0,"activity_type":{"created_at":"2012-08-15T16:12:21Z","id":2,"name":"hiking","updated_at":"2012-08-15T16:12:21Z"},"thumbnail":null,"rank":null,"rating":0.0}]}]}
+{
+    "places": [{
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Mckinney Falls State Park",
+        "parent_id": null,
+        "unique_id": 3470,
+        "directions": "From IH35 in Austin take 7th street east, follow the signs to 183 south towards lockhart. Take 183S to Scenic Loop Road which you will stay on til it dead ends at McKinney Falls Pkwy",
+        "lat": 30.182943,
+        "lon": -97.725541,
+        "description": "Mckinney Falls State Park is home to &quot;Old Baldy&quot;, one of the oldest bald cypress trees in Texas. Visitors here can look upon the stabilized ruins of McKinney's homestead. Activities here include hiking, mountain biking, swimming, fishing and camping.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Mckinney Falls State Park",
+            "unique_id": "2-99",
+            "place_id": 3470,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=99",
+            "attribs": {
+                "\"length\"": "\"3\""
+            },
+            "description": "Mckinney Falls State Park features 3 miles of hiking trails near Austin, TX.",
+            "length": 3.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 3.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Walnut Creek Trails",
+        "parent_id": null,
+        "unique_id": 3475,
+        "directions": "MoPac north to Parmer Lane stay on Parmer til Lamar, take a right, entrance to the park is on your right.",
+        "lat": 30.40031,
+        "lon": -97.681,
+        "description": null,
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Walnut Creek Trails",
+            "unique_id": "2-446",
+            "place_id": 3475,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=446",
+            "attribs": {
+                "\"length\"": "\"15\""
+            },
+            "description": "Walnut Creek Trails features 15 miles of hiking trails near Austin, TX.",
+            "length": 15.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 5.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Emma Long Motocross Park",
+        "parent_id": null,
+        "unique_id": 3487,
+        "directions": "Take MoPac North to the RR2222 exit. Go left on Northland and then right on 2222 4.5 miles from the light at City Park Road. Turn left and take City Park Road 3.8 miles (staying right at the fork) to Oak Shore Road. Take a left on Oak Shore and continue .9 miles until you see the Emma Long Motocross sign on the left.",
+        "lat": 30.3443,
+        "lon": -97.82718,
+        "description": null,
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Emma Long Motocross Park",
+            "unique_id": "2-1225",
+            "place_id": 3487,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=1225",
+            "attribs": {
+                "\"length\"": "\"6\""
+            },
+            "description": "Emma Long Motocross Park features 6 miles of hiking trails near Austin, TX.",
+            "length": 6.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": "http://images.tripleblaze.com/2011/10/IMAG1453-0.jpg",
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Reimers Ranch Park",
+        "parent_id": null,
+        "unique_id": 3489,
+        "directions": "Travis County Milton Reimers Ranch Park is approximately 30 miles southwest of Austin. Take Highway 71 west of Austin through the town of Bee Cave and turn left onto FM 3238 (Hamilton Pool Road). Travel 12 miles to the Park entrance, on your right.",
+        "lat": 30.36366,
+        "lon": -98.12226,
+        "description": null,
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Reimers Ranch Park",
+            "unique_id": "2-462",
+            "place_id": 3489,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=462",
+            "attribs": {
+                "\"length\"": "\"12\""
+            },
+            "description": "Reimers Ranch Park features 12 miles of hiking trails near Austin, TX.",
+            "length": 12.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Slaughter Creek",
+        "parent_id": null,
+        "unique_id": 3552,
+        "directions": "From the 290/71 Y in South Austin, take 290W, approx the 3d traffic light will be Camp Ben McCullough Road.  Take it to the left and the Slaughter Creek Water Management Area will be about a mile on your left.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Trail is closed if the gate is closed.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;No fee.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Small parking lot, if all spaces are full, the trail is conisdered to have max capacity users on it.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Large, disabled accessible parto-let on premises.",
+        "lat": 30.20626,
+        "lon": -97.90679,
+        "description": null,
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Slaughter Creek",
+            "unique_id": "2-1382",
+            "place_id": 3552,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=1382",
+            "attribs": {
+                "\"length\"": "\"5\""
+            },
+            "description": "Slaughter Creek features 5 miles of hiking trails near Austin, TX.",
+            "length": 5.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Blunn Creek Greenbelt",
+        "parent_id": null,
+        "unique_id": 22258,
+        "directions": "1901 East Side Dr., 78704",
+        "lat": 30.244538,
+        "lon": -97.745082,
+        "description": "This lovely trail follows Blunn Creek between Little Stacy Park and Big Stacy Park. Popular with neighborhood residents, it is peaceful and picturesque, especially when the creek is flowing. Amenities include barbeque pits, multipurpose fields and approximately 1 miles of trails.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Blunn Creek Greenbelt",
+            "unique_id": "2-6686",
+            "place_id": 22258,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6686",
+            "attribs": {
+                "\"length\"": "\"1\""
+            },
+            "description": "This lovely trail follows Blunn Creek between Little Stacy Park and Big Stacy Park. Popular with neighborhood residents, it is peaceful and picturesque, especially when the creek is flowing. Amenities include barbeque pits, multipurpose fields and approximately 1 miles of trails.",
+            "length": 1.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Blunn Creek Preserve",
+        "parent_id": null,
+        "unique_id": 22259,
+        "directions": "1200 St. Edwards Dr., 78704",
+        "lat": 30.244538,
+        "lon": -97.745082,
+        "description": "This park contains a large loop trail with side branches, creek crossings and two scenic overlooks.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Blunn Creek Preserve",
+            "unique_id": "2-7278",
+            "place_id": 22259,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=7278",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "This park contains a large loop trail with side branches, creek crossings and two scenic overlooks.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Boggy Creek Greenbelt",
+        "parent_id": null,
+        "unique_id": 22260,
+        "directions": "1114 Nile St., 78702",
+        "lat": 30.270587,
+        "lon": -97.713451,
+        "description": "There are shady trees, open expanses of grass, picnic tables, and characteristic Central Texas vegetation and songbirds at Boggy Creek. A quiet place to wander. Amenities include picnic shelters, picnic tables, and a volleyball court.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Boggy Creek Greenbelt",
+            "unique_id": "2-7191",
+            "place_id": 22260,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=7191",
+            "attribs": {
+                "\"length\"": "\"1\""
+            },
+            "description": "There are shady trees, open expanses of grass, picnic tables, and characteristic Central Texas vegetation and songbirds at Boggy Creek. A quiet place to wander. Amenities include picnic shelters, picnic tables, and a volleyball court.",
+            "length": 1.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Bull Creek Greenbelt Lower",
+        "parent_id": null,
+        "unique_id": 22261,
+        "directions": "7806 N. Capital of Texas Highway, 78731",
+        "lat": 30.366969,
+        "lon": -97.786472,
+        "description": "The Lower Bull Creek Greenbelt extends from the northern trail entrance at Old Spicewood Springs road on the east side of Loop 360 (next to the Treetops Apartments) to the Bull Creek District Park on Lakewood Drive. Other amenities include a fishing pier, natural swimming area, picnic tables, 6 miles of trail and a volleyball court.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Bull Creek Greenbelt Lower",
+            "unique_id": "2-6501",
+            "place_id": 22261,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6501",
+            "attribs": {
+                "\"length\"": "\"6\""
+            },
+            "description": "The key feature of the greenbelt is a 3.5 mile hike and bike trail built and maintained entirely by the Bull Creek Foundation, an all-volunteer affiliate of the Austin Parks Foundation.",
+            "length": 6.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Circle C Ranch Metropolitan Park",
+        "parent_id": null,
+        "unique_id": 22264,
+        "directions": "6301 W. Slaughter Ln., 78749",
+        "lat": 30.203178,
+        "lon": -97.884771,
+        "description": "The full name of this park is Circle C Ranch Metropolitan Park on Slaughter Creek. Lots of trails, piles of soccer fields, and a large disc golf course make this park special. Amenities include 2 basketball courts, disc golf, a multi-purpose field, picnic tables, a playground, 7 soccer fields and 2 volleyball courts.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Circle C Ranch Metropolitan Park",
+            "unique_id": "2-7149",
+            "place_id": 22264,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=7149",
+            "attribs": {
+                "\"length\"": "\"6\""
+            },
+            "description": "The full name of this park is Circle C Ranch Metropolitan Park on Slaughter Creek. Lots of trails, piles of soccer fields, and a large disc golf course make this park special.",
+            "length": 6.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Commons Ford Ranch Metropolitan Park",
+        "parent_id": null,
+        "unique_id": 22266,
+        "directions": "30.339084, -97.884085",
+        "lat": 30.338978,
+        "lon": -97.883764,
+        "description": "Commons Ford Ranch Metropolitan Park covers 215 acres of land in Austin, Texas. Butting up to the entrance of Lake Travis, this park is a great day-use area for some boating, fishing, and picnicking. Swimming is not allowed. \r\n\r\nThis park boasts a barbeque pit, a fishing pier, picnic shelters and picnic tables, two reservable facilities, and volleyball courts. \r\n\r\nThe park is open Tuesday-Sunday from 1 p.m.- 6 p.m.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Commons Ford Ranch Metropolitan Park",
+            "unique_id": "2-6913",
+            "place_id": 22266,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6913",
+            "attribs": {
+                "\"length\"": "\"3\""
+            },
+            "description": "Commons Ford Ranch Metropolitan Park covers 215 acres of land in Austin, Texas. The park is open Tuesday-Sunday from 1 p.m.- 6 p.m.<br /><br />There are 3 miles of trail that wind throughout this park. Passing picnic areas and volleyball courts, the trails lead through the park and along the lake. There are two trails in total, one features waterfalls and the other offers beautiful lake views. Take a leisurely walk or take a run on these well-maintained paths.",
+            "length": 3.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Dick Nichols District Park",
+        "parent_id": null,
+        "unique_id": 22267,
+        "directions": "8011 Beckett Rd., 78749",
+        "lat": 30.215647,
+        "lon": -97.863164,
+        "description": "This district park is a neighborhood favorite. There is a kids water-play area and hike and bike trails that wander throughout. Additional facilities include 9 barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, swimming pools, tennis courts and volleyball areas.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Dick Nichols District Park",
+            "unique_id": "2-6917",
+            "place_id": 22267,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6917",
+            "attribs": {
+                "\"length\"": "\"1\""
+            },
+            "description": "Great hiking area.",
+            "length": 1.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Dottie Jordan Park",
+        "parent_id": null,
+        "unique_id": 22268,
+        "directions": "30.314432, -97.674479",
+        "lat": 30.313498,
+        "lon": -97.673178,
+        "description": "Dottie Jordan Park boasts 11 acres right near downtown Austin.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Dottie Jordan Park",
+            "unique_id": "2-6700",
+            "place_id": 22268,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6700",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "Dottie Jordan Park boasts 11 acres right near downtown Austin. It is more geared toward family activities with barbeque pits, basketball courts, picnic tables, playgrounds, a swimming pool, and tennis courts. It does have about .4 miles of trail, and locals are working on improving and extending those trails.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Dove Springs District Park",
+        "parent_id": null,
+        "unique_id": 22269,
+        "directions": "5801 Ainez Dr., 78744 &lt;br /&gt;512.447.5875",
+        "lat": 30.187425,
+        "lon": -97.739583,
+        "description": "Along with a large park and pool, Dove Springs also features a rec center and adjoins two golf courses. Additional facilities include 10 barbeque pits, 2 baseball fields, a basketball court, a multipurpose field, 1 picnic shelter, 10 picnic tables, a playground, a softball field, a swimming pool, tennis courts, a volleyball court and 1.3 miles of trails.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Dove Springs District Park",
+            "unique_id": "2-6934",
+            "place_id": 22269,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6934",
+            "attribs": {
+                "\"length\"": "\"1\""
+            },
+            "description": "Nice walking trail.",
+            "length": 1.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Eastwoods Park",
+        "parent_id": null,
+        "unique_id": 22270,
+        "directions": "3001 Harris Park Ave., 78705",
+        "lat": 30.290799,
+        "lon": -97.732147,
+        "description": "This lovely park is a hidden city gem. Used by many UT students as a place to study or wind down with a game of tennis, basketball or softball. Facilities include barbeque pits, basketball courts, fields, picnic tables, a playground, splash pad, tennis courts and half-mile of trail.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Eastwoods Park",
+            "unique_id": "2-7261",
+            "place_id": 22270,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=7261",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "This lovely park is a hidden city gem. Used by many UT students as a place to study or wind down with a game of tennis, basketball or softball. Facilities include barbeque pits, basketball courts, fields, picnic tables, a playground, splash pad, tennis courts and half-mile of trail.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Eilers (Deep Eddy) Park",
+        "parent_id": null,
+        "unique_id": 22271,
+        "directions": "401 Deep Eddy Ave., 78703&lt;br /&gt;512.472.8546",
+        "lat": 30.277501,
+        "lon": -97.772992,
+        "description": "The main attraction here is Deep Eddy Pool, but there is also a toddler play area, an ADA accessible ramp to the hike and bike trail, and dock onto Town Lake for fish and bird-spotting. There is a new smoker available in the park area. Other amenities include barbeque pits, fishing pier, picnic tables, a playground, a swimming pool and short trails.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Eilers (Deep Eddy) Park",
+            "unique_id": "2-7106",
+            "place_id": 22271,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=7106",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "The main attraction here is Deep Eddy Pool, but there is also a toddler play area, an ADA accessible ramp to the hike and bike trail, and dock onto Town Lake for fish and bird-spotting. There is a new smoker available in the park area. Other amenities include barbeque pits, fishing pier, picnic tables, a playground, a swimming pool and short trails.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Franklin Park",
+        "parent_id": null,
+        "unique_id": 22272,
+        "directions": "30.198701, -97.739722",
+        "lat": 30.1989,
+        "lon": -97.739792,
+        "description": "Franklin Park is a small 5 acre park located in Southeast Austin; it's perfect for gathering with family and friends and escaping the city. Within the park there are barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, trails, and volleyball courts!",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Franklin Park",
+            "unique_id": "2-6854",
+            "place_id": 22272,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6854",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "Franklin Park is a small 5 acre park located in Southeast Austin; it's perfect for gathering with family and friends and escaping the city. <br /><br />There are 0.3 miles of well-manicured trails that navigate through this park. Trails lead to barbeque pits, basketball courts, multipurpose fields, picnic shelters, picnic tables, playgrounds, and volleyball courts!<br /><br />There are plenty of opportunities to get out at Franklin Park.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Garrison District Park",
+        "parent_id": null,
+        "unique_id": 22274,
+        "directions": "6001 Manchaca Rd., 78745",
+        "lat": 30.212848,
+        "lon": -97.801801,
+        "description": "This wonderfully shaded park offers a jogging trail along with plenty of sand and grass for running. The Garrison pool is a favorite spot for families, perfect for cooling down after an afternoon of play. Amenities include barbeque pits, baseball fields, basketball courts, picnic shelter, picnic tables, a playground, softball fields, a swimming pool and about a mile of trails.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Garrison District Park",
+            "unique_id": "2-6396",
+            "place_id": 22274,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6396",
+            "attribs": {
+                "\"length\"": "\"1\""
+            },
+            "description": "This wonderfully shaded park offers a jogging trail along with plenty of sand and grass for running. The Garrison pool is a favorite spot for families, perfect for cooling down after an afternoon of play. Amenities include barbeque pits, baseball fields, basketball courts, picnic shelter, picnic tables, a playground, softball fields, a swimming pool and about a mile of trails.",
+            "length": 1.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Latta Branch Greenbelt",
+        "parent_id": null,
+        "unique_id": 22277,
+        "directions": "7910 Beckett Rd., 78749",
+        "lat": 30.215647,
+        "lon": -97.863164,
+        "description": "Amenities include about 2 miles of trails and picnic shelters.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Latta Branch Greenbelt",
+            "unique_id": "2-6344",
+            "place_id": 22277,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6344",
+            "attribs": {
+                "\"length\"": "\"2\""
+            },
+            "description": "Amenities include about 2 miles of trails and picnic shelters.",
+            "length": 2.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Mary Moore Searight Metropolitan Park",
+        "parent_id": null,
+        "unique_id": 22278,
+        "directions": "907 Slaughter Ln., 78748",
+        "lat": 30.173679,
+        "lon": -97.807473,
+        "description": "Park amenities include barbeque pits, basketball courts, disc golf, a fishing pier, multipurpose fields, picnic shelter, picnic tables, playground, soccer fields, tennis courts, trail, and volleyball courts.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Mary Moore Searight Metropolitan Park",
+            "unique_id": "2-7257",
+            "place_id": 22278,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=7257",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "Park amenities include barbeque pits, basketball courts, disc golf, a fishing pier, multipurpose fields, picnic shelter, picnic tables, playground, soccer fields, tennis courts, trail, and volleyball courts.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Nicholas Dawson Park",
+        "parent_id": null,
+        "unique_id": 22279,
+        "directions": "614 Gibson St., 78704",
+        "lat": 30.251964,
+        "lon": -97.754943,
+        "description": "Nick Dawson is a quiet neighborhood park with some colorful community-built artwork.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Nicholas Dawson Park",
+            "unique_id": "2-6095",
+            "place_id": 22279,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6095",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "A new portion of trail has been installed and some mulch and grasses have been installed.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Northwest Balcones Park",
+        "parent_id": null,
+        "unique_id": 22283,
+        "directions": "30.425826, -97.801477",
+        "lat": 30.426275,
+        "lon": -97.801868,
+        "description": "Northwest Balcones Park is a 6 acre park located in the northern suburbs of Austin. This park is mainly a traditional neighborhood park. It has barbeque pits, basketball courts, multipurpose fields, picnic shelters, and a playground. Although its main purpose serves as a place for recreation fields and picnic areas it does have a 1 mile trail.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Northwest Balcones Park",
+            "unique_id": "2-6884",
+            "place_id": 22283,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6884",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "Northwest Balcones Park is a 6 acre park located in the northern suburbs of Austin. This park is mainly a traditional neighborhood park. It has barbeque pits, basketball courts, multipurpose fields, picnic shelters, and a playground. Although its main purpose serves as a place for recreation fields and picnic areas it does have a 1 mile trail.<br /><br />The 1 mile trail loops around half of the park and looks out upon open fields. It's the perfect place to get out and stretch your legs a little.",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Schroeter Park",
+        "parent_id": null,
+        "unique_id": 22284,
+        "directions": "11701 Big Trail, 78759",
+        "lat": 30.414445,
+        "lon": -97.737815,
+        "description": "Schroeter features a large wildflower area in the spring. Neighbors have installed solar trail lights on the short wooded trail, and conduct regular cleanup events. Amenities include barbeque pits, basketball courts, picnic shelters/tables, a playground and a mile of trails.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Schroeter Park",
+            "unique_id": "2-6322",
+            "place_id": 22284,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6322",
+            "attribs": {
+                "\"length\"": "\"1\""
+            },
+            "description": "Schroeter features a large wildflower area in the spring. Neighbors have installed solar trail lights on the short wooded trail, and conduct regular cleanup events. Amenities include barbeque pits, basketball courts, picnic shelters/tables, a playground and a mile of trails.",
+            "length": 1.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Shoal Creek Greenbelt-Central",
+        "parent_id": null,
+        "unique_id": 22285,
+        "directions": "2631 Shoal Creek Blvd., 78705",
+        "lat": 30.291838,
+        "lon": -97.749833,
+        "description": "This part of the Shoal Creek Greenbelt begins at the north end of Pease Park and continues north to Sieders Springs at 34th St. There is an off-leash dog area from about 24th St. to 29th St. Features include an off-leash dog area, picnic shelter, picnic tables and 6.8 miles of trails.",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Shoal Creek Greenbelt-Central",
+            "unique_id": "2-6688",
+            "place_id": 22285,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6688",
+            "attribs": {
+                "\"length\"": "\"7\""
+            },
+            "description": "Shoal Creek Greenbelt-Central features 7 miles of hiking trails near Austin, TX.",
+            "length": 7.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }, {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "name": "Stephenson Preserve",
+        "parent_id": null,
+        "unique_id": 22286,
+        "directions": "From MoPac Expressway in west Austin, turn onto William Cannon and head east. Turn left onto Brodie Lane and head south. Turn left at the first street, which is Paisano Trail. This narrow road will turn a couple of times to the right and left until it parallels LongView Park. Look for parking on the left. The Stephenson Preserve trail begins in LongView.",
+        "lat": 30.204629,
+        "lon": -97.826397,
+        "description": "The Stephenson Preserve is part of the City Of Austin's Central and Eastern Preserves group. This park offers a lot of lesurely hiking and great nature views!",
+        "date_created": null,
+        "children": [],
+        "activities": [{
+            "name": "Stephenson Preserve",
+            "unique_id": "2-6130",
+            "place_id": 22286,
+            "activity_type_id": 2,
+            "activity_type_name": "hiking",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=6130",
+            "attribs": {
+                "\"length\"": "\"0\""
+            },
+            "description": "The Stephenson Preserve is part of the City Of Austin's Central and Eastern Preserves group. This park offers a lot of lesurely hiking and great nature views!",
+            "length": 0.0,
+            "activity_type": {
+                "created_at": "2012-08-15T16:12:21Z",
+                "id": 2,
+                "name": "hiking",
+                "updated_at": "2012-08-15T16:12:21Z"
+            },
+            "thumbnail": null,
+            "rank": null,
+            "rating": 0.0
+        }]
+    }]
+}
