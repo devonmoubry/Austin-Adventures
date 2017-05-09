@@ -137,7 +137,6 @@ class HikeComponent extends React.Component {
         <p>{hike['name']} - {hike['city']}, {hike['state']}</p>
         <p>{hike['directions']}</p>
         <p>{hike['description']}</p>
-        <p>{hike['unique_id']}</p>
         <button onClick={this.handleYelpButton} className="yelp-button" type="submit"><i className="fa fa-yelp" aria-hidden="true"></i></button>
         <Mapbox
           mapboxgl={mapboxgl}
