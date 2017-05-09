@@ -130,7 +130,6 @@ class HikeComponent extends React.Component {
 
   render() {
     const hike = this.getHike();
-    console.log('hike', hike);
     return (
       <div className="hike-card-container">
         <h1>Austin Adventures</h1>
