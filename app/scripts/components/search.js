@@ -33,8 +33,8 @@ class Search extends React.Component {
 
   mapStyle() {
     return {
-      width : "100%",
-      height : "100%"
+      width : '100%',
+      height : '100%'
     }
   }
 
