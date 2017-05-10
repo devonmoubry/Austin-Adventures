@@ -113,7 +113,17 @@ class HikeComponent extends React.Component {
       });
 
       this.map.on('click', 'places', function (e) {
-        console.log('Clicked on a restaurant icon!');
+        const componentType = e.features[0].properties.type;
+        if (componentType == 'brunch') {
+          console.log('brunch bunch');
+          return (
+            this.props.history.push(`/brunch/${e.features[0].properties.id}`)
+          )
+        } else {
+          return (
+            <span />
+          )
+        }
 
       }.bind(this));
 
