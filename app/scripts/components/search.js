@@ -148,7 +148,7 @@ class Search extends React.Component {
       <main>
         <Mapbox
           mapboxgl={mapboxgl}
-          accessToken="pk.eyJ1IjoiZGV2b25tb3VicnkiLCJhIjoiY2oyOXA1cGl4MDAwMjJ3b2djdjh4cmV2cyJ9.ZrmYtWukYTSnSRnDgUJlcQ"
+          accessToken={this.props.reducer.mapBoxAccessToken}
           style= {this.mapStyle()}
           getMap={this.getMap}
           options={this.mapOptions()}

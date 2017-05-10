@@ -6,7 +6,8 @@ export default function AppReducer(state, action) {
     return {
       searchResults: null,
       foodSearchResults: null,
-      usertoken: null
+      usertoken: null,
+      mapBoxAccessToken: 'pk.eyJ1IjoiZGV2b25tb3VicnkiLCJhIjoiY2oyOXA1cGl4MDAwMjJ3b2djdjh4cmV2cyJ9.ZrmYtWukYTSnSRnDgUJlcQ'
     };
   }
 
