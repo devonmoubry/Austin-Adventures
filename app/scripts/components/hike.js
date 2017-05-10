@@ -46,7 +46,7 @@ class HikeComponent extends React.Component {
   mapStyle() {
     return {
       width: '100%',
-      height: '30%'
+      height: '150px'
     }
   }
 
