@@ -5,9 +5,9 @@ import container from "../containers/all.js";
 import _ from "lodash";
 import mapboxgl from 'mapbox-gl';
 import Mapbox from 'react-redux-mapbox-gl';
-//actions
-import searchHikes from "../actions/search_hikes.js";
-import searchRestaurants from "../actions/search_restaurants.js"
+// API
+import trailsAPI from "../models/trailsAPI.json";
+import brunchAPI from "../models/brunch_bunch_api.json"
 
 class HikeComponent extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class HikeComponent extends React.Component {
     // iterate through this.props.searchResult
     const id = this.props.match.params.id;
     const clickId = Number(id);
-    const hikes = this.props.reducer.searchResults;
+    const hikes = trailsAPI.places;
     // https://lodash.com/docs/4.17.4#filter
     let theHike = _.filter(hikes, { 'unique_id': clickId });
     return theHike[0];
@@ -75,7 +75,7 @@ class HikeComponent extends React.Component {
         }
       }];
 
-      const brunches = this.props.reducer.foodSearchResults;
+      const brunches = brunchAPI.places;
       const brunchFeatures = brunches.map(function(brunch) {
         const coordinates = brunch.coordinates;
         const id = brunch['id'];
@@ -134,9 +134,6 @@ class HikeComponent extends React.Component {
   }
 
   componentDidMount() {
-    this.props.dispatch(searchHikes());
-    this.props.dispatch(searchRestaurants());
-
     this.putHikeAreaOnTheMap();
   }
 

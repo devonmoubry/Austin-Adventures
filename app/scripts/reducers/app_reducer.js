@@ -1,30 +1,12 @@
-import searchHikes from '../components/search.js'
-import searchRestaurants from '../components/search.js'
-
 export default function AppReducer(state, action) {
   if (state === undefined) {
     return {
-      searchResults: null,
-      foodSearchResults: null,
       usertoken: null,
       mapBoxAccessToken: 'pk.eyJ1IjoiZGV2b25tb3VicnkiLCJhIjoiY2oyOXA1cGl4MDAwMjJ3b2djdjh4cmV2cyJ9.ZrmYtWukYTSnSRnDgUJlcQ'
     };
   }
 
   switch (action.type) {
-    case "LOADED_HIKES":
-      console.log("LOADED_HIKES");
-      var newState = {
-        searchResults: action.hikes
-      };
-      return Object.assign({}, state, newState);
-
-    case "LOADED_RESTAURANTS":
-      console.log("LOADED_RESTAURANTS");
-      var newState = {
-        foodSearchResults: action.restaurants
-      };
-      return Object.assign({}, state, newState);
 
     case "LOGGED_IN":
       console.log("LOGGED_IN");

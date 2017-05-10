@@ -20,8 +20,9 @@ class SearchResultsList extends React.Component {
       )
     })
   }
+
   render() {
-    let hikes = this.props.reducer.searchResults;
+    let hikes = this.props.hikes;
     console.log('hikes', hikes);
     if (hikes === null || hikes === undefined) {
       return (<span />)

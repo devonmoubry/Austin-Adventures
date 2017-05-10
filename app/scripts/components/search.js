@@ -4,11 +4,6 @@ import { Route, Link, NavLink } from "react-router-dom";
 import container from "../containers/all.js";
 import mapboxgl from 'mapbox-gl';
 import Mapbox from 'react-redux-mapbox-gl';
-
-//actions
-import searchHikes from "../actions/search_hikes.js";
-import searchRestaurants from "../actions/search_restaurants.js"
-
 //components
 import SearchResult from "./search_result.js"
 import SearchResultsList from "./search_results_list.js"
@@ -16,6 +11,9 @@ import FoodSearchResultsList from "./food_search_results_list.js"
 import FoodSearchResult from "./food_search_result.js"
 import BrunchComponent from "./brunch.js"
 import HikeComponent from "./hike.js"
+// API
+import trailsAPI from "../models/trailsAPI.json";
+import brunchAPI from "../models/brunch_bunch_api.json"
 
 class Search extends React.Component {
   constructor(props) {
@@ -50,7 +48,7 @@ class Search extends React.Component {
     this.map.on('load', function () {
       console.log('Loaded map. Now putting hikes on map...');
 
-      const hikes = this.props.reducer.searchResults;
+      const hikes = trailsAPI.places;
       const hikeFeatures = hikes.map(function(hike) {
         const coordinates = [hike['lon'], hike['lat']];
         const id = hike.unique_id;
@@ -69,7 +67,7 @@ class Search extends React.Component {
         }
       });
 
-      const brunches = this.props.reducer.foodSearchResults;
+      const brunches = brunchAPI.places;
       const brunchFeatures = brunches.map(function(brunch) {
         const coordinates = brunch.coordinates;
         const id = brunch['id'];
@@ -137,9 +135,6 @@ class Search extends React.Component {
   }
 
   componentDidMount() {
-    this.props.dispatch(searchHikes());
-    this.props.dispatch(searchRestaurants());
-
     this.putMarkersOnTheMap();
   }
 
