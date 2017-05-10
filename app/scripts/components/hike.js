@@ -8,6 +8,8 @@ import Mapbox from 'react-redux-mapbox-gl';
 // API
 import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
+// components
+import BrunchInfo from "./brunch_info.js"
 
 class HikeComponent extends React.Component {
   constructor(props) {
@@ -19,6 +21,8 @@ class HikeComponent extends React.Component {
     this.mapStyle = this.mapStyle.bind(this)
     this.mapOptions = this.mapOptions.bind(this)
     this.putHikeAreaOnTheMap = this.putHikeAreaOnTheMap.bind(this)
+    this.getBrunch = this.getBrunch.bind(this)
+    this.state = {}
   }
 
   getHike() {
@@ -116,6 +120,7 @@ class HikeComponent extends React.Component {
         const componentType = e.features[0].properties.type;
         if (componentType != 'brunch') { return; }
 
+        const brunch = this.getBrunch(e.features[0].properties.id);
         const brunchCoordinates = e.features[0].geometry.coordinates;
         var directions = new MapboxDirections({
           container: 'directions',
@@ -127,10 +132,18 @@ class HikeComponent extends React.Component {
         console.log('Setting the origin and destination');
         directions.setOrigin(coordinates);
         directions.setDestination(brunchCoordinates);
+        this.setState({currentBrunch: brunch})
       }.bind(this));
 
     }.bind(this));
 
+  }
+
+  getBrunch(id) {
+    const brunches = brunchAPI.places;
+    // https://lodash.com/docs/4.17.4#filter
+    let theBrunch = _.filter(brunches, { 'id': id });
+    return theBrunch[0];
   }
 
   componentDidMount() {
@@ -139,6 +152,11 @@ class HikeComponent extends React.Component {
 
   render() {
     const hike = this.getHike();
+    let currentBrunchhtml = "Select a Restaurant"
+    if (this.state.currentBrunch != undefined) {
+      currentBrunchhtml = <BrunchInfo brunch={this.state.currentBrunch} />
+
+    }
     return (
       <div className="hike-card-container">
         <h1>Austin Adventures</h1>
@@ -154,6 +172,7 @@ class HikeComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(hike)} //mapbox://styles/mapbox/outdoors-v10
         />
+        {currentBrunchhtml}
       </div>
     );
   }
