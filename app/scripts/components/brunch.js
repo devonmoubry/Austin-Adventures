@@ -112,7 +112,16 @@ class BrunchComponent extends React.Component {
       });
 
       this.map.on('click', 'places', function (e) {
-        console.log('Clicked on a hike icon!');
+        const componentType = e.features[0].properties.type;
+        if (componentType == 'hike') {
+          return (
+            this.props.history.push(`/hike/${e.features[0].properties.id}`)
+          )
+        } else {
+          return (
+            <span />
+          )
+        }
 
       }.bind(this));
 
