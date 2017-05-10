@@ -40,8 +40,8 @@ class BrunchComponent extends React.Component {
 
   mapStyle() {
     return {
-      width: '98%',
-      height: '55%'
+      width: '100%',
+      height: '30%'
     }
   }
 
