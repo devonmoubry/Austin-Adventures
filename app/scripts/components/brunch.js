@@ -141,6 +141,7 @@ class BrunchComponent extends React.Component {
     return (
       <div className="brunch-card-container">
         <h1>Austin Adventures</h1>
+        <Link className="link-button" to="/search"><i className="fa fa-times-circle" aria-hidden="true"></i></Link>
         <p><a href={'http://' + brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</p>
         <p>{brunch['phone number']}</p>
         <p>Brunch: {brunch['brunch']}</p>

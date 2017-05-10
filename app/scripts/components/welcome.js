@@ -12,11 +12,11 @@ class Welcome extends React.Component {
         <div className="welcome-container">
           <div className="welcome-text">
             <h1 className="app-title">Austin Adventures</h1>
+            <Link className="link-button" to="/search"><i className="fa fa-times-circle" aria-hidden="true"></i></Link>
             <p>Choose a trail.</p>
           </div>
         <Link className="link-button" to="/login">Please login.</Link>
         <Link className="link-button" to="/signup">New User? Please sign up!</Link>
-        <Link className="link-button" to="/search">X</Link>
         </div>
         <Search />
       </main>
