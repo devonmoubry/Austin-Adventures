@@ -114,17 +114,19 @@ class HikeComponent extends React.Component {
 
       this.map.on('click', 'places', function (e) {
         const componentType = e.features[0].properties.type;
-        if (componentType == 'brunch') {
-          console.log('brunch bunch');
-          return (
-            this.props.history.push(`/brunch/${e.features[0].properties.id}`)
-          )
-        } else {
-          return (
-            <span />
-          )
-        }
+        if (componentType != 'brunch') { return; }
 
+        const brunchCoordinates = e.features[0].geometry.coordinates;
+        var directions = new MapboxDirections({
+          container: 'directions',
+          accessToken: this.props.reducer.mapBoxAccessToken
+        });
+
+        this.map.addControl(directions);
+
+        console.log('Setting the origin and destination');
+        directions.setOrigin(coordinates);
+        directions.setDestination(brunchCoordinates);
       }.bind(this));
 
     }.bind(this));
@@ -150,7 +152,7 @@ class HikeComponent extends React.Component {
         <button onClick={this.handleYelpButton} className="yelp-button" type="submit"><i className="fa fa-yelp" aria-hidden="true"></i></button>
         <Mapbox
           mapboxgl={mapboxgl}
-          accessToken="pk.eyJ1IjoiZGV2b25tb3VicnkiLCJhIjoiY2oyOXA1cGl4MDAwMjJ3b2djdjh4cmV2cyJ9.ZrmYtWukYTSnSRnDgUJlcQ"
+          accessToken={this.props.reducer.mapBoxAccessToken}
           style= {this.mapStyle()}
           getMap={this.getMap}
           options={this.mapOptions(hike)} //mapbox://styles/mapbox/outdoors-v10
