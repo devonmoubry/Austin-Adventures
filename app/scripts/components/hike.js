@@ -152,11 +152,11 @@ class HikeComponent extends React.Component {
 
   render() {
     const hike = this.getHike();
-    let currentBrunchhtml = "Select a Restaurant"
+    let currentBrunchHTML = "Select a Restaurant destination."
     if (this.state.currentBrunch != undefined) {
-      currentBrunchhtml = <BrunchInfo brunch={this.state.currentBrunch} />
-
+      currentBrunchHTML = <BrunchInfo brunch={this.state.currentBrunch} />
     }
+
     return (
       <div className="hike-card-container">
         <h1>Austin Adventures</h1>
@@ -172,7 +172,7 @@ class HikeComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(hike)} //mapbox://styles/mapbox/outdoors-v10
         />
-        {currentBrunchhtml}
+        {currentBrunchHTML}
       </div>
     );
   }

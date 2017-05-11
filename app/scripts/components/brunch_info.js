@@ -8,7 +8,6 @@ class BrunchInfo extends React.Component {
     super(props)
   }
   render() {
-    console.log('what the hell is brunch? ', this.props);
     const brunch = this.props.brunch;
     return (
       <div className="brunch-info-container">

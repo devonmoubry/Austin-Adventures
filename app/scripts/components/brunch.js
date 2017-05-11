@@ -8,6 +8,8 @@ import Mapbox from 'react-redux-mapbox-gl';
 // API
 import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
+// components
+import HikeInfo from "./hike_info.js"
 
 class BrunchComponent extends React.Component {
   constructor(props) {
@@ -19,6 +21,7 @@ class BrunchComponent extends React.Component {
     this.mapStyle = this.mapStyle.bind(this)
     this.mapOptions = this.mapOptions.bind(this)
     this.putBrunchAreaOnTheMap = this.putBrunchAreaOnTheMap.bind(this)
+    this.state = {}
   }
 
   getBrunch() {
@@ -41,7 +44,7 @@ class BrunchComponent extends React.Component {
   mapStyle() {
     return {
       width: '100%',
-      height: '30%'
+      height: '150px'
     }
   }
 
@@ -114,6 +117,7 @@ class BrunchComponent extends React.Component {
       this.map.on('click', 'places', function (e) {
         const componentType = e.features[0].properties.type;
         if (componentType != 'hike') { return; }
+        const hike = this.getHike(e.features[0].properties.id);
 
         const hikeCoordinates = e.features[0].geometry.coordinates;
         var directions = new MapboxDirections({
@@ -132,12 +136,25 @@ class BrunchComponent extends React.Component {
 
   }
 
+  getHike(id) {
+    const clickId = Number(id);
+    const hikes = trailsAPI.places;
+    // https://lodash.com/docs/4.17.4#filter
+    let theHike = _.filter(hikes, { 'unique_id': clickId });
+    return theHike[0];
+  }
+
   componentDidMount() {
     this.putBrunchAreaOnTheMap();
   }
 
   render() {
     const brunch = this.getBrunch(this.props.match.params.id);
+    let currentHikeHTML = "Select a Hiking destination."
+    if (this.state.currentHike != undefined) {
+      currentHikeHTML = <HikeInfo hike={this.state.currentHike} />
+    }
+
     return (
       <div className="brunch-card-container">
         <h1>Austin Adventures</h1>
@@ -154,6 +171,7 @@ class BrunchComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(brunch)} //mapbox://styles/mapbox/outdoors-v10
         />
+        {currentHikeHTML}
       </div>
     );
   }
