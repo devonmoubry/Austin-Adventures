@@ -21,6 +21,7 @@ class BrunchComponent extends React.Component {
     this.mapStyle = this.mapStyle.bind(this)
     this.mapOptions = this.mapOptions.bind(this)
     this.putBrunchAreaOnTheMap = this.putBrunchAreaOnTheMap.bind(this)
+    this.getHike = this.getHike.bind(this)
     this.state = {}
   }
 
@@ -130,6 +131,7 @@ class BrunchComponent extends React.Component {
         console.log('Setting the origin and destination');
         directions.setOrigin(coordinates);
         directions.setDestination(hikeCoordinates);
+        this.setState({currentHike: hike})
       }.bind(this));
 
     }.bind(this));
@@ -149,7 +151,7 @@ class BrunchComponent extends React.Component {
   }
 
   render() {
-    const brunch = this.getBrunch(this.props.match.params.id);
+    const brunch = this.getBrunch();
     let currentHikeHTML = "Select a Hiking destination."
     if (this.state.currentHike != undefined) {
       currentHikeHTML = <HikeInfo hike={this.state.currentHike} />
