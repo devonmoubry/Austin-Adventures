@@ -1,174 +1,197 @@
 {
   "businesses": [
     {
-      "id": "mount-bonnell-austin",
-      "name": "Mount Bonnell",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7x4SnwaBHycwwTxHQkgGMg/o.jpg",
+      "id": "snooze-an-am-eatery-austin-3",
+      "name": "Snooze - An AM Eatery",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/3ZvBjDIh91C-dTGsKJHAOA/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/mount-bonnell-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 281,
+      "url": "https://www.yelp.com/biz/snooze-an-am-eatery-austin-3?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 433,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 30.25137,
+        "longitude": -97.76611
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1700 S Lamar Blvd",
+        "address2": "Ste 301",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78704",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "1700 S Lamar Blvd",
+          "Ste 301",
+          "Austin, TX 78704"
+        ]
+      },
+      "phone": "+15124288444",
+      "display_phone": "(512) 428-8444",
+      "distance": 6018.722868602
+    },
+    {
+      "id": "paperboy-austin",
+      "name": "Paperboy",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YvBRMwhQ5JjmFeYwRTOwYg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/paperboy-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 232,
+      "categories": [
+        {
+          "alias": "foodtrucks",
+          "title": "Food Trucks"
         },
         {
-          "alias": "parks",
-          "title": "Parks"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
         }
       ],
       "rating": 4.5,
       "coordinates": {
-        "latitude": 30.32104,
-        "longitude": -97.7735299
+        "latitude": 30.2684556389874,
+        "longitude": -97.7275395380287
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "3800 Mt Bonnell Rd",
-        "address2": null,
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78731",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "3800 Mt Bonnell Rd",
-          "Austin, TX 78731"
-        ]
-      },
-      "phone": "+15129746700",
-      "display_phone": "(512) 974-6700",
-      "distance": 2361.06029999
-    },
-    {
-      "id": "river-place-nature-trail-austin",
-      "name": "River Place Nature Trail",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iOaMLGA6QiHQvIHae4gTkQ/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/river-place-nature-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 116,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 4.5,
-      "coordinates": {
-        "latitude": 30.3558922,
-        "longitude": -97.8650665
-      },
-      "transactions": [],
-      "location": {
-        "address1": "8830 Big View Dr",
+        "address1": "1203 E 11th St",
         "address2": "",
         "address3": "",
         "city": "Austin",
-        "zip_code": "78730",
+        "zip_code": "78702",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "8830 Big View Dr",
-          "Austin, TX 78730"
+          "1203 E 11th St",
+          "Austin, TX 78702"
         ]
       },
       "phone": "",
       "display_phone": "",
-      "distance": 11718.110516495999
+      "distance": 5005.28236364
     },
     {
-      "id": "the-boardwalk-trail-at-lady-bird-lake-austin",
-      "name": "The Boardwalk Trail at Lady Bird Lake",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gm1Guv7K5E8M5AHZTv2_8A/o.jpg",
+      "id": "moonshine-patio-bar-and-grill-austin",
+      "name": "Moonshine Patio Bar & Grill",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ipCmswGlkFicMrLQyE6Q6A/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/the-boardwalk-trail-at-lady-bird-lake-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 58,
+      "url": "https://www.yelp.com/biz/moonshine-patio-bar-and-grill-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 2508,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 5,
-      "coordinates": {
-        "latitude": 30.2503491471899,
-        "longitude": -97.7370151865082
-      },
-      "transactions": [],
-      "location": {
-        "address1": "Lady Bird Lake Boardwalk",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "Lady Bird Lake Boardwalk",
-          "Austin, TX"
-        ]
-      },
-      "phone": "",
-      "display_phone": "",
-      "distance": 6410.488206284
-    },
-    {
-      "id": "sculpture-falls-austin",
-      "name": "Sculpture Falls",
-      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/65DyKjIemcERtXYH8FCvuA/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/sculpture-falls-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 8,
-      "categories": [
+          "alias": "southern",
+          "title": "Southern"
+        },
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "venues",
+          "title": "Venues & Event Spaces"
         }
       ],
       "rating": 4.5,
       "coordinates": {
-        "latitude": 30.2643542539391,
-        "longitude": -97.8229290799115
+        "latitude": 30.2638625353575,
+        "longitude": -97.7380871772766
       },
       "transactions": [],
+      "price": "$$",
       "location": {
-        "address1": "Barton Creek Green Belt",
+        "address1": "303 Red River St",
         "address2": "",
         "address3": "",
         "city": "Austin",
-        "zip_code": "",
+        "zip_code": "78701",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "Barton Creek Green Belt",
-          "Austin, TX"
+          "303 Red River St",
+          "Austin, TX 78701"
         ]
       },
-      "phone": "",
-      "display_phone": "",
-      "distance": 7732.280669256
+      "phone": "+15122369599",
+      "display_phone": "(512) 236-9599",
+      "distance": 4972.39871942
     },
     {
-      "id": "barton-creek-greenbelt-gus-fruh-trail-austin",
-      "name": "Barton Creek Greenbelt Gus Fruh Trail",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Aw3k5DWudAzKOZIbsPx6EA/o.jpg",
+      "id": "snooze-an-am-eatery-austin-4",
+      "name": "Snooze - An AM Eatery",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8Uhk5AyJmp4tX6mxprQHow/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/barton-creek-greenbelt-gus-fruh-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 22,
+      "url": "https://www.yelp.com/biz/snooze-an-am-eatery-austin-4?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 348,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
         }
       ],
-      "rating": 4.5,
+      "rating": 4,
       "coordinates": {
-        "latitude": 30.2489652616368,
-        "longitude": -97.7956369891763
+        "latitude": 30.30603,
+        "longitude": -97.74329
       },
       "transactions": [],
+      "price": "$$",
       "location": {
-        "address1": "2642 Barton Hills Dr",
+        "address1": "3800 N Lamar Blvd",
+        "address2": "Ste 120",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78756",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "3800 N Lamar Blvd",
+          "Ste 120",
+          "Austin, TX 78756"
+        ]
+      },
+      "phone": "+15124100670",
+      "display_phone": "(512) 410-0670",
+      "distance": 1408.3863169124
+    },
+    {
+      "id": "south-congress-cafe-austin",
+      "name": "South Congress Cafe",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/9yoQSkrOwSB9SKqwRjis1A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/south-congress-cafe-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 1884,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 30.24793,
+        "longitude": -97.75073
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1600 S Congress Ave",
         "address2": "",
         "address3": "",
         "city": "Austin",
@@ -176,560 +199,397 @@
         "country": "US",
         "state": "TX",
         "display_address": [
-          "2642 Barton Hills Dr",
+          "1600 S Congress Ave",
           "Austin, TX 78704"
         ]
       },
-      "phone": "",
-      "display_phone": "",
-      "distance": 7231.83804978
+      "phone": "+15124473905",
+      "display_phone": "(512) 447-3905",
+      "distance": 6402.21362374
     },
     {
-      "id": "wild-basin-wilderness-preserve-austin",
-      "name": "Wild Basin Wilderness Preserve",
-      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lvFOpKFwMuQD0Xs43Ty8Aw/o.jpg",
+      "id": "arturos-underground-cafe-austin-2",
+      "name": "Arturo's Underground Cafe",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iKl5zz_bzEQt_rYiR6zMzg/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/wild-basin-wilderness-preserve-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 44,
+      "url": "https://www.yelp.com/biz/arturos-underground-cafe-austin-2?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 380,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "bakeries",
+          "title": "Bakeries"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
         }
       ],
       "rating": 4,
       "coordinates": {
-        "latitude": 30.31176,
-        "longitude": -97.82581
+        "latitude": 30.2797094,
+        "longitude": -97.74192
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "805 N Capital Of Texas Hwy",
+        "address1": "314 W 17th St",
         "address2": "",
         "address3": "",
         "city": "Austin",
-        "zip_code": "78746",
+        "zip_code": "78701",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "805 N Capital Of Texas Hwy",
-          "Austin, TX 78746"
+          "314 W 17th St",
+          "Austin, TX 78701"
         ]
       },
-      "phone": "+15123277622",
-      "display_phone": "(512) 327-7622",
-      "distance": 6343.126383772
+      "phone": "+15124690380",
+      "display_phone": "(512) 469-0380",
+      "distance": 3210.6762693779997
     },
     {
-      "id": "violet-crown-trail-austin",
-      "name": "Violet Crown Trail",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-xWq1plyBEdp3BtX-LEQYA/o.jpg",
+      "id": "patika-austin",
+      "name": "Patika",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/QcUImhqq-JQJlwd8Z6kGjQ/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/violet-crown-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 9,
+      "url": "https://www.yelp.com/biz/patika-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 199,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 5,
-      "coordinates": {
-        "latitude": 30.29466,
-        "longitude": -97.82289
-      },
-      "transactions": [],
-      "location": {
-        "address1": "5524 Bee Caves Rd",
-        "address2": "Ste G4",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78746",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "5524 Bee Caves Rd",
-          "Ste G4",
-          "Austin, TX 78746"
-        ]
-      },
-      "phone": "+15123282481",
-      "display_phone": "(512) 328-2481",
-      "distance": 6369.49976489
-    },
-    {
-      "id": "great-hills-park-trail-austin",
-      "name": "Great Hills Park Trail",
-      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1f26wkaNKBAzYsViIL0KAw/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/great-hills-park-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 19,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 4.5,
-      "coordinates": {
-        "latitude": 30.4135452210903,
-        "longitude": -97.7633978426456
-      },
-      "transactions": [],
-      "location": {
-        "address1": "10801 Sierra Oaks",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78759",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "10801 Sierra Oaks",
-          "Austin, TX 78759"
-        ]
-      },
-      "phone": "+15128374500",
-      "display_phone": "(512) 837-4500",
-      "distance": 12052.982466497999
-    },
-    {
-      "id": "mills-pond-austin",
-      "name": "Mills Pond",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/U01rIEfI8Q-31xEIPiDOgQ/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/mills-pond-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 33,
-      "categories": [
-        {
-          "alias": "parks",
-          "title": "Parks"
+          "alias": "coffee",
+          "title": "Coffee & Tea"
         },
         {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 4.5,
-      "coordinates": {
-        "latitude": 30.4506377229973,
-        "longitude": -97.6801940003983
-      },
-      "transactions": [],
-      "location": {
-        "address1": "15108 Wells Port Dr",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78728",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "15108 Wells Port Dr",
-          "Austin, TX 78728"
-        ]
-      },
-      "phone": "+15122519814",
-      "display_phone": "(512) 251-9814",
-      "distance": 17804.52431764
-    },
-    {
-      "id": "zilker-nature-preserve-austin",
-      "name": "Zilker Nature Preserve",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rMsgweo4m7McMy3PEv4bFg/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/zilker-nature-preserve-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 8,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 5,
-      "coordinates": {
-        "latitude": 30.2726219594479,
-        "longitude": -97.7749722450972
-      },
-      "transactions": [],
-      "location": {
-        "address1": "302 Nature Center Dr",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78746",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "302 Nature Center Dr",
-          "Austin, TX 78746"
-        ]
-      },
-      "phone": "+15123278181",
-      "display_phone": "(512) 327-8181",
-      "distance": 3970.065718204
-    },
-    {
-      "id": "emma-long-park-turkey-creek-trail-austin",
-      "name": "Emma Long Park Turkey Creek Trail",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/HP53cdJfZPJiiujCxKhXyg/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/emma-long-park-turkey-creek-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 21,
-      "categories": [
-        {
-          "alias": "parks",
-          "title": "Parks"
+          "alias": "cafes",
+          "title": "Cafes"
         },
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
         }
       ],
       "rating": 4.5,
       "coordinates": {
-        "latitude": 30.331694334016,
-        "longitude": -97.8400325775146
+        "latitude": 30.2475078504171,
+        "longitude": -97.772622294724
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "1600 City Park Rd",
+        "address1": "2159 S Lamar Blvd",
         "address2": "",
         "address3": "",
         "city": "Austin",
-        "zip_code": "78730",
+        "zip_code": "78704",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "1600 City Park Rd",
-          "Austin, TX 78730"
+          "2159 S Lamar Blvd",
+          "Austin, TX 78704"
         ]
       },
-      "phone": "+15123461831",
-      "display_phone": "(512) 346-1831",
-      "distance": 8434.0600913
+      "phone": "+15125353955",
+      "display_phone": "(512) 535-3955",
+      "distance": 6568.083952322
     },
     {
-      "id": "hill-of-life-austin-2",
-      "name": "Hill of Life",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/f1Bv4KLIRlqeG4-BC62e5g/o.jpg",
+      "id": "citizen-eatery-austin",
+      "name": "Citizen Eatery",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vMa0d-E5TPUa8y-EwXSVXw/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/hill-of-life-austin-2?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 5,
+      "url": "https://www.yelp.com/biz/citizen-eatery-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 91,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 5,
-      "coordinates": {
-        "latitude": 30.2750168739626,
-        "longitude": -97.8250659500233
-      },
-      "transactions": [],
-      "location": {
-        "address1": "Barton Creek Greenbelt Trl",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78746",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "Barton Creek Greenbelt Trl",
-          "Austin, TX 78746"
-        ]
-      },
-      "phone": "",
-      "display_phone": "",
-      "distance": 7283.004118268001
-    },
-    {
-      "id": "spicewood-valley-trail-austin",
-      "name": "Spicewood Valley Trail",
-      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/SwaHx2KRSolyj03-TkPwig/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/spicewood-valley-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 6,
-      "categories": [
+          "alias": "vegetarian",
+          "title": "Vegetarian"
+        },
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
         }
       ],
       "rating": 4.5,
       "coordinates": {
-        "latitude": 30.4295445,
-        "longitude": -97.7898037
+        "latitude": 30.3213799163608,
+        "longitude": -97.7386470884085
       },
       "transactions": [],
+      "price": "$$",
       "location": {
-        "address1": "10978 Callanish Park Dr",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78750",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "10978 Callanish Park Dr",
-          "Austin, TX 78750"
-        ]
-      },
-      "phone": "",
-      "display_phone": "",
-      "distance": 14054.036305299998
-    },
-    {
-      "id": "sunset-valley-nature-trail-sunset-valley",
-      "name": "Sunset Valley Nature Trail",
-      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ay6TTra8HWVXX3oXJHBMUg/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/sunset-valley-nature-trail-sunset-valley?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 6,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 4.5,
-      "coordinates": {
-        "latitude": 30.22617,
-        "longitude": -97.82029
-      },
-      "transactions": [],
-      "location": {
-        "address1": "5601 Brodie Ln",
-        "address2": "",
-        "address3": "",
-        "city": "Sunset Valley",
-        "zip_code": "78745",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "5601 Brodie Ln",
-          "Sunset Valley, TX 78745"
-        ]
-      },
-      "phone": "",
-      "display_phone": "",
-      "distance": 10645.14197334
-    },
-    {
-      "id": "ingas-trail-austin",
-      "name": "Inga's Trail",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/RmwkEMuz8iFih_to8UO4LQ/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/ingas-trail-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 2,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        }
-      ],
-      "rating": 5,
-      "coordinates": {
-        "latitude": 30.3828409759366,
-        "longitude": -97.768190483258
-      },
-      "transactions": [],
-      "location": {
-        "address1": "5300 Old Spicewood Springs Rd",
+        "address1": "5011 Burnet Rd",
         "address2": "",
         "address3": null,
         "city": "Austin",
-        "zip_code": "",
+        "zip_code": "78756",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "5300 Old Spicewood Springs Rd",
-          "Austin, TX"
+          "5011 Burnet Rd",
+          "Austin, TX 78756"
         ]
       },
-      "phone": "",
-      "display_phone": "",
-      "distance": 8696.308964462
+      "phone": "+15127929546",
+      "display_phone": "(512) 792-9546",
+      "distance": 2570.345632818
     },
     {
-      "id": "cortana-nature-preserve-austin",
-      "name": "Cortana Nature Preserve",
-      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FoTidACjVbcDB1gU17I3Ug/o.jpg",
+      "id": "blenders-and-bowls-austin",
+      "name": "Blenders and Bowls",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7HX0bpxePnwV0mTLTHLb3A/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/cortana-nature-preserve-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 3,
+      "url": "https://www.yelp.com/biz/blenders-and-bowls-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 229,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "acaibowls",
+          "title": "Acai Bowls"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "healthmarkets",
+          "title": "Health Markets"
         }
       ],
       "rating": 4.5,
       "coordinates": {
-        "latitude": 30.38991,
-        "longitude": -97.87181
+        "latitude": 30.265971,
+        "longitude": -97.741606
       },
       "transactions": [],
+      "price": "$$",
       "location": {
-        "address1": "5424 Steiner Ranch Blvd",
+        "address1": "206 E 4th St",
         "address2": "",
         "address3": "",
         "city": "Austin",
-        "zip_code": "78732",
+        "zip_code": "78701",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "5424 Steiner Ranch Blvd",
-          "Austin, TX 78732"
+          "206 E 4th St",
+          "Austin, TX 78701"
         ]
       },
-      "phone": "",
-      "display_phone": "",
-      "distance": 14449.28377194
+      "phone": "+15125025184",
+      "display_phone": "(512) 502-5184",
+      "distance": 4623.8650821579995
     },
     {
-      "id": "commons-ford-ranch-metropolitan-park-austin",
-      "name": "Commons Ford Ranch Metropolitan Park",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WWnf1lZms5SeYKp12ywe1w/o.jpg",
+      "id": "lebowskis-grill-austin",
+      "name": "Lebowski's Grill",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/epUDcSy1gwknYVAIuJRF3A/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/commons-ford-ranch-metropolitan-park-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 18,
+      "url": "https://www.yelp.com/biz/lebowskis-grill-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 192,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "burgers",
+          "title": "Burgers"
         },
         {
-          "alias": "parks",
-          "title": "Parks"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 30.37186,
+        "longitude": -97.72586
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "8909 Burnet Rd",
+        "address2": null,
+        "address3": null,
+        "city": "Austin",
+        "zip_code": "78757",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "8909 Burnet Rd",
+          "Austin, TX 78757"
+        ]
+      },
+      "phone": "+15124197166",
+      "display_phone": "(512) 419-7166",
+      "distance": 8028.79206915
+    },
+    {
+      "id": "blue-dahlia-bistro-austin",
+      "name": "Blue Dahlia Bistro",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Kahh9W_FfVrbQGCK585FQA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/blue-dahlia-bistro-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 1083,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "french",
+          "title": "French"
+        },
+        {
+          "alias": "salad",
+          "title": "Salad"
         }
       ],
       "rating": 4,
       "coordinates": {
-        "latitude": 30.3391,
-        "longitude": -97.8841
+        "latitude": 30.26889,
+        "longitude": -97.728588
       },
       "transactions": [],
+      "price": "$$",
       "location": {
-        "address1": "614 Commons Ford Rd",
+        "address1": "1115 E 11th St",
         "address2": "",
         "address3": "",
         "city": "Austin",
-        "zip_code": "78733",
+        "zip_code": "78702",
         "country": "US",
         "state": "TX",
         "display_address": [
-          "614 Commons Ford Rd",
-          "Austin, TX 78733"
+          "1115 E 11th St",
+          "Austin, TX 78702"
         ]
       },
-      "phone": "",
-      "display_phone": "",
-      "distance": 13216.44403692
+      "phone": "+15125429542",
+      "display_phone": "(512) 542-9542",
+      "distance": 4908.040247215999
     },
     {
-      "id": "covert-park-at-mount-bonnell-austin",
-      "name": "Covert Park At Mount Bonnell",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/BR7iCJXp5LwGkTbSUGp37g/o.jpg",
+      "id": "pacha-austin",
+      "name": "Pacha",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Emudi-8V6Ov1yoCRgU5CtQ/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/covert-park-at-mount-bonnell-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 19,
+      "url": "https://www.yelp.com/biz/pacha-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 511,
       "categories": [
         {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "coffee",
+          "title": "Coffee & Tea"
         },
         {
-          "alias": "parks",
-          "title": "Parks"
-        }
-      ],
-      "rating": 4.5,
-      "coordinates": {
-        "latitude": 30.3210829751742,
-        "longitude": -97.7735693407752
-      },
-      "transactions": [],
-      "location": {
-        "address1": "3800 Mt Bonnell Rd",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78731",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "3800 Mt Bonnell Rd",
-          "Austin, TX 78731"
-        ]
-      },
-      "phone": "",
-      "display_phone": "",
-      "distance": 2334.520513116
-    },
-    {
-      "id": "circle-c-metropolitan-park-austin",
-      "name": "Circle C Metropolitan Park",
-      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/TNjywBk0ELMvbmwZqNwCcA/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/circle-c-metropolitan-park-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 31,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        },
-        {
-          "alias": "parks",
-          "title": "Parks"
-        }
-      ],
-      "rating": 4.5,
-      "coordinates": {
-        "latitude": 30.2032,
-        "longitude": -97.88484
-      },
-      "transactions": [],
-      "location": {
-        "address1": "6301 W Slaughter Ln",
-        "address2": "",
-        "address3": "",
-        "city": "Austin",
-        "zip_code": "78749",
-        "country": "US",
-        "state": "TX",
-        "display_address": [
-          "6301 W Slaughter Ln",
-          "Austin, TX 78749"
-        ]
-      },
-      "phone": "",
-      "display_phone": "",
-      "distance": 17103.286599439998
-    },
-    {
-      "id": "blunn-creek-greenbelt-austin",
-      "name": "Blunn Creek Greenbelt",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zsxuJqQi_N-5wHuwyLwhkw/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/blunn-creek-greenbelt-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
-      "review_count": 5,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
         }
       ],
       "rating": 4,
       "coordinates": {
-        "latitude": 30.2434576302767,
-        "longitude": -97.7457267791033
+        "latitude": 30.317377,
+        "longitude": -97.7406
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "1901 East Side Dr",
+        "address1": "4618 Burnet Rd",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78756",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "4618 Burnet Rd",
+          "Austin, TX 78756"
+        ]
+      },
+      "phone": "+15124208758",
+      "display_phone": "(512) 420-8758",
+      "distance": 2132.46159969
+    },
+    {
+      "id": "café-java-austin-2",
+      "name": "Café Java",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/uLVQ759lU2Yh81uv0b6smw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/caf%C3%A9-java-austin-2?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 740,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 30.4000609323005,
+        "longitude": -97.7041617306885
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "11900 Metric Blvd",
+        "address2": "Ste K",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78758",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "11900 Metric Blvd",
+          "Ste K",
+          "Austin, TX 78758"
+        ]
+      },
+      "phone": "+15123397677",
+      "display_phone": "(512) 339-7677",
+      "distance": 11737.657560136
+    },
+    {
+      "id": "lukes-inside-out-austin",
+      "name": "Luke's Inside Out",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Sk1B5L5oEWaCVf0Mb2nLyQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/lukes-inside-out-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 255,
+      "categories": [
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        },
+        {
+          "alias": "foodtrucks",
+          "title": "Food Trucks"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 30.25502,
+        "longitude": -97.76177
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1109 S Lamar Blvd",
         "address2": "",
         "address3": "",
         "city": "Austin",
@@ -737,16 +597,278 @@
         "country": "US",
         "state": "TX",
         "display_address": [
-          "1901 East Side Dr",
+          "1109 S Lamar Blvd",
           "Austin, TX 78704"
+        ]
+      },
+      "phone": "+15125898883",
+      "display_phone": "(512) 589-8883",
+      "distance": 5590.793086176
+    },
+    {
+      "id": "biscuits-groovy-south-austin",
+      "name": "Biscuits + Groovy - South",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/dNZp0honS-1dZNObYWdGww/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/biscuits-groovy-south-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 96,
+      "categories": [
+        {
+          "alias": "foodtrucks",
+          "title": "Food Trucks"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 30.261005,
+        "longitude": -97.757362
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "1210 Barton Springs Rd",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78704",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "1210 Barton Springs Rd",
+          "Austin, TX 78704"
+        ]
+      },
+      "phone": "+15123736031",
+      "display_phone": "(512) 373-6031",
+      "distance": 4909.843995488
+    },
+    {
+      "id": "waltons-fancy-and-staple-austin",
+      "name": "Waltons Fancy and Staple",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/wHCqgbEmC3w6vVDSOubAfw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/waltons-fancy-and-staple-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 535,
+      "categories": [
+        {
+          "alias": "delis",
+          "title": "Delis"
+        },
+        {
+          "alias": "florists",
+          "title": "Florists"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 30.26951,
+        "longitude": -97.749014
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "609 W 6th St",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78701",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "609 W 6th St",
+          "Austin, TX 78701"
+        ]
+      },
+      "phone": "+15125423380",
+      "display_phone": "(512) 542-3380",
+      "distance": 4050.869714
+    },
+    {
+      "id": "toaster-austin",
+      "name": "Toaster",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fCF77boztyKxkOyxsccohw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/toaster-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 44,
+      "categories": [
+        {
+          "alias": "foodtrucks",
+          "title": "Food Trucks"
+        },
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 30.2569632931751,
+        "longitude": -97.7237295934157
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "1910 E Cesar Chavez",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78702",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "1910 E Cesar Chavez",
+          "Austin, TX 78702"
         ]
       },
       "phone": "",
       "display_phone": "",
-      "distance": 6944.381923264
+      "distance": 6274.459708388
+    },
+    {
+      "id": "biscuits-and-groovy-austin",
+      "name": "Biscuits and Groovy",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0RWx4lEWKkox83FHY5q6pw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/biscuits-and-groovy-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 461,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "foodstands",
+          "title": "Food Stands"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 30.3141044899503,
+        "longitude": -97.7196990873646
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "5015 Duval St",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78751",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "5015 Duval St",
+          "Austin, TX 78751"
+        ]
+      },
+      "phone": "+15122209720",
+      "display_phone": "(512) 220-9720",
+      "distance": 3783.3816344679994
+    },
+    {
+      "id": "cherrywood-coffeehouse-austin",
+      "name": "Cherrywood Coffeehouse",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ZtTVw8YEBbxTdRx4rl7LiQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cherrywood-coffeehouse-austin?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 566,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "beerbar",
+          "title": "Beer Bar"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 30.2933197021484,
+        "longitude": -97.7159729003906
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "1400 E 38th 1/2 St",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78722",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "1400 E 38th 1/2 St",
+          "Austin, TX 78722"
+        ]
+      },
+      "phone": "+15125381991",
+      "display_phone": "(512) 538-1991",
+      "distance": 4207.800963552
+    },
+    {
+      "id": "kerbey-lane-cafe-austin-4",
+      "name": "Kerbey Lane Cafe",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/kb-FHD50CI9yv6u6u_kl9A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kerbey-lane-cafe-austin-4?adjust_creative=D9v5QVk4rM_qA2JcM-xZ0A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=D9v5QVk4rM_qA2JcM-xZ0A",
+      "review_count": 939,
+      "categories": [
+        {
+          "alias": "tex-mex",
+          "title": "Tex-Mex"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 30.30803,
+        "longitude": -97.75047
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "3704 Kerbey Ln",
+        "address2": "",
+        "address3": "",
+        "city": "Austin",
+        "zip_code": "78731",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "3704 Kerbey Ln",
+          "Austin, TX 78731"
+        ]
+      },
+      "phone": "+15124511436",
+      "display_phone": "(512) 451-1436",
+      "distance": 762.5403112383999
     }
   ],
-  "total": 37,
+  "total": 224,
   "region": {
     "center": {
       "latitude": 30.305156315977833,
