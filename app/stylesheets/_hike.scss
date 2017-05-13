@@ -1,0 +1,21 @@
+.hike-info {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    color: $primary-color;
+    font-family: $font-stack;
+    text-align: center;
+  }
+  p {
+    margin: 4vw;
+  }
+}
+
+.brunch-sign {
+  text-align: center;
+  @include title-styles;
+}
+
+.brunch-info-container {
+  @include info-container;
+}

@@ -1,5 +1,12 @@
 @mixin title-styles {
-  font-family: 'Patrick Hand', cursive;
+  font-family: $font-stack;
   letter-spacing: 3px;
   font-size: 6vw;
+  color: $primary-color;
+  padding: 2vh 4vw;
+  margin: 3vh 1vw;
+}
+
+@mixin info-container {
+  display: flex;
 }

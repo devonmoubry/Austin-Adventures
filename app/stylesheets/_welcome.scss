@@ -2,11 +2,7 @@
   display: flex;
   justify-content: center;
   .trail {
-    color: $primary-color;
-    padding: 2vh 4vw;
-    margin: 3vh 1vw;
-    font-size: 5vh;
-    letter-spacing: 3px;
+    @include title-styles
     border: 1px solid $primary-color;
     border-radius: 2px;
   }

@@ -152,19 +152,21 @@ class HikeComponent extends React.Component {
 
   render() {
     const hike = this.getHike();
-    let currentBrunchHTML = "Select a Restaurant destination."
+    let currentBrunchHTML = <div className="brunch-sign">CHOOSE A BRUNCH</div>
     if (this.state.currentBrunch != undefined) {
       currentBrunchHTML = <BrunchInfo brunch={this.state.currentBrunch} />
     }
 
     return (
       <div className="hike-card-container">
-        <h1>Austin Adventures</h1>
         <Link className="link-button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i></Link>
-        <p>{hike['name']} - {hike['city']}, {hike['state']}</p>
-        <p>{hike['directions']}</p>
-        <p>{hike['description']}</p>
+        <div className="hike-info">
+          <h1>{hike['name']} - {hike['city']}, {hike['state']}</h1>
+          <p>{hike['directions']}</p>
+          <p>{hike['description']}</p>
+        </div>
         <button onClick={this.handleYelpButton} className="yelp-button" type="submit"><i className="fa fa-yelp" aria-hidden="true"></i></button>
+        {currentBrunchHTML}
         <Mapbox
           mapboxgl={mapboxgl}
           accessToken={this.props.reducer.mapBoxAccessToken}
@@ -172,7 +174,6 @@ class HikeComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(hike)} //mapbox://styles/mapbox/outdoors-v10
         />
-        {currentBrunchHTML}
       </div>
     );
   }
