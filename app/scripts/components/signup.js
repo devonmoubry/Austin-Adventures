@@ -23,14 +23,14 @@ class Signup extends React.Component {
     }.bind(this), function(data) {
       console.log(data);
       console.log('error, did not work', data.responseJSON.message);
-      this.setState({error: data.responseJSON.message})
+      this.setState({signupError: data.responseJSON.message})
     }.bind(this)));
   }
 
   render() {
     var errorHTML = <span></span>;
-    if (this.state.error != undefined) {
-      errorHTML = <p className="alert">{this.state.error}</p>
+    if (this.state.signupError != undefined) {
+      errorHTML = <p className="alert">{this.state.signupError}</p>
     }
     return (
       <main className="signup-container">
