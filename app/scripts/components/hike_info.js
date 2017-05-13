@@ -11,8 +11,7 @@ class HikeInfo extends React.Component {
     const hike = this.props.hike;
     return (
       <div className="hike-info-container">
-      <p>{hike['name']} - {hike['city']}, {hike['state']}</p>
-      <p>{hike['directions']}</p>
+      <h1>{hike['name']} - {hike['city']}, {hike['state']}</h1>
       <p>{hike['description']}</p>
       </div>
     )
