@@ -10,6 +10,7 @@ class Signup extends React.Component {
     super(props)
 
     this.handleSubmit = this.handleSubmit.bind(this)
+    this.state = {}
   }
 
   handleSubmit(event) {
@@ -17,12 +18,23 @@ class Signup extends React.Component {
     const signupFullName = this.refs.signupFullName.value;
     const signupEmail = this.refs.signupEmail.value;
     const signupPassword = this.refs.signupPassword.value;
-    this.props.dispatch(signupNewUser(signupFullName, signupEmail, signupPassword));
+    this.props.dispatch(signupNewUser(signupFullName, signupEmail, signupPassword, function() {
+      this.props.history.push('/login');
+    }.bind(this), function(data) {
+      console.log(data);
+      console.log('error, did not work', data.responseJSON.message);
+      this.setState({error: data.responseJSON.message})
+    }.bind(this)));
   }
 
   render() {
+    var errorHTML = <span></span>;
+    if (this.state.error != undefined) {
+      errorHTML = <p className="alert">{this.state.error}</p>
+    }
     return (
       <main className="signup-container">
+        {errorHTML}
         <form id="signup" className="signup-form-container">
           <input className="text-input" type="text" ref="signupFullName" placeholder="full name"></input>
           <input className="text-input" type="text" ref="signupEmail" placeholder="valid email"></input>

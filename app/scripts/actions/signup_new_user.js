@@ -1,4 +1,4 @@
-export default function signupNewUser (signupFullName, signupEmail, signupPassword) {
+export default function signupNewUser (signupFullName, signupEmail, signupPassword, successFunction, errorFunction) {
   return (dispatch) => {
     return $.ajax({
       type: "POST",
@@ -15,7 +15,10 @@ export default function signupNewUser (signupFullName, signupEmail, signupPasswo
         "password": signupPassword
       }),
       success: (data, status, xhr) => {
-
+        successFunction()
+      },
+      error: (data, status, xhr) => {
+        errorFunction(data)
       }
     })
   }

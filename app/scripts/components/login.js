@@ -19,7 +19,7 @@ class Login extends React.Component {
     const loginEmail = this.refs.loginEmail.value;
     const loginPassword = this.refs.loginPassword.value;
     this.props.dispatch(loginUser(loginEmail, loginPassword));
-    this.props.history.push('/search');
+    //this.props.history.push('/search');
   }
 
   render() {
