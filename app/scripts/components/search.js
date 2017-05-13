@@ -141,6 +141,9 @@ class Search extends React.Component {
   render() {
     return (
       <main>
+        <div className="welcome-container">
+          <Link className="link-button" to="/search"><div className="trail"><i className="fa fa-map-signs" aria-hidden="true"></i>CHOOSE A TRAIL</div></Link>
+        </div>
         <Mapbox
           mapboxgl={mapboxgl}
           accessToken={this.props.reducer.mapBoxAccessToken}

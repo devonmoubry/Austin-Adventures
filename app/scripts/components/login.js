@@ -19,17 +19,16 @@ class Login extends React.Component {
     const loginEmail = this.refs.loginEmail.value;
     const loginPassword = this.refs.loginPassword.value;
     this.props.dispatch(loginUser(loginEmail, loginPassword));
-    this.props.history.push('/welcome');
+    this.props.history.push('/search');
   }
 
   render() {
     return (
       <main className="login-container">
-        <h1>Login</h1>
         <form id="user-login-form" className="login-form-container">
           <input className="text-input" type="text" ref="loginEmail" placeholder="@example.com" defaultValue="connor@example.com"></input>
           <input className="text-input" type="password" ref="loginPassword" placeholder="password" defaultValue="password"></input>
-          <input onClick={this.handleLogin} className="submit-input" type="submit" value="LOGIN"></input>
+          <input onClick={this.handleLogin} className="submit-input" type="submit" value="LOG IN"></input>
         </form>
       </main>
     );

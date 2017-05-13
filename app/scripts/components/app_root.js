@@ -3,13 +3,14 @@ import { connect } from "react-redux";
 import { Route, Link, NavLink } from "react-router-dom";
 import container from '../containers/all.js';
 //components
-import Welcome from "./welcome.js";
+import NavBar from "./navbar.js";
+import Search from "./search.js";
 
 class AppRoot extends React.Component {
   render() {
     return (
-      <main>
-      <Welcome />
+      <main className="root-container">
+        <Search />
       </main>
     );
   }

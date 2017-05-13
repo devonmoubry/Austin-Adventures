@@ -3,24 +3,25 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
+
 //components
 import AppRoot from "./components/app_root.js";
 import Login from "./components/login.js";
 import Signup from "./components/signup.js";
-import Welcome from "./components/welcome.js";
 import Search from "./components/search.js";
 import BrunchComponent from "./components/brunch.js";
 import HikeComponent from "./components/hike.js";
+import NavBar from "./components/navbar.js"
 
 export default function app() {
   render(
     <Provider store={store}>
       <Router>
-        <div>
-          <Route exact path="/" component={AppRoot} />
+        <div className="app-container">
+          <NavBar />
+          <Route exact path="/" component={Search} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
-          <Route path="/welcome" component={Welcome} />
           <Route path="/search" component={Search} />
           <Route path="/brunch/:id" component={BrunchComponent} />
           <Route path="/hike/:id" component={HikeComponent} />
