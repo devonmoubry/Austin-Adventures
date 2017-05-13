@@ -23,12 +23,11 @@ class Signup extends React.Component {
   render() {
     return (
       <main className="signup-container">
-        <h1>Sign up</h1>
-        <form id="signup">
+        <form id="signup" className="signup-form-container">
           <input className="text-input" type="text" ref="signupFullName" placeholder="full name"></input>
           <input className="text-input" type="text" ref="signupEmail" placeholder="valid email"></input>
           <input className="text-input" type="password" ref="signupPassword" placeholder="create password"></input>
-          <input onClick={this.handleSubmit} className="submit-input" type="submit" value="signup"></input>
+          <input onClick={this.handleSubmit} className="submit-input" type="submit" value="SIGN UP"></input>
         </form>
       </main>
     );

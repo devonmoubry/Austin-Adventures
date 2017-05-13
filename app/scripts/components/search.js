@@ -32,7 +32,7 @@ class Search extends React.Component {
   mapStyle() {
     return {
       width : '100%',
-      height : '100%'
+      height : '50%'
     }
   }
 
@@ -40,7 +40,7 @@ class Search extends React.Component {
     return {
       style : 'mapbox://styles/mapbox/streets-v9',
       center: [-97.7780803, 30.2672225],
-      zoom: 9
+      zoom: 8
     }
   }
 
@@ -111,7 +111,6 @@ class Search extends React.Component {
       this.map.on('click', 'places', function (e) {
         console.log('Clicked on a hike icon!');
 
-        // 1. a React component for the hike (in a popover)
         const componentType = e.features[0].properties.type;
         if (componentType == 'brunch') {
           console.log('brunch bunch');
