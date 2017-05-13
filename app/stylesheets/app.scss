@@ -17,7 +17,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fe7ff', endColorstr='#0f4857',GradientType=0 ); /* IE6-9 */
 }
 
-.link-button {
+.link-button, .yelp-button, .share-button{
   font-family: $font-stack;
   font-style: bold;
   text-decoration: none;
@@ -26,7 +26,7 @@
 }
 
 .link-button:hover {
-
+  opacity: .5;
 }
 
 p {

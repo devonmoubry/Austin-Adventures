@@ -46,7 +46,7 @@ class HikeComponent extends React.Component {
   mapStyle() {
     return {
       width: '100%',
-      height: '150px'
+      height: '50vh'
     }
   }
 
@@ -152,20 +152,22 @@ class HikeComponent extends React.Component {
 
   render() {
     const hike = this.getHike();
-    let currentBrunchHTML = <div className="brunch-sign">CHOOSE A BRUNCH</div>
+    let currentBrunchHTML = <div className="brunch-sign"><i className="fa fa-cutlery" aria-hidden="true"></i>CHOOSE A BRUNCH</div>
     if (this.state.currentBrunch != undefined) {
       currentBrunchHTML = <BrunchInfo brunch={this.state.currentBrunch} />
     }
 
     return (
       <div className="hike-card-container">
-        <Link className="link-button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i></Link>
         <div className="hike-info">
           <h1>{hike['name']} - {hike['city']}, {hike['state']}</h1>
-          <p>{hike['directions']}</p>
           <p>{hike['description']}</p>
         </div>
-        <button onClick={this.handleYelpButton} className="yelp-button" type="submit"><i className="fa fa-yelp" aria-hidden="true"></i></button>
+        <div className="buttons">
+          <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
+          <button className="yelp-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-yelp" aria-hidden="true"></i>See yelp</button>
+          <button className="share-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
+        </div>
         {currentBrunchHTML}
         <Mapbox
           mapboxgl={mapboxgl}

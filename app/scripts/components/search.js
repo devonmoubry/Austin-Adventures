@@ -39,8 +39,8 @@ class Search extends React.Component {
   mapOptions() {
     return {
       style : 'mapbox://styles/mapbox/streets-v9',
-      center: [-97.7780803, 30.2672225],
-      zoom: 8
+      center: [-97.85160793626352, 30.303049353095147],
+      zoom: 9
     }
   }
 
@@ -141,7 +141,7 @@ class Search extends React.Component {
     return (
       <main>
         <div className="welcome-container">
-          <Link className="link-button" to="/search"><div className="trail"><i className="fa fa-map-signs" aria-hidden="true"></i>CHOOSE A TRAIL</div></Link>
+          <div className="trail"><i className="fa fa-map-signs" aria-hidden="true"></i>CHOOSE A TRAIL</div>
         </div>
         <Mapbox
           mapboxgl={mapboxgl}

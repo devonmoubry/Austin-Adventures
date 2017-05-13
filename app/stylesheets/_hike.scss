@@ -1,21 +1,74 @@
+.hike-card-container {
+  background-color: $primary-color;
+  color: $secondary-color;
+
+  .buttons {
+    display: flex;
+    border-bottom: 1px solid $secondary-color;
+    padding: 1vh 4vw 2vh 4vw;
+    color: $secondary-color;
+    align-self: center;
+    //font-family: $font-stack;
+
+    .button {
+      color: $secondary-color;
+      align-self: center;
+      background-color: $primary-color;
+      border: none;
+    }
+  }
+
+  i {
+    padding: 0 1vw;
+  }
+
+  .button:hover {
+    opacity: .5;
+  }
+}
+
 .hike-info {
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid $secondary-color;
+  padding-bottom: 2vh;
+
   h1 {
-    color: $primary-color;
     font-family: $font-stack;
-    text-align: center;
+    letter-spacing: 3px;
+    font-size: 5vw;
+    padding-left: 4vw;
   }
   p {
-    margin: 4vw;
+    margin: 0 4vw;
   }
 }
 
 .brunch-sign {
   text-align: center;
-  @include title-styles;
+  font-family: $font-stack;
+  letter-spacing: 3px;
+  font-size: 5vw;
+  padding: 2vh 4vw;
+  margin: 1vh 1vw;
 }
 
 .brunch-info-container {
   @include info-container;
+  padding: 0 4vw 4vw 4vw;
+
+  h1 {
+    font-family: $font-stack;
+    letter-spacing: 3px;
+    font-size: 5vw;
+  }
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+  p {
+    margin: 0;
+  }
+
+  border-bottom: 1px solid $secondary-color;
 }

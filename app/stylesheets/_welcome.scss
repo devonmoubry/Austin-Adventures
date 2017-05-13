@@ -1,15 +1,13 @@
 .welcome-container {
   display: flex;
   justify-content: center;
+  background-color: $primary-color;
   .trail {
-    @include title-styles
-    border: 1px solid $primary-color;
-    border-radius: 2px;
-  }
-
-  .trail:hover {
+    font-family: $font-stack;
+    letter-spacing: 3px;
+    font-size: 5vw;
     color: $secondary-color;
-    border: 1px solid $secondary-color;
-    border-radius: 2px;
+    padding: 2vh 4vw;
+    margin: 1vh 1vw;
   }
 }
