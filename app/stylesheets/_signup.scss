@@ -1,0 +1,45 @@
+.signup-container {
+  background-image: url('../images/piyanut-suntaranil-223184.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-position: bottom;
+  position: fixed;
+  color: $primary-color;
+  font-family: $font-stack;
+  display: flex;
+  flex-direction: column;
+
+  .signup-form-container {
+    display: flex;
+    color: $primary-color;
+    font-family: $font-stack;
+    flex-direction: column;
+
+    input {
+      margin: 1vh 0;
+      padding: 0 0 2vh 0;
+      font-family: $font-stack;
+      color: $secondary-color;
+      letter-spacing: 1px;
+    }
+
+    input::placeholder {
+      color: $secondary-color;
+      opacity: .6;
+    }
+
+    .text-input {
+      color: $secondary-color;
+      border: none;
+      background-color: $dark-accent;
+      padding: 2vw 6vw;
+    }
+    .submit-input {
+      letter-spacing: 2px;
+      font-size: 6vh;
+    }
+  }
+}

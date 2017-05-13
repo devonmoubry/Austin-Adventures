@@ -1,0 +1,10 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2vh 2vw;
+
+  .text-input {
+    font-size: 3vw;
+  }
+}

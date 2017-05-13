@@ -1,93 +1,37 @@
-.welcome-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  overflow: hidden;
-  background-image: url('../images/averie-woodard-123973.jpg');
+@import 'variables';
+@import 'mixins';
+@import 'navbar';
+@import 'welcome';
+@import 'login';
+@import 'signup';
+@import 'search';
+
+.app-container {
   height: 100vh;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7fe7ff+0,1b8aa3+65,1b8aa3+65,0f4857+100 */
+  background: #7fe7ff; /* Old browsers */
+  background: -moz-linear-gradient(top, #7fe7ff 0%, #1b8aa3 65%, #1b8aa3 65%, #0f4857 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7fe7ff 0%,#1b8aa3 65%,#1b8aa3 65%,#0f4857 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7fe7ff 0%,#1b8aa3 65%,#1b8aa3 65%,#0f4857 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fe7ff', endColorstr='#0f4857',GradientType=0 ); /* IE6-9 */
+}
 
-  .welcome-text .app-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 6vw;
-    //color: #7f0509;
-    margin: 0;
-    padding: 2vh;
-  }
+.link-button {
+  font-family: $font-stack;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 5vw;
+  color: $primary-color;
+}
 
-  p {
-    display: flex;
-    justify-content: center;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 3vw;
-    //color: #005E7A;
-  }
-  .link-button {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    padding: 2vh 1vw;
-    font-size: 3vw;
-  }
+.link-button:hover {
 
 }
 
-.login-container {
-  background-image: url('../images/piyanut-suntaranil-223184.jpg');
-}
-
-.signup-container {
-  background-image: url('../images/piyanut-suntaranil-223184.jpg');
-}
-
-.search-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 2vh 2vw;
-
-  .text-input {
-    font-size: 3vw;
-  }
-  background-image: url('../images/aaron-burden-75599.jpg');
-}
-
-h1 {
-  font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 6vw;
-  //color: #7f0509;
-  margin: 0;
-  padding: 2vh;
-}
 p {
   font-family: 'Patrick Hand', cursive;
-  font-size: 4vw;
+  font-size: 3vw;
   //color: #005E7A;
-}
-img {
-  width: 100vh;
-  height: 100vh;
-}
-
-.popover {
-  font-size: 10px;
-  p {
-    font-size: 10px;
-    padding: 2px;
-    font-family: sans-serif;
-  }
-  float: right;
-}
-
-.mapboxgl-popup-content {
-  max-width: 300px;
-}
-
-.brunch-card-container {
-}
-
-.hike-card-container {
 }
 
 .directions-control {
