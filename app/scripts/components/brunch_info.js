@@ -11,10 +11,9 @@ class BrunchInfo extends React.Component {
     const brunch = this.props.brunch;
     return (
       <div className="brunch-info-container">
-        <p><a href={'http://' + brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</p>
+        <h1><a href={brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</h1>
         <p>{brunch['phone number']}</p>
         <p>Brunch: {brunch['brunch']}</p>
-        <p>Review: {brunch['review']}</p>
       </div>
     )
   }
