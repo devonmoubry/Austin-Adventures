@@ -1,4 +1,4 @@
-.hike-card-container {
+.brunch-card-container {
   background-color: $primary-color;
   color: $secondary-color;
 
@@ -26,7 +26,7 @@
   }
 }
 
-.hike-info {
+.brunch-info {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid $secondary-color;
@@ -41,9 +41,13 @@
   p {
     margin: 0 4vw;
   }
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
 }
 
-.brunch-sign {
+.hike-sign {
   text-align: center;
   font-family: $font-stack;
   letter-spacing: 3px;
@@ -52,7 +56,7 @@
   margin: 1vh 1vw;
 }
 
-.brunch-info-container {
+.hike-info-container {
   @include info-container;
   padding: 0 4vw 4vw 4vw;
 

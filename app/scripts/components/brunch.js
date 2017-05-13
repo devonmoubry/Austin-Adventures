@@ -45,7 +45,7 @@ class BrunchComponent extends React.Component {
   mapStyle() {
     return {
       width: '100%',
-      height: '150px'
+      height: '50vh'
     }
   }
 
@@ -152,20 +152,24 @@ class BrunchComponent extends React.Component {
 
   render() {
     const brunch = this.getBrunch();
-    let currentHikeHTML = "Select a Hiking destination."
+    let currentHikeHTML = <div className="hike-sign"><i className="fa fa-chevron-up" aria-hidden="true"></i>CHOOSE A HIKE</div>
     if (this.state.currentHike != undefined) {
       currentHikeHTML = <HikeInfo hike={this.state.currentHike} />
     }
 
     return (
       <div className="brunch-card-container">
-        <h1>Austin Adventures</h1>
-        <Link className="link-button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i></Link>
-        <p><a href={brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</p>
-        <p>{brunch['phone number']}</p>
-        <p>Brunch: {brunch['brunch']}</p>
-        <p>Review: {brunch['review']}</p>
-        <button onClick={this.handleYelpButton} className="yelp-button" type="submit"><i className="fa fa-yelp" aria-hidden="true"></i></button>
+        <div className="brunch-info">
+          <h1><a href={brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</h1>
+          <p>{brunch['phone number']}</p>
+          <p>Brunch: {brunch['brunch']}</p>
+        </div>
+        <div className="buttons">
+          <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
+          <button className="yelp-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-yelp" aria-hidden="true"></i>See yelp</button>
+          <button className="share-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
+        </div>
+        {currentHikeHTML}
         <Mapbox
           mapboxgl={mapboxgl}
           accessToken={this.props.reducer.mapBoxAccessToken}
@@ -173,7 +177,6 @@ class BrunchComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(brunch)} //mapbox://styles/mapbox/outdoors-v10
         />
-        {currentHikeHTML}
       </div>
     );
   }
