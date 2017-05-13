@@ -160,7 +160,7 @@ class HikeComponent extends React.Component {
     return (
       <div className="hike-card-container">
         <h1>Austin Adventures</h1>
-        <Link className="link-button" to="/search"><i className="fa fa-times-circle" aria-hidden="true"></i></Link>
+        <Link className="link-button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i></Link>
         <p>{hike['name']} - {hike['city']}, {hike['state']}</p>
         <p>{hike['directions']}</p>
         <p>{hike['description']}</p>
