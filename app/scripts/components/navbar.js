@@ -8,8 +8,8 @@ class NavBar extends React.Component {
     return (
       <div className="navbar">
         <Link className="link-button" to="/"><h1 className="app-title">AUSTIN ADVENTURES</h1></Link>
-        <Link className="link-button" to="/login"><i className="fa fa-sign-in" aria-hidden="true"></i></Link>
-        <Link className="link-button" to="/signup"><i className="fa fa-user-plus" aria-hidden="true"></i></Link>
+        <Link className="link-button" to="/login">Sign In</Link>
+        <Link className="link-button" to="/signup">Sign Up</Link>
       </div>
     );
   }
