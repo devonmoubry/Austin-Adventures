@@ -8,6 +8,12 @@
   display: flex;
   flex-direction: column;
 
+  .alert {
+    padding-left: 2vh;
+    color: #ff4f33;
+    font-size: 3vh;
+  }
+
   .login-form-container {
     display: flex;
     color: $primary-color;
