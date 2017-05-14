@@ -1,10 +1,10 @@
 .login-container {
-  background-color: $primary-color;
+  background-color: white;
   background-size: 100vh;
   height: 100vh;
   width: 100vw;
-  color: $primary-color;
-  font-family: $font-stack;
+  color: black;
+  font-family: $font-text;
   display: flex;
   flex-direction: column;
 
@@ -16,38 +16,38 @@
 
   .login-form-container {
     display: flex;
-    color: $primary-color;
-    font-family: $font-stack;
+    color: black;
+    font-family: $font-headings;
     flex-direction: column;
     padding-top: 16vh;
 
     input {
       margin: 3vh 0;
       padding: 0 0 6vh 0;
-      font-family: $font-stack;
-      color: $secondary-color;
+      font-family: $font-headings;
+      color: black;
       letter-spacing: 1px;
     }
 
     input::placeholder {
-      color: $secondary-color;
+      color: black;
       opacity: .6;
     }
 
     .text-input {
-      color: $secondary-color;
-      background-color: $primary-color;
+      color: black;
+      background-color: white;
       border: none;
-      border-bottom: 1px solid $accent-color;
+      border-bottom: 1px solid black;
       padding: 2vw 6vw;
       font-size: 3vh;
     }
 
     .submit-input {
-      color: $secondary-color;
-      border: 1px solid $secondary-color;
-      background-color: $primary-color;
-      font-family: $font-stack;
+      color: black;
+      border: 1px solid black;
+      background-color: white;
+      font-family: $font-text;
       letter-spacing: 2px;
       font-size: 5vh;
       padding: 2vh 4vw;
