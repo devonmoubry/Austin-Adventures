@@ -114,18 +114,10 @@ class Search extends React.Component {
         const componentType = e.features[0].properties.type;
         if (componentType == 'brunch') {
           console.log('brunch bunch');
-          return (
             this.props.history.push(`/brunch/${e.features[0].properties.id}`)
-          )
         } else if (componentType == 'hike') {
           console.log('take a hike');
-          return (
             this.props.history.push(`/hike/${e.features[0].properties.id}`)
-          )
-        } else {
-          return (
-            <span />
-          )
         }
       }.bind(this));
 
