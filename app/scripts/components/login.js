@@ -10,21 +10,28 @@ class Login extends React.Component {
     super(props)
 
     this.handleLogin = this.handleLogin.bind(this)
+    this.state = {}
   }
 
-  handleLogin(history) {
+  handleLogin(event) {
     event.preventDefault();
-    console.log(event);
-    console.log('history', history);
     const loginEmail = this.refs.loginEmail.value;
     const loginPassword = this.refs.loginPassword.value;
-    this.props.dispatch(loginUser(loginEmail, loginPassword));
-    //this.props.history.push('/search');
+    this.props.dispatch(loginUser(loginEmail, loginPassword, function() {
+      this.props.history.push('/search');
+    }.bind(this), function(data) {
+      this.setState({loginError: data.responseJSON.message})
+    }.bind(this)));
   }
 
   render() {
+    var errorHTML = <span></span>;
+    if (this.state.loginError != undefined) {
+      errorHTML = <p className="alert">{this.state.loginError}</p>
+    }
     return (
       <main className="login-container">
+        {errorHTML}
         <form id="user-login-form" className="login-form-container">
           <input className="text-input" type="text" ref="loginEmail" placeholder="@example.com" defaultValue="connor@example.com"></input>
           <input className="text-input" type="password" ref="loginPassword" placeholder="password" defaultValue="password"></input>

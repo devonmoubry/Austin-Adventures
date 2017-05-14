@@ -21,8 +21,6 @@ class Signup extends React.Component {
     this.props.dispatch(signupNewUser(signupFullName, signupEmail, signupPassword, function() {
       this.props.history.push('/login');
     }.bind(this), function(data) {
-      console.log(data);
-      console.log('error, did not work', data.responseJSON.message);
       this.setState({signupError: data.responseJSON.message})
     }.bind(this)));
   }

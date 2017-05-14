@@ -1,4 +1,4 @@
-export default function loginUser (loginEmail, loginPassword) {
+export default function loginUser (loginEmail, loginPassword, successFunction, errorFunction) {
   return (dispatch) => {
     return $.ajax({
       type: "POST",
@@ -14,9 +14,12 @@ export default function loginUser (loginEmail, loginPassword) {
         "password": loginPassword
       }),
       success: (data, status, xhr) => {
-        console.log(data["user-token"]);
         dispatch ({ type: "LOGGED_IN", usertoken: data["user-token"], name: data.name })
+        successFunction()
       },
-    });
+      error: (data, status, xhr) => {
+        errorFunction(data)
+      }
+    })
   }
 }
