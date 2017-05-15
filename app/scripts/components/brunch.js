@@ -37,6 +37,7 @@ class BrunchComponent extends React.Component {
 
   handleSocialButton() {
     console.log('getting foursquare details');
+    console.log();
   }
 
   handleShareButton() {
@@ -153,7 +154,8 @@ class BrunchComponent extends React.Component {
 
   componentDidMount() {
     this.putBrunchAreaOnTheMap();
-    this.props.dispatch(getFoursquareBrunchDetails(this.props.match.params.id));
+    console.log();
+    this.props.dispatch(getFoursquareBrunchDetails(this.props.match.params.foursquare_id));
   }
 
   render() {
@@ -167,13 +169,11 @@ class BrunchComponent extends React.Component {
       <div className="brunch-card-container">
         <div className="brunch-info">
           <h1><a href={brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</h1>
-          <p>{brunch['phone number']}</p>
           <p>Brunch: {brunch['brunch']}</p>
+          <button className="social-media-button button" onClick={this.handleSocialButton} type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
         </div>
         <div className="buttons">
           <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
-          <button className="social-media-button button" onClick={this.handleSocialButton} type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
-          <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
         </div>
         {currentHikeHTML}
         <Mapbox

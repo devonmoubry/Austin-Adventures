@@ -165,12 +165,9 @@ class HikeComponent extends React.Component {
       <div className="hike-card-container">
         <div className="hike-info">
           <h1>{hike['name']} - {hike['city']}, {hike['state']}</h1>
-          <p>{hike['description']}</p>
         </div>
         <div className="buttons">
           <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
-          <button className="social-media-button button" onClick={this.handleSocialButton} type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
-          <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
         </div>
         {currentBrunchHTML}
         <Mapbox

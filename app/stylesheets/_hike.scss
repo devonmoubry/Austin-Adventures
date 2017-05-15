@@ -15,6 +15,7 @@
       background-color: $color-dark;
       border: none;
     }
+
   }
 
   i {
@@ -31,6 +32,14 @@
   flex-direction: column;
   border-bottom: 1px solid $color-light;
   padding-bottom: 2vh;
+
+  .social-media-button, .share-button {
+    background-color: $color-dark;
+    color: $color-light;
+    border: none;
+    align-self: flex-start;
+    padding: 0 3vh;
+  }
 
   h1 {
     font-family: $font-bold;
@@ -60,6 +69,14 @@
 .brunch-info-container {
   @include info-container;
   padding: 0 4vw 4vw 4vw;
+
+  .social-media-button, .share-button {
+    background-color: $color-dark;
+    color: $color-light;
+    border: none;
+    align-self: flex-start;
+    padding: 3vw 0 0 0;
+  }
 
   h1 {
     font-family: $font-bold;

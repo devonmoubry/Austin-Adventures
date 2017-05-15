@@ -12,7 +12,7 @@ class HikeInfo extends React.Component {
     return (
       <div className="hike-info-container">
       <h1>{hike['name']} - {hike['city']}, {hike['state']}</h1>
-      <p>{hike['description']}</p>
+      <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share your plan</button>
       </div>
     )
   }
