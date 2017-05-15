@@ -1,6 +1,7 @@
 {"places":
   [{
     "id": "vox-table-austin",
+    "foursquare_id": "553c1b2a498e9eecfda7a08e",
     "name": "VOX Table",
     "coordinates": [-97.764215, 30.252538],
     "address": "110 South Lamar Suite 2140",
@@ -17,6 +18,7 @@
   },
   {
     "id": "sway-austin",
+    "foursquare_id": "5032659de4b0202f728f6166",
     "name": "Sway",
     "coordinates": [-97.754566, 30.250097],
     "address": "1417 South 1st Street",
@@ -33,6 +35,7 @@
   },
   {
     "id": "jacobys-restaurant-and-mercantile-austin-2",
+    "foursquare_id": "53101130498e3fd9c77d4135",
     "name": "Jacoby's Restaurant & Mercantile",
     "coordinates": [-97.707374, 30.251503],
     "address": "3235 East Cesar Chavez Street",
@@ -49,6 +52,7 @@
   },
   {
     "id": "mongers-market-kitchen-austin-2",
+    "foursquare_id": "537a2a30498ec8fd2819c32c",
     "name": "Monger's Market + Kitchen",
     "coordinates": [-97.717623, 30.254495],
     "address": "2401 E. Cesar Chavez",
@@ -65,6 +69,7 @@
   },
   {
     "id": "geraldines-austin",
+    "foursquare_id": "564262d7498ee76587cb98f6",
     "name": "Geraldine's",
     "coordinates": [-97.739163, 30.259977],
     "address": "605 Davis Street",
@@ -81,6 +86,7 @@
   },
   {
     "id": "café-no-sé-austin",
+    "foursquare_id": "55f4f3b1498e36136f155ce3",
     "name": "Café no Sé",
     "coordinates": [-97.750424, 30.247111],
     "address": "1603 South Congress Avenue",
@@ -97,6 +103,7 @@
   },
   {
     "id": "central-standard-austin",
+    "foursquare_id": "5671fe73498eb249aeccd71f",
     "name": "Central Standard",
     "coordinates": [-97.750156, 30.247731],
     "address": "1603 South Congress Avenue",
@@ -113,6 +120,7 @@
   },
   {
     "id": "juan-in-a-million-austin",
+    "foursquare_id": "45fd161af964a52076441fe3",
     "name": "Juan In a Million",
     "coordinates": [-97.719066, 30.255354],
     "address": "2300 E. Cesar Chavez St.",
@@ -129,6 +137,7 @@
   },
   {
     "id": "juliet-austin",
+    "foursquare_id": "558f2cd6498e718471dee513",
     "name": "Juliet Ristorante",
     "coordinates": [-97.760068, 30.261849],
     "address": "1500 Barton Springs Rd.",
@@ -145,6 +154,7 @@
   },
   {
     "id": "peached-tortilla-austin",
+    "foursquare_id": "4cfb052934c1a09356f5430e",
     "name": "The Peached Tortilla",
     "coordinates": [-97.74027, 30.330704],
     "address": "5520 Burnet Rd. #100",
@@ -161,6 +171,7 @@
   },
   {
     "id": "wu-chow-austin",
+    "foursquare_id": "52b22a64498ec5b9cc4cbbef",
     "name": "Wu Chow",
     "coordinates": [-97.748163, 30.268841],
     "address": "500 W. Fifth",
@@ -177,6 +188,7 @@
   },
   {
     "id": "juniper-austin",
+    "foursquare_id": "55a6ba88498e497edea66a5b",
     "name": "Juniper",
     "coordinates": [-97.717276, 30.254710],
     "address": "2400 E. Cesar Chavez #304",
@@ -193,6 +205,7 @@
   },
   {
     "id": "bangers-sausage-house-and-beer-garden-austin",
+    "foursquare_id": "4feb8f93e4b0a19839c43cd2",
     "name": "Banger's Sausage House & Beer Garden",
     "coordinates": [-97.738413, 30.258905],
     "address": "79 & 81 Rainey St",
@@ -209,6 +222,7 @@
   },
   {
     "id": "the-bonneville-austin",
+    "foursquare_id": "50de5db6e4b0f2166dc31044",
     "name": "The Bonneville",
     "coordinates": [-97.746166, 30.264053],
     "address": "202 W. Cesar Chavez",
@@ -225,6 +239,7 @@
   },
   {
     "id": "searsucker-austin",
+    "foursquare_id": "51252563183fbfaafcfa518c",
     "name": "Searsucker",
     "coordinates": [-97.744222, 30.267117],
     "address": "415 Colorado Street",
@@ -241,6 +256,7 @@
   },
   {
     "id": "downtown-jos-coffee-shop-austin",
+    "foursquare_id": "45f29b61f964a520df431fe3",
     "name": "Jo's Coffee Downtown",
     "coordinates": [-97.746129, 30.265104],
     "address": "242 West Second Street",
@@ -257,6 +273,7 @@
   },
   {
     "id": "russian-house-austin",
+    "foursquare_id": "50c2c734d63e8d4be0993743",
     "name": "Russian House",
     "coordinates": [-97.740212, 30.266180],
     "address": "307 E. Fifth",
@@ -273,6 +290,7 @@
   },
   {
     "id": "threadgills-austin-2",
+    "foursquare_id": "49bc636bf964a52032541fe3",
     "name": "Threadgill's",
     "coordinates": [-97.748508, 30.258388],
     "address": "301 W. Riverside",
@@ -289,6 +307,7 @@
   },
   {
     "id": "swifts-attic-austin",
+    "foursquare_id": "4f5966a7e4b0a5edcfe28de5",
     "name": "Swift's Attic",
     "coordinates": [-97.743071, 30.265609],
     "address": "315 Congress Avenue Suite 200",
@@ -305,6 +324,7 @@
   },
   {
     "id": "el-naranjo-austin",
+    "foursquare_id": "4b9c4cd7f964a5205a5d36e3",
     "name": "El Naranjo",
     "coordinates": [-97.738183, 30.259520],
     "address": "85 Rainey Street",
@@ -321,6 +341,7 @@
   },
   {
     "id": "manuels-austin-4",
+    "foursquare_id": "4415d2a9f964a52000311fe3",
     "name": "Manuel's",
     "coordinates": [-97.743923, 30.265828],
     "address": "310 Congress Avenue",
@@ -337,6 +358,7 @@
   },
   {
     "id": "cherrywood-coffeehouse-austin",
+    "foursquare_id": "4a305217f964a5204d991fe3",
     "name": "Cherrywood Coffeehouse",
     "coordinates": [-97.716013, 30.293533],
     "address": "1400 E. 38th½ St.",
@@ -353,6 +375,7 @@
   },
   {
     "id": "lucys-fried-chicken-austin-4",
+    "foursquare_id": "522fdbef11d2c07583517bc3",
     "name": "Lucy's Fried Chicken",
     "coordinates": [-97.740180, 30.328704],
     "address": "5408 Burnet Rd.",
@@ -369,6 +392,7 @@
   },
   {
     "id": "jack-allens-kitchen-oak-hill-austin",
+    "foursquare_id": "4b328d28f964a520650e25e3",
     "name": "Jack Allen's Kitchen",
     "coordinates": [-97.882668, 30.243601],
     "address": "7720 Hwy. 71 W.",
@@ -385,6 +409,7 @@
   },
   {
     "id": "cafe-malta-austin",
+    "foursquare_id": "4ef37ab6b6342877b74a5397",
     "name": "Cafe Malta",
     "coordinates": [-97.830302, 30.212608],
     "address": "3421 W. William Cannon",
@@ -401,6 +426,7 @@
   },
   {
     "id": "manuels-austin-2",
+    "foursquare_id": "481354f5f964a5203a4f1fe3",
     "name": "Manuel's",
     "coordinates": [-97.749321, 30.396711],
     "address": "10201 Jollyville Rd.",
@@ -417,6 +443,7 @@
   },
   {
     "id": "bonhomie-austin",
+    "foursquare_id": "58d552f62cba226e4c0f4784",
     "name": "Bonhomie",
     "coordinates": [-97.740032, 30.327858],
     "address": "5350 Burnet Road",
@@ -433,6 +460,7 @@
   },
   {
     "id": "el-meson-austin-2",
+    "foursquare_id": "4bfeb614daf9c9b65c21f9ef",
     "name": "El Mesón Taquería",
     "coordinates": [-97.768916, 30.248964],
     "address": "2038 S. Lamar",
@@ -449,6 +477,7 @@
   },
   {
     "id": "josephine-house-austin-3",
+    "foursquare_id": "510d5a9de4b0ab889db88b01",
     "name": "Josephine House",
     "coordinates": [-97.759036, 30.280586],
     "address": "1601 Waterson Ave",
@@ -465,6 +494,7 @@
   },
   {
     "id": "old-thousand-austin",
+    "foursquare_id": "57f6842e498ed4283f48cf3e",
     "name": "Old Thousand",
     "coordinates": [-97.729776, 30.269610],
     "address": "1000 E 11th St Ste 150",
@@ -481,6 +511,7 @@
   },
   {
     "id": "lukes-inside-out-austin",
+    "foursquare_id": "4d6d7023125eb60cd819354e",
     "name": "Luke’s Inside Out",
     "coordinates": [-97.761852, 30.255023],
     "address": "1109 S Lamar Blvd",
@@ -497,6 +528,7 @@
   },
   {
     "id": "grizzeldas-austin",
+    "foursquare_id": "582e53f75d6ec6451e427330",
     "name": "Grizzelda’s",
     "coordinates": [-97.708226, 30.252163],
     "address": "105 Tillery St",
@@ -513,6 +545,7 @@
   },
   {
     "id": "eberly-austin",
+    "foursquare_id": "57f655bf498e687047c2a498",
     "name": "Eberly",
     "coordinates": [-97.758885, 30.258664],
     "address": "615 S Lamar Blvd",
@@ -529,6 +562,7 @@
   },
   {
     "id": "el-burro-austin",
+    "foursquare_id": "584628e40acb6a484cb2a5ad",
     "name": "El Burro",
     "coordinates": [-97.762220, 30.255349],
     "address": "1100 S Lamar Blvd Suite 1125",
@@ -545,6 +579,7 @@
   },
   {
     "id": "soursop-austin",
+    "foursquare_id": "5875a9aa32b0725cf0895e0b",
     "name": "Soursop",
     "coordinates": [-97.761154, 30.217455],
     "address": "440 E Saint Elmo Rd Ste G-2",
@@ -561,6 +596,7 @@
   },
   {
     "id": "coast-bar-and-kitchen-austin",
+    "foursquare_id": "577563bf498e9c7c7d45bc71",
     "name": "Coast Bar and Kitchen",
     "coordinates": [-97.749806, 30.267086],
     "address": "360 Nueces St #20",
@@ -577,6 +613,7 @@
   },
   {
     "id": "my-name-is-joe-coffee-austin-2",
+    "foursquare_id": "58a1f43f0593e169a5b9b899",
     "name": "My Name Is Joe Coffee Co.",
     "coordinates": [-97.744306, 30.267551],
     "address": "503 Colorado St",
@@ -593,6 +630,7 @@
   },
   {
     "id": "eastside-tavern-austin",
+    "foursquare_id": "58011a9538fad39b2b8e6728",
     "name": "EastSide Tavern",
     "coordinates": [-97.728806, 30.258774],
     "address": "1510 E Cesar Chavez St",
@@ -609,6 +647,7 @@
   },
   {
     "id": "second-bar-kitchen-austin-3",
+    "foursquare_id": "57c86c7f498ef7479146d241",
     "name": "Second Bar + Kitchen",
     "coordinates": [-97.744566, 30.264550],
     "address": "3121 Palm Way",
@@ -625,6 +664,7 @@
   },
   {
     "id": "isla-austin",
+    "foursquare_id": "54d449b6498ee34e666a91be",
     "name": "Isla",
     "coordinates": [-97.745362, 30.266996],
     "address": "208 W 4th St",
@@ -641,6 +681,7 @@
   },
   {
     "id": "revelry-kitchen-bar-austin",
+    "foursquare_id": "57787965498ec87e8037b4ce",
     "name": "Revelry Kitchen + Bar",
     "coordinates": [-97.727699, 30.263761],
     "address": "1410 E 6th St",
@@ -657,6 +698,7 @@
   },
   {
     "id": "vinaigrette-austin",
+    "foursquare_id": "56c60503cd109ab574769908",
     "name": "Vinaigrette",
     "coordinates": [-97.752064, 30.241289],
     "address": "2201 College Ave",
@@ -673,6 +715,7 @@
   },
   {
     "id": "foreign-and-domestic-austin",
+    "foursquare_id": "4be58947bcef2d7fc8e403e5",
     "name": "Foreign & Domestic",
     "coordinates": [-97.719541, 30.317075],
     "address": "306 E 53rd St",
@@ -689,6 +732,7 @@
   },
   {
     "id": "patika-austin",
+    "foursquare_id": "54257235498e501d0eec9810",
     "name": "Patika",
     "coordinates": [-97.772617, 30.247431],
     "address": "2159 S Lamar Blvd",
@@ -705,6 +749,7 @@
   },
   {
     "id": "the-factory-cafe-with-a-soul-austin",
+    "foursquare_id": "57fa97b3498ee867e650f1f2",
     "name": "The Factory - Cafe With a Soul",
     "coordinates": [-97.733023, 30.354689],
     "address": "7718 Burnet Rd",
@@ -721,6 +766,7 @@
   },
   {
     "id": "epicerie-cafe-and-grocery-austin-4",
+    "foursquare_id": "50dcef61e4b0c68e573826a1",
     "name": "Epicerie",
     "coordinates": [-97.743676, 30.324515],
     "address": "2307 Hancock Dr",
@@ -737,6 +783,7 @@
   },
   {
     "id": "bouldin-creek-cafe-austin",
+    "foursquare_id": "49fa19e5f964a520bd6d1fe3",
     "name": "Bouldin Creek Café",
     "coordinates": [-97.756790, 30.246493],
     "address": "1900 S 1st St",
@@ -753,6 +800,7 @@
   },
   {
     "id": "magnolia-cafe-austin-2",
+    "foursquare_id": "40ec8e80f964a5202b0a1fe3",
     "name": "Magnolia Cafe",
     "coordinates": [-97.751949, 30.244473],
     "address": "1920 S Congress Ave",
@@ -769,6 +817,7 @@
   },
   {
     "id": "launderette-austin",
+    "foursquare_id": "54dd57e3498e766ab84999d1",
     "name": "Launderette",
     "coordinates": [-97.722794, 30.251885],
     "address": "2115 Holly St",
@@ -785,6 +834,7 @@
   },
   {
     "id": "weather-up-austin",
+    "foursquare_id": "4f5f7143e4b0912b841f3e19",
     "name": "Weather Up",
     "coordinates": [-97.724939, 30.257381],
     "address": "1808 East Cesar Chavez",
@@ -801,6 +851,7 @@
   },
   {
     "id": "austin-java-austin-2",
+    "foursquare_id": "43c6a9fef964a520772d1fe3",
     "name": "Austin Java",
     "coordinates": [-97.761731, 30.262408],
     "address": "1608 Barton Spring Rd",
@@ -817,6 +868,7 @@
   },
   {
     "id": "the-mighty-cone-austin-4",
+    "foursquare_id": "49c037d4f964a52054551fe3",
     "name": "Mighty Cone",
     "coordinates": [-97.762774, 30.263380],
     "address": "1720 Barton Springs Road",
@@ -833,6 +885,7 @@
   },
   {
     "id": "altas-cafe-austin",
+    "foursquare_id": "513ce277e4b0f929882b01a3",
     "name": "Alta's Cafe",
     "coordinates": [-97.741676, 30.260443],
     "address": "74 Trinity Street",
@@ -849,7 +902,8 @@
   },
   {
     "id": "picnik-austin-austin-6",
-    "name": "Picnik Austin",
+    "foursquare_id": "57acfbaf498e812df55f4805",
+    "name": "Picnik",
     "coordinates": [-97.739065049264, 30.3189574557283],
     "address": "4801 Burnet Rd",
     "city": "Austin",
@@ -865,6 +919,7 @@
   },
   {
     "id": "snooze-an-am-eatery-austin-4",
+    "foursquare_id": "575721bc498ef6dec3e38642",
     "name": "Snooze - An AM Eatery",
     "coordinates": [-97.74329, 30.30603],
     "address": "3800 N Lamar Blvd Ste 120",
@@ -881,6 +936,7 @@
   },
   {
     "id": "snooze-an-am-eatery-austin-3",
+    "foursquare_id": "574481f8498e2cd16a0911a6",
     "name": "Snooze - An AM Eatery",
     "coordinates": [-97.76611, 30.25137],
     "address": "1700 S Lamar Blvd Ste 301",
@@ -897,6 +953,7 @@
   },
   {
     "id": "moonshine-patio-bar-and-grill-austin",
+    "foursquare_id": "43598100f964a520eb281fe3",
     "name": "Moonshine Patio Bar & Grill",
     "coordinates": [-97.7380871772766, 30.2638625353575],
     "address": "303 Red River St",
@@ -913,6 +970,7 @@
   },
   {
     "id": "paperboy-austin",
+    "foursquare_id": "5653d9bb498e337169c18222",
     "name": "Paperboy",
     "coordinates": [-97.7275395380287, 30.2684556389874],
     "address": "1203 E 11th St",
@@ -929,9 +987,10 @@
   },
   {
     "id": "forthright-austin-3",
+    "foursquare_id": "57603b0b498eea58ffc844bc",
     "name": "Forthright",
     "coordinates": [-97.7431188641857, 30.2623732844951],
-    "address": "35 Brazos",
+    "address": "98 San Jacinto Blvd",
     "city": "Austin",
     "state": "Texas",
     "zipcode": "78701",
@@ -945,6 +1004,7 @@
   },
   {
     "id": "south-congress-cafe-austin",
+    "foursquare_id": "49ce6931f964a5203a5a1fe3",
     "name": "South Congress Cafe",
     "coordinates": [-97.75073, 30.24793],
     "address": "1600 S Congress Ave",
@@ -961,6 +1021,7 @@
   },
   {
     "id": "h12-outdoor-cafe-austin",
+    "foursquare_id": "58f238fae65d0c4b1881b655",
     "name": "H12 Outdoor Cafe",
     "coordinates": [-98.0625431312134, 30.2858605840316],
     "address": "18619 Hamilton Pool Rd",
@@ -977,6 +1038,7 @@
   },
   {
     "id": "360-uno-austin",
+    "foursquare_id": "4a9db173f964a520f93820e3",
     "name": "360 Uno",
     "coordinates": [-97.803835041867, 30.3365693076126],
     "address": "3801 N Capital Of Texas Hwy",
@@ -993,6 +1055,7 @@
   },
   {
     "id": "blenders-and-bowls-westlake-west-lake-hills",
+    "foursquare_id": "56c60f1acd10eb002a4455fb",
     "name": "Blenders and Bowls - Westlake",
     "coordinates": [-97.80693, 30.28068],
     "address": "3736 Bee Caves Rd",
@@ -1009,6 +1072,7 @@
   },
   {
     "id": "trudys-austin-4",
+    "foursquare_id": "40c8f600f964a52002011fe3",
     "name": "Trudy's",
     "coordinates": [-97.7669821634765, 30.1971862716635],
     "address": "901 Little Texas Ln",

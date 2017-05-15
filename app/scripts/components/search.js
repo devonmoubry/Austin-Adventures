@@ -13,7 +13,7 @@ import BrunchComponent from "./brunch.js"
 import HikeComponent from "./hike.js"
 // API
 import trailsAPI from "../models/trailsAPI.json";
-import brunchAPI from "../models/brunch_bunch_api.json"
+import brunchAPI from "../models/brunch_bunch_api.json";
 
 class Search extends React.Component {
   constructor(props) {

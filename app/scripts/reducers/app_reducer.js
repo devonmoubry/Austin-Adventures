@@ -2,6 +2,7 @@ export default function AppReducer(state, action) {
   if (state === undefined) {
     return {
       usertoken: null,
+      brunchFoursquareDetails: null,
       mapBoxAccessToken: 'pk.eyJ1IjoiZGV2b25tb3VicnkiLCJhIjoiY2oyOXA1cGl4MDAwMjJ3b2djdjh4cmV2cyJ9.ZrmYtWukYTSnSRnDgUJlcQ'
     };
   }

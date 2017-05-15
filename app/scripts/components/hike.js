@@ -15,7 +15,7 @@ class HikeComponent extends React.Component {
   constructor(props) {
     super(props)
 
-    this.handleYelpButton = this.handleYelpButton.bind(this)
+    this.handleSocialButton = this.handleSocialButton.bind(this)
     this.getHike = this.getHike.bind(this)
     this.getMap = this.getMap.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
@@ -35,8 +35,12 @@ class HikeComponent extends React.Component {
     return theHike[0];
   }
 
-  handleYelpButton() {
-    console.log('go to yelp page');
+  handleSocialButton() {
+    console.log('get foursquare details');
+  }
+
+  handleShareButton() {
+    console.log('share with my peeps');
   }
 
   getMap(map) {
@@ -165,8 +169,8 @@ class HikeComponent extends React.Component {
         </div>
         <div className="buttons">
           <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
-          <button className="yelp-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-yelp" aria-hidden="true"></i>See yelp</button>
-          <button className="share-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
+          <button className="social-media-button button" onClick={this.handleSocialButton} type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
+          <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
         </div>
         {currentBrunchHTML}
         <Mapbox

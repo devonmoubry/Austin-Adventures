@@ -10,12 +10,14 @@ import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
 // components
 import HikeInfo from "./hike_info.js"
+// actions
+import getFoursquareBrunchDetails from "../actions/get_foursquare_brunch_details.js"
 
 class BrunchComponent extends React.Component {
   constructor(props) {
     super(props)
 
-    this.handleYelpButton = this.handleYelpButton.bind(this)
+    this.handleSocialButton = this.handleSocialButton.bind(this)
     this.getBrunch = this.getBrunch.bind(this)
     this.getMap = this.getMap.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
@@ -26,7 +28,6 @@ class BrunchComponent extends React.Component {
   }
 
   getBrunch() {
-    // iterate through this.props.searchResult
     const id = this.props.match.params.id;
     const brunches = brunchAPI.places;
     // https://lodash.com/docs/4.17.4#filter
@@ -34,8 +35,12 @@ class BrunchComponent extends React.Component {
     return theBrunch[0];
   }
 
-  handleYelpButton() {
-    console.log('go to yelp page');
+  handleSocialButton() {
+    console.log('getting foursquare details');
+  }
+
+  handleShareButton() {
+    console.log('share with my peeps');
   }
 
   getMap(map) {
@@ -148,6 +153,7 @@ class BrunchComponent extends React.Component {
 
   componentDidMount() {
     this.putBrunchAreaOnTheMap();
+    this.props.dispatch(getFoursquareBrunchDetails(this.props.match.params.id));
   }
 
   render() {
@@ -166,8 +172,8 @@ class BrunchComponent extends React.Component {
         </div>
         <div className="buttons">
           <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
-          <button className="yelp-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-yelp" aria-hidden="true"></i>See yelp</button>
-          <button className="share-button button" onClick={this.handleYelpButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
+          <button className="social-media-button button" onClick={this.handleSocialButton} type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
+          <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
         </div>
         {currentHikeHTML}
         <Mapbox
