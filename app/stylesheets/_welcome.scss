@@ -1,13 +1,13 @@
 .welcome-container {
   display: flex;
-  justify-content: center;
-  background-color: #00654B;
+  background-color: $color-light;
+  @include section-border;
+
   .trail {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: $font-bold;
     letter-spacing: 3px;
-    font-size: 5vh;
-    color: #F9FFFE;
-    padding: 2vh 4vw;
-    margin: 1vh 1vw;
+    font-size: 4vh;
+    color: $color-dark;
+    padding: 6vh 4vw 2vh 4vw;
   }
 }

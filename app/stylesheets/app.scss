@@ -9,32 +9,20 @@
 @import 'brunch';
 
 .app-container {
-  // height: 100vh;
-  // /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7fe7ff+0,1b8aa3+65,1b8aa3+65,0f4857+100 */
-  // background: #7fe7ff; /* Old browsers */
-  // background: -moz-linear-gradient(top, #7fe7ff 0%, #1b8aa3 65%, #1b8aa3 65%, #0f4857 100%); /* FF3.6-15 */
-  // background: -webkit-linear-gradient(top, #7fe7ff 0%,#1b8aa3 65%,#1b8aa3 65%,#0f4857 100%); /* Chrome10-25,Safari5.1-6 */
-  // background: linear-gradient(to bottom, #7fe7ff 0%,#1b8aa3 65%,#1b8aa3 65%,#0f4857 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fe7ff', endColorstr='#0f4857',GradientType=0 ); /* IE6-9 */
-  background-color: #F9FFFE;
+  background-color: $color-light;
 }
 
 .link-button, .yelp-button, .share-button{
-  font-family: 'Assistant', sans-serif;
-  font-style: bold;
+  font-family: $font-thin;
+  font-weight: bold;
   text-decoration: none;
-  font-size: 5vh;
-  color: #00654B;
+  font-size: 3vh;
+  color: $color-dark;
+  background-color: $color-light;
 }
 
 .link-button:hover {
-  opacity: .5;
-}
-
-p {
-  font-family: 'Assistant', sans-serif;
-  font-size: 3vh;
-  //color: #005E7A;
+  @include opacity;
 }
 
 .directions-control {
