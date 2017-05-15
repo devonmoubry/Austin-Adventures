@@ -9,8 +9,6 @@ export default function AppReducer(state, action) {
   switch (action.type) {
 
     case "LOGGED_IN":
-      console.log("LOGGED_IN");
-      console.log("action.usertoken", action.usertoken);
       var newState = {
         usertoken: action.usertoken
       };

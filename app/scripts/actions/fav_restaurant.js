@@ -1,5 +1,4 @@
 export default function favRestaurant (id, name, usertoken) {
-  console.log(id, name);
   return (dispatch) => {
     return $.ajax({
       type: 'POST',
