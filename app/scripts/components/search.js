@@ -32,7 +32,7 @@ class Search extends React.Component {
   mapStyle() {
     return {
       width : '100%',
-      height : '50%'
+      height : '70%'
     }
   }
 
@@ -133,7 +133,7 @@ class Search extends React.Component {
     return (
       <main>
         <div className="welcome-container">
-          <div className="trail"><i className="fa fa-map-signs" aria-hidden="true"></i>CHOOSE A TRAIL</div>
+          <div className="trail">1.  Choose a hike  ▲</div>
         </div>
         <Mapbox
           mapboxgl={mapboxgl}

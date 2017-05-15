@@ -152,7 +152,7 @@ class BrunchComponent extends React.Component {
 
   render() {
     const brunch = this.getBrunch();
-    let currentHikeHTML = <div className="hike-sign"><i className="fa fa-chevron-up" aria-hidden="true"></i>CHOOSE A HIKE</div>
+    let currentHikeHTML = <div className="hike-sign">2.  Choose a hike  ▲</div>
     if (this.state.currentHike != undefined) {
       currentHikeHTML = <HikeInfo hike={this.state.currentHike} />
     }

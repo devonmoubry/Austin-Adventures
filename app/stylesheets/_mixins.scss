@@ -1,5 +1,5 @@
 @mixin title-styles {
-  font-family: $font-headings;
+  font-family: $font-bold;
   letter-spacing: 3px;
   font-size: 5vh;
   color: black;
@@ -10,4 +10,30 @@
 @mixin info-container {
   display: flex;
   flex-direction: column;
+}
+
+@mixin section-border {
+  border-bottom: 2px solid $color-dark;
+}
+
+@mixin button-border {
+  border: 1px solid $color-darkest;
+  padding: 2vh 4vw;
+  margin: 2vh auto;
+  border-radius: 2px;
+  background-color: $color-light;
+}
+
+@mixin input-border {
+  border-bottom: 1px solid $color-darkest;
+}
+
+@mixin opacity {
+  opacity: .6;
+}
+
+@mixin alert-styles {
+  padding-left: 2vh;
+  color: #ff4f33;
+  font-size: 3vh;
 }

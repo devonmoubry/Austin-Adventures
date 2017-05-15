@@ -1,18 +1,18 @@
 .brunch-card-container {
-  background-color: black;
-  color: black;
+  background-color: $color-dark;
+  color: $color-light;
 
   .buttons {
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $color-light;
     padding: 1vh 4vw 2vh 4vw;
-    color: black;
+    color: $color-light;
     align-self: center;
 
     .button {
-      color: black;
+      color: $color-light;
       align-self: center;
-      background-color: white;
+      background-color: $color-dark;
       border: none;
     }
   }
@@ -22,38 +22,37 @@
   }
 
   .button:hover {
-    opacity: .5;
+    @include opacity;
   }
 }
 
 .brunch-info {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $color-light;
   padding-bottom: 2vh;
 
   h1 {
-    font-family: $font-headings;
+    font-family: $font-bold;
     letter-spacing: 3px;
-    font-size: 5vh;
+    font-size: 4vh;
     padding-left: 4vw;
+    color: $color-light;
   }
   p {
     margin: 0 4vw;
   }
   a {
     text-decoration: none;
-    color: black;
+    color: $color-light;
   }
 }
 
 .hike-sign {
-  text-align: center;
-  font-family: $font-headings;
+  font-family: $font-bold;
   letter-spacing: 3px;
-  font-size: 5vh;
+  font-size: 4vh;
   padding: 2vh 4vw;
-  margin: 1vh 1vw;
 }
 
 .hike-info-container {
@@ -61,23 +60,23 @@
   padding: 0 4vw 4vw 4vw;
 
   h1 {
-    font-family: $font-headings;
+    font-family: $font-bold;
     letter-spacing: 3px;
-    font-size: 5vh;
+    font-size: 4vh;
   }
 
   a {
     text-decoration: none;
-    color: black;
+    color: $color-darkest;
   }
 
   a:hover {
-    opacity: .5;
+    @include opacity;
   }
 
   p {
     margin: 0;
   }
 
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $color-light;
 }

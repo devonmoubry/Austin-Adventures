@@ -1,53 +1,51 @@
 .signup-container {
-  background-color: white;
+  background-color: $color-light;
   background-size: 100vh;
   height: 100vh;
   width: 100vw;
-  color: black;
-  font-family: $font-text;
+  color: $color-darkest;
+  font-family: $font-thin;
   display: flex;
   flex-direction: column;
 
   .alert {
-    padding-left: 2vh;
-    color: #ff4f33;
-    font-size: 3vh;
+    @include alert-styles
   }
 
   .signup-form-container {
     display: flex;
-    color: black;
-    font-family: $font-text;
+    color: $color-darkest;
+    font-family: $font-thin;
     flex-direction: column;
     padding-top: 16vh;
 
     input {
       margin: 3vh 0;
       padding: 0 0 6vh 0;
-      font-family: $font-text;
-      color: black;
+      font-family: $font-thin;
+      color: $color-darkest;
       letter-spacing: 1px;
       font-size: 3vh;
     }
 
     input::placeholder {
-      color: black;
+      color: $color-darkest;
       opacity: .6;
     }
 
     .text-input {
-      color: black;
-      background-color: white;
+      color: $color-darkest;
+      background-color: $color-light;
       border: none;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $color-darkest;
       padding: 2vw 6vw;
     }
 
     .submit-input {
-      color: black;
-      border: 1px solid black;
-      background-color: white;
-      font-family: $font-text;
+      color: $color-darkest;
+      border: 1px solid $color-darkest;
+      background-color: $color-light;
+      font-family: $font-thin;
       letter-spacing: 2px;
       font-size: 5vh;
       padding: 2vh 4vw;

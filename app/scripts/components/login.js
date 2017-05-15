@@ -10,6 +10,7 @@ class Login extends React.Component {
     super(props)
 
     this.handleLogin = this.handleLogin.bind(this)
+    this.goToSignup = this.goToSignup.bind(this)
     this.state = {}
   }
 
@@ -24,6 +25,11 @@ class Login extends React.Component {
     }.bind(this)));
   }
 
+  goToSignup(event) {
+    event.preventDefault();
+    this.props.history.push('/signup');
+  }
+
   render() {
     var errorHTML = <span></span>;
     if (this.state.loginError != undefined) {
@@ -35,7 +41,8 @@ class Login extends React.Component {
         <form id="user-login-form" className="login-form-container">
           <input className="text-input" type="text" ref="loginEmail" placeholder="@example.com" defaultValue="connor@example.com"></input>
           <input className="text-input" type="password" ref="loginPassword" placeholder="password" defaultValue="password"></input>
-          <input onClick={this.handleLogin} className="submit-input" type="submit" value="LOG IN"></input>
+          <input onClick={this.handleLogin} className="submit-input" type="submit" value="SIGN IN"></input>
+          <input onClick={this.goToSignup} className="nav-button" defaultValue="No Account? Sign up."></input>
         </form>
       </main>
     );
