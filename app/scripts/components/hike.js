@@ -15,7 +15,6 @@ class HikeComponent extends React.Component {
   constructor(props) {
     super(props)
 
-    this.handleSocialButton = this.handleSocialButton.bind(this)
     this.getHike = this.getHike.bind(this)
     this.getMap = this.getMap.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
@@ -33,10 +32,6 @@ class HikeComponent extends React.Component {
     // https://lodash.com/docs/4.17.4#filter
     let theHike = _.filter(hikes, { 'unique_id': clickId });
     return theHike[0];
-  }
-
-  handleSocialButton() {
-    console.log('get foursquare details');
   }
 
   handleShareButton() {
@@ -64,8 +59,6 @@ class HikeComponent extends React.Component {
 
   putHikeAreaOnTheMap() {
     this.map.on('load', function() {
-      console.log('put the hike on the map');
-
       const hike = this.getHike();
       const coordinates = [hike['lon'], hike['lat']];
       const id = hike.unique_id;

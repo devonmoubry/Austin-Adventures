@@ -60,8 +60,6 @@ class BrunchComponent extends React.Component {
 
   putBrunchAreaOnTheMap() {
     this.map.on('load', function() {
-      console.log('put the hike on the map');
-
       const hikes = trailsAPI.places;
       const hikeFeatures = hikes.map(function(hike) {
         const coordinates = [hike['lon'], hike['lat']];
