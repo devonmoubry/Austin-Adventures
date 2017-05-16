@@ -37,6 +37,7 @@ class BrunchComponent extends React.Component {
 
   handleShareButton() {
     console.log('share with my peeps');
+    //this.props.history.push(`/plan/${hikeId}/${brunchId}`)
   }
 
   getMap(map) {

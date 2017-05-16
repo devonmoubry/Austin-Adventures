@@ -10,7 +10,7 @@ class FoursquareBrunchDetails extends React.Component {
   render() {
     return (
       <div className="foursquare-brunch">
-        <p>{this.props.details.price.currency}</p>
+        <p>Price: {this.props.details.price.currency}</p>
         <p>{this.props.details.categories["0"].name}</p>
         <p>{this.props.details.location.formattedAddress["0"]}</p>
         <p>{this.props.details.location.formattedAddress["1"]}</p>

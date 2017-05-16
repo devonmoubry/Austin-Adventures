@@ -9,6 +9,8 @@ import Mapbox from 'react-redux-mapbox-gl';
 import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
 // components
+import BrunchInfo from "./brunch_info.js"
+import HikeInfo from "./hike_info.js"
 import FoursquareBrunchDetails from "../components/foursquare_brunch_details.js"
 // actions
 import getFoursquareBrunchDetails from "../actions/get_foursquare_brunch_details.js"
@@ -23,6 +25,7 @@ class PlanComponent extends React.Component {
     this.mapStyle = this.mapStyle.bind(this)
     this.mapOptions = this.mapOptions.bind(this)
     this.putMarkersOnTheMap = this.putMarkersOnTheMap.bind(this)
+    this.state = {}
   }
 
   getHike() {
@@ -131,18 +134,38 @@ class PlanComponent extends React.Component {
 
   componentDidMount() {
     this.putMarkersOnTheMap();
+    this.props.dispatch(getFoursquareBrunchDetails(this.getBrunch().foursquare_id, function(data) {
+      this.setState({foursquareDetails: data.response.venue})
+    }.bind(this)));
   }
 
   render() {
+    const hike = this.getHike();
+    const brunch = this.getBrunch();
+    let brunchfoursquareDetails = <p>Loading details ...</p>;
+    if(this.state.foursquareDetails != undefined) {
+      brunchfoursquareDetails = <FoursquareBrunchDetails details={this.state.foursquareDetails}/>
+    }
+
     return(
       <div className="the-adventure">
-      <Mapbox
-        mapboxgl={mapboxgl}
-        accessToken={this.props.reducer.mapBoxAccessToken}
-        style= {this.mapStyle()}
-        getMap={this.getMap}
-        options={this.mapOptions()}
-      />
+        <div className="hike-info">
+          <h1>{hike['name']} - {hike['city']}, {hike['state']}</h1>
+          <p>{hike['description']}</p>
+          <p>Length: {hike.activities['length']}mi.</p>
+        </div>
+        <div className="brunch-info">
+          <h1><a href={brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</h1>
+          <p>Brunch: {brunch['brunch']}</p>
+          {brunchfoursquareDetails}
+        </div>
+        <Mapbox
+          mapboxgl={mapboxgl}
+          accessToken={this.props.reducer.mapBoxAccessToken}
+          style= {this.mapStyle()}
+          getMap={this.getMap}
+          options={this.mapOptions()}
+        />
       </div>
     )
   }

@@ -1,0 +1,18 @@
+.the-adventure {
+  background-color: $color-light;
+  .hike-info {
+    background-color: $color-medium;
+  }
+  .brunch-info {
+    background-color: $color-medium;
+    p {
+      font-family: $font-thin;
+      color: $color-light;
+    }
+    .foursquare-brunch {
+      p {
+        font-family: $font-thin;
+      }
+    }
+  }
+}

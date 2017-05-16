@@ -32,6 +32,7 @@
   flex-direction: column;
   border-bottom: 1px solid $color-light;
   padding-bottom: 2vh;
+  background-color: $color-dark;
 
   .social-media-button, .share-button {
     background-color: $color-dark;
@@ -51,6 +52,8 @@
 
   p {
     margin: 0 3vh;
+    color: $color-light;
+    font-family: $font-thin;
   }
 
   a {
