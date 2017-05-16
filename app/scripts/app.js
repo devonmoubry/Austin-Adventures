@@ -12,6 +12,7 @@ import Search from "./components/search.js";
 import BrunchComponent from "./components/brunch.js";
 import HikeComponent from "./components/hike.js";
 import NavBar from "./components/navbar.js"
+import PlanComponent from "./components/plan.js"
 
 export default function app() {
   render(
@@ -25,6 +26,7 @@ export default function app() {
           <Route path="/search" component={Search} />
           <Route path="/brunch/:id" component={BrunchComponent} />
           <Route path="/hike/:id" component={HikeComponent} />
+          <Route path="/plan/:hike_id/:brunch_id" component={PlanComponent} />
         </div>
       </Router>
     </Provider>,
