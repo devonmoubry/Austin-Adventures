@@ -6,7 +6,17 @@ import container from "../containers/all.js";
 class HikeInfo extends React.Component {
   constructor(props) {
     super(props)
+
+    this.handleShareButton = this.handleShareButton.bind(this)
   }
+
+  handleShareButton(event) {
+    event.preventDefault();
+    const brunchId = this.props.brunch.id;
+    const hikeId = this.props.hike.unique_id;
+    this.props.history.push(`/plan/${hikeId}/${brunchId}`);
+  }
+
   render() {
     const hike = this.props.hike;
     return (

@@ -25,17 +25,12 @@ class HikeComponent extends React.Component {
   }
 
   getHike() {
-    // iterate through this.props.searchResult
     const id = this.props.match.params.id;
     const clickId = Number(id);
     const hikes = trailsAPI.places;
     // https://lodash.com/docs/4.17.4#filter
     let theHike = _.filter(hikes, { 'unique_id': clickId });
     return theHike[0];
-  }
-
-  handleShareButton() {
-    console.log('share with my peeps');
   }
 
   getMap(map) {
@@ -149,9 +144,10 @@ class HikeComponent extends React.Component {
 
   render() {
     const hike = this.getHike();
+    const brunch = this.state.currentBrunch;
     let currentBrunchHTML = <div className="brunch-sign">2. Choose a brunch  <i className="fa fa-cutlery" aria-hidden="true"></i></div>
     if (this.state.currentBrunch != undefined) {
-      currentBrunchHTML = <BrunchInfo brunch={this.state.currentBrunch} />
+      currentBrunchHTML = <BrunchInfo hike={hike} brunch={brunch} history={this.props.history}/>
     }
 
     return (

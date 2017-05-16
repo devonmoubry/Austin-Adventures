@@ -4,15 +4,23 @@ import { Route, Link, NavLink } from "react-router-dom";
 import container from "../containers/all.js";
 //components
 import FoursquareBrunchDetails from "../components/foursquare_brunch_details.js"
+import HikeComponent from "../components/hike.js"
 //actions
 import getFoursquareBrunchDetails from "../actions/get_foursquare_brunch_details.js"
-
 
 class BrunchInfo extends React.Component {
   constructor(props) {
     super(props)
 
+    this.handleShareButton = this.handleShareButton.bind(this)
     this.state = {}
+  }
+
+  handleShareButton(event) {
+    event.preventDefault();
+    const brunchId = this.props.brunch.id;
+    const hikeId = this.props.hike.unique_id;
+    this.props.history.push(`/plan/${hikeId}/${brunchId}`);
   }
 
   componentDidMount() {
@@ -23,7 +31,6 @@ class BrunchInfo extends React.Component {
 
   render() {
     const brunch = this.props.brunch;
-    console.log(brunch);
     let brunchfoursquareDetails = <p>Loading details ...</p>;
     let foursquareMenu = <i className="fa fa-foursquare" aria-hidden="true"></i>;
     if(this.state.foursquareDetails != undefined) {

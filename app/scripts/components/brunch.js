@@ -35,11 +35,6 @@ class BrunchComponent extends React.Component {
     return theBrunch[0];
   }
 
-  handleShareButton() {
-    console.log('share with my peeps');
-    //this.props.history.push(`/plan/${hikeId}/${brunchId}`)
-  }
-
   getMap(map) {
     this.map = map;
   }
@@ -155,9 +150,10 @@ class BrunchComponent extends React.Component {
 
   render() {
     const brunch = this.getBrunch();
+    const hike = this.state.currentHike;
     let currentHikeHTML = <div className="hike-sign">2.  Choose a hike  ▲</div>
     if (this.state.currentHike != undefined) {
-      currentHikeHTML = <HikeInfo hike={this.state.currentHike} />
+      currentHikeHTML = <HikeInfo hike={hike} brunch={brunch} history={this.props.history}/>
     }
     let brunchfoursquareDetails = <p>Loading details ...</p>;
     let foursquareMenu = <i className="fa fa-foursquare" aria-hidden="true"></i>;
