@@ -1,4 +1,4 @@
-export default function getFoursquareBrunchDetails(id) {
+export default function getFoursquareBrunchDetails(id, successFunction, errorFunction) {
   console.log('actions');
   return (dispatch) => {
     console.log('dispatched!');
@@ -10,10 +10,12 @@ export default function getFoursquareBrunchDetails(id) {
       },
       success: (data, status, xhr) => {
         console.log('here is the data', data);
+        successFunction(data)
       },
       error: (data, status, xhr) => {
         console.log(data);
         console.log(status);
+        errorFunction(data)
       }
     })
   }

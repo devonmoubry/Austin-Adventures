@@ -9,6 +9,7 @@ import Mapbox from 'react-redux-mapbox-gl';
 import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
 // components
+import FoursquareBrunchDetails from "../components/foursquare_brunch_details.js"
 import HikeInfo from "./hike_info.js"
 // actions
 import getFoursquareBrunchDetails from "../actions/get_foursquare_brunch_details.js"
@@ -17,7 +18,6 @@ class BrunchComponent extends React.Component {
   constructor(props) {
     super(props)
 
-    this.handleSocialButton = this.handleSocialButton.bind(this)
     this.getBrunch = this.getBrunch.bind(this)
     this.getMap = this.getMap.bind(this)
     this.mapStyle = this.mapStyle.bind(this)
@@ -33,11 +33,6 @@ class BrunchComponent extends React.Component {
     // https://lodash.com/docs/4.17.4#filter
     let theBrunch = _.filter(brunches, { 'id': id });
     return theBrunch[0];
-  }
-
-  handleSocialButton() {
-    console.log('getting foursquare details');
-    console.log();
   }
 
   handleShareButton() {
@@ -154,8 +149,9 @@ class BrunchComponent extends React.Component {
 
   componentDidMount() {
     this.putBrunchAreaOnTheMap();
-    console.log();
-    this.props.dispatch(getFoursquareBrunchDetails(this.props.match.params.foursquare_id));
+    this.props.dispatch(getFoursquareBrunchDetails(this.getBrunch().foursquare_id, function(data) {
+      this.setState({foursquareDetails: data.response.venue})
+    }.bind(this)));
   }
 
   render() {
@@ -164,13 +160,20 @@ class BrunchComponent extends React.Component {
     if (this.state.currentHike != undefined) {
       currentHikeHTML = <HikeInfo hike={this.state.currentHike} />
     }
+    let brunchfoursquareDetails = <p>Loading details ...</p>;
+    let foursquareMenu = <i className="fa fa-foursquare" aria-hidden="true"></i>;
+    if(this.state.foursquareDetails != undefined) {
+      brunchfoursquareDetails = <FoursquareBrunchDetails details={this.state.foursquareDetails}/>
+      foursquareMenu = <a href={this.state.foursquareDetails.canonicalUrl} className="social-media-button button" target="_blank" type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</a>
+    }
 
     return (
       <div className="brunch-card-container">
         <div className="brunch-info">
           <h1><a href={brunch['website']} target="_blank">{brunch['name']}</a> - {brunch['city']}, {brunch['state']} {brunch['zipcode']}</h1>
           <p>Brunch: {brunch['brunch']}</p>
-          <button className="social-media-button button" onClick={this.handleSocialButton} type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
+          {brunchfoursquareDetails}
+          {foursquareMenu}
         </div>
         <div className="buttons">
           <Link className="link-button button" to="/search"><i className="fa fa-chevron-left" aria-hidden="true"></i>Back to map</Link>
