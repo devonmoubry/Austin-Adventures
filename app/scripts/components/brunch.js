@@ -9,6 +9,7 @@ import Mapbox from 'react-redux-mapbox-gl';
 import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
 // components
+import SearchResultsList from "../components/search_results_list.js"
 import FoursquareBrunchDetails from "../components/foursquare_brunch_details.js"
 import HikeInfo from "./hike_info.js"
 // actions
@@ -181,6 +182,7 @@ class BrunchComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(brunch)} //mapbox://styles/mapbox/outdoors-v10
         />
+        <SearchResultsList hikes={trailsAPI.places} />
       </div>
     );
   }
