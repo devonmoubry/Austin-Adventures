@@ -46,7 +46,6 @@ class Search extends React.Component {
 
   putMarkersOnTheMap() {
     this.map.on('load', function () {
-      console.log('Loaded map. Now putting hikes on map...');
 
       const hikes = trailsAPI.places;
       const hikeFeatures = hikes.map(function(hike) {
@@ -111,19 +110,14 @@ class Search extends React.Component {
       // location of the feature, with description HTML from its properties.
       // Copied verbatim from: https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/
       this.map.on('click', 'places', function (e) {
-        console.log('Clicked on a hike icon!');
 
         const componentType = e.features[0].properties.type;
         if (componentType == 'brunch') {
-          console.log('brunch bunch');
             this.props.history.push(`/brunch/${e.features[0].properties.id}`)
         } else if (componentType == 'hike') {
-          console.log('take a hike');
             this.props.history.push(`/hike/${e.features[0].properties.id}`)
         }
       }.bind(this));
-
-      console.log('Finished putting hikes on the map!');
 /*** hike length filter ***/
       var short = document.getElementById('filter-length-short'),
       medium = document.getElementById('filter-length-medium'),
@@ -135,7 +129,6 @@ class Search extends React.Component {
         medium.className = '';
         long.className = '';
         short.className = 'active';
-        console.log('before setFilter in short');
         this.map.setFilter('places', ['any', ['<=', 'length', 3.0], ['==', 'type', 'brunch']] );
         return false;
       }.bind(this);
@@ -165,28 +158,54 @@ class Search extends React.Component {
       }.bind(this);
 
 /*** brunch price filter ***/
-      // var one = document.getElementsById('filter-price-one'),
-      // two = document.getElementsById('filter-price-two'),
-      // ball = document.getElementsById('filter-price-ball');
+      // var one = document.getElementById('filter-price-one'),
+      // two = document.getElementById('filter-price-two'),
+      // three = document.getElementById('filter-price-three'),
+      // four = document.getElementById('filter-price-three'),
+      // ball = document.getElementById('filter-price-ball');
 
       // one.onclick = function(e) {
       //   ball.className = '';
       //   two.className = '';
+      //   three.className = '';
+      //   four.className = '';
       //   one.className = 'active';
       //   this.map.setFilter('places', ['any', ['==', 'price', '$'], ['==', 'type', 'hike']]);
       //   return false;
       // }.bind(this);
       // two.onclick = function(e) {
       //   one.className = '';
-      //   all.className = '';
+      //   ball.className = '';
+      //   three.className = '';
+      //   four.className = '';
       //   two.className = 'active';
       //   this.map.setFilter('places', ['any', ['==', 'price', '$$'], ['==', 'type', 'hike']]);
+      //   return false;
+      // }.bind(this);
+      // three.onclick = function(e) {
+      //   one.className = '';
+      //   ball.className = '';
+      //   two.className = '';
+      //   four.className = '';
+      //   three.className = 'active';
+      //   this.map.setFilter('places', ['any', ['==', 'price', '$$$'], ['==', 'type', 'hike']]);
+      //   return false;
+      // }.bind(this);
+      // four.onclick = function(e) {
+      //   one.className = '';
+      //   ball.className = '';
+      //   three.className = '';
+      //   two.className = '';
+      //   four.className = 'active';
+      //   this.map.setFilter('places', ['any', ['==', 'price', '$$$$'], ['==', 'type', 'hike']]);
       //   return false;
       // }.bind(this);
       // all.onclick = function() {
       //   one.className = '';
       //   two.className = '';
-      //   all.className = 'active';
+      //   three.className = '';
+      //   four.className = '';
+      //   ball.className = 'active';
       //   this.map.setFilter('places', ['any', ['==', 'type', 'brunch'], ['==', 'type', 'hike']]);
       //   return false;
       // }.bind(this);
@@ -215,6 +234,8 @@ class Search extends React.Component {
             <a href='#' className='active' id='filter-price-ball'>All brunch prices</a>
             <a href='#' id='filter-one'>$</a>
             <a href='#' id='filter-two'>$$</a>
+            <a href='#' id='filter-two'>$$$</a>
+            <a href='#' id='filter-two'>$$$$</a>
           </nav>
           <Mapbox
             mapboxgl={mapboxgl}

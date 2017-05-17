@@ -1,5 +1,4 @@
 export default function favHike (id, name, usertoken) {
-  console.log(id, name);
   return (dispatch) => {
     return $.ajax({
       type: 'POST',
@@ -16,7 +15,6 @@ export default function favHike (id, name, usertoken) {
         "name": name
       }),
       success: (data, status, xhr) => {
-        console.log(data);
       }
     });
     }

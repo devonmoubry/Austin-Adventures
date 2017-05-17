@@ -122,7 +122,6 @@ class HikeComponent extends React.Component {
 
         this.map.addControl(directions);
 
-        console.log('Setting the origin and destination');
         directions.setOrigin(coordinates);
         directions.setDestination(brunchCoordinates);
         this.setState({currentBrunch: brunch})

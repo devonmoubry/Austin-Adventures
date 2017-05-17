@@ -15,7 +15,6 @@ export default function favRestaurant (id, name, usertoken) {
         "name": name
       }),
       success: (data, status, xhr) => {
-        console.log(data);
       }
     });
     }
