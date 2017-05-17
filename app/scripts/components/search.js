@@ -52,13 +52,15 @@ class Search extends React.Component {
       const hikeFeatures = hikes.map(function(hike) {
         const coordinates = [hike['lon'], hike['lat']];
         const id = hike.unique_id;
+        const length = hike.activities[0].length;
 
         return {
           'type': 'Feature',
           'properties': {
             'id': id,
             'type': 'hike',
-            'icon': 'triangle' // https://github.com/mapbox/mapbox-gl-styles
+            'icon': 'triangle', // https://github.com/mapbox/mapbox-gl-styles
+            'length': length
           },
           'geometry': {
             'type': 'Point',
@@ -122,6 +124,73 @@ class Search extends React.Component {
       }.bind(this));
 
       console.log('Finished putting hikes on the map!');
+/*** hike length filter ***/
+      var short = document.getElementById('filter-length-short'),
+      medium = document.getElementById('filter-length-medium'),
+      long = document.getElementById('filter-length-long'),
+      hall = document.getElementById('filter-length-hall');
+
+      short.onclick = function(e) {
+        hall.className = '';
+        medium.className = '';
+        long.className = '';
+        short.className = 'active';
+        console.log('before setFilter in short');
+        this.map.setFilter('places', ['any', ['<=', 'length', 3.0], ['==', 'type', 'brunch']] );
+        return false;
+      }.bind(this);
+      medium.onclick = function(e) {
+        hall.className = '';
+        short.className = '';
+        long.className = '';
+        medium.className = 'active';
+        this.map.setFilter('places', ['any', ['in','length', 4.0, 5.0, 6.0, 7.0, 8.0, 9.0], ['==', 'type', 'brunch']]);
+        return false;
+      }.bind(this);
+      long.onclick = function(e) {
+        hall.className = '';
+        short.className = '';
+        medium.className = '';
+        long.className = 'active';
+        this.map.setFilter('places', ['any', ['>=','length', 10.0], ['==', 'type', 'brunch']]);
+        return false;
+      }.bind(this);
+      hall.onclick = function() {
+        short.className = '';
+        medium.className = '';
+        long.className = '';
+        hall.className = 'active';
+        this.map.setFilter('places', ['any', ['==', 'type', 'hike'], ['==', 'type', 'brunch']]);
+        return false;
+      }.bind(this);
+
+/*** brunch price filter ***/
+      // var one = document.getElementsById('filter-price-one'),
+      // two = document.getElementsById('filter-price-two'),
+      // ball = document.getElementsById('filter-price-ball');
+
+      // one.onclick = function(e) {
+      //   ball.className = '';
+      //   two.className = '';
+      //   one.className = 'active';
+      //   this.map.setFilter('places', ['any', ['==', 'price', '$'], ['==', 'type', 'hike']]);
+      //   return false;
+      // }.bind(this);
+      // two.onclick = function(e) {
+      //   one.className = '';
+      //   all.className = '';
+      //   two.className = 'active';
+      //   this.map.setFilter('places', ['any', ['==', 'price', '$$'], ['==', 'type', 'hike']]);
+      //   return false;
+      // }.bind(this);
+      // all.onclick = function() {
+      //   one.className = '';
+      //   two.className = '';
+      //   all.className = 'active';
+      //   this.map.setFilter('places', ['any', ['==', 'type', 'brunch'], ['==', 'type', 'hike']]);
+      //   return false;
+      // }.bind(this);
+
     }.bind(this));
   }
 
@@ -135,13 +204,28 @@ class Search extends React.Component {
         <div className="welcome-container">
           <div className="trail">1.  Choose a hike  ▲</div>
         </div>
-        <Mapbox
-          mapboxgl={mapboxgl}
-          accessToken={this.props.reducer.mapBoxAccessToken}
-          style= {this.mapStyle()}
-          getMap={this.getMap}
-          options={this.mapOptions()}
-        />
+        <div className="map-container">
+          <nav id='filter-length-ui' className='filter-length-ui'>
+            <a href='#' className='active' id='filter-length-hall'>All hike lengths</a>
+            <a href='#' id='filter-length-short'>1-3 mi.</a>
+            <a href='#' id='filter-length-medium'>4-9 mi.</a>
+            <a href='#' id='filter-length-long'>10 mi.+</a>
+          </nav>
+          <nav id='filter-price-ui' className='filter-price-ui'>
+            <a href='#' className='active' id='filter-price-ball'>All brunch prices</a>
+            <a href='#' id='filter-one'>$</a>
+            <a href='#' id='filter-two'>$$</a>
+          </nav>
+          <Mapbox
+            mapboxgl={mapboxgl}
+            accessToken={this.props.reducer.mapBoxAccessToken}
+            style= {this.mapStyle()}
+            getMap={this.getMap}
+            options={this.mapOptions()}
+          />
+        </div>
+        <SearchResultsList />
+        <FoodSearchResultsList />
       </main>
     );
   }
