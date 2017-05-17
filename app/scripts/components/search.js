@@ -72,12 +72,14 @@ class Search extends React.Component {
       const brunchFeatures = brunches.map(function(brunch) {
         const coordinates = brunch.coordinates;
         const id = brunch['id'];
+        const price = brunch.price;
         return {
           'type': 'Feature',
           'properties': {
             'id': id,
             'type': 'brunch',
-            'icon': 'restaurant' // https://github.com/mapbox/mapbox-gl-styles
+            'icon': 'restaurant', // https://github.com/mapbox/mapbox-gl-styles
+            'price': price
           },
           'geometry': {
             'type': 'Point',
@@ -158,57 +160,57 @@ class Search extends React.Component {
       }.bind(this);
 
 /*** brunch price filter ***/
-      // var one = document.getElementById('filter-price-one'),
-      // two = document.getElementById('filter-price-two'),
-      // three = document.getElementById('filter-price-three'),
-      // four = document.getElementById('filter-price-three'),
-      // ball = document.getElementById('filter-price-ball');
+      var one = document.getElementById('filter-price-one'),
+      two = document.getElementById('filter-price-two'),
+      three = document.getElementById('filter-price-three'),
+      four = document.getElementById('filter-price-three'),
+      ball = document.getElementById('filter-price-ball');
 
-      // one.onclick = function(e) {
-      //   ball.className = '';
-      //   two.className = '';
-      //   three.className = '';
-      //   four.className = '';
-      //   one.className = 'active';
-      //   this.map.setFilter('places', ['any', ['==', 'price', '$'], ['==', 'type', 'hike']]);
-      //   return false;
-      // }.bind(this);
-      // two.onclick = function(e) {
-      //   one.className = '';
-      //   ball.className = '';
-      //   three.className = '';
-      //   four.className = '';
-      //   two.className = 'active';
-      //   this.map.setFilter('places', ['any', ['==', 'price', '$$'], ['==', 'type', 'hike']]);
-      //   return false;
-      // }.bind(this);
-      // three.onclick = function(e) {
-      //   one.className = '';
-      //   ball.className = '';
-      //   two.className = '';
-      //   four.className = '';
-      //   three.className = 'active';
-      //   this.map.setFilter('places', ['any', ['==', 'price', '$$$'], ['==', 'type', 'hike']]);
-      //   return false;
-      // }.bind(this);
-      // four.onclick = function(e) {
-      //   one.className = '';
-      //   ball.className = '';
-      //   three.className = '';
-      //   two.className = '';
-      //   four.className = 'active';
-      //   this.map.setFilter('places', ['any', ['==', 'price', '$$$$'], ['==', 'type', 'hike']]);
-      //   return false;
-      // }.bind(this);
-      // all.onclick = function() {
-      //   one.className = '';
-      //   two.className = '';
-      //   three.className = '';
-      //   four.className = '';
-      //   ball.className = 'active';
-      //   this.map.setFilter('places', ['any', ['==', 'type', 'brunch'], ['==', 'type', 'hike']]);
-      //   return false;
-      // }.bind(this);
+      one.onclick = function(e) {
+        ball.className = '';
+        two.className = '';
+        three.className = '';
+        four.className = '';
+        one.className = 'active';
+        this.map.setFilter('places', ['any', ['==', 'price', '$'], ['==', 'type', 'hike']]);
+        return false;
+      }.bind(this);
+      two.onclick = function(e) {
+        one.className = '';
+        ball.className = '';
+        three.className = '';
+        four.className = '';
+        two.className = 'active';
+        this.map.setFilter('places', ['any', ['==', 'price', '$$'], ['==', 'type', 'hike']]);
+        return false;
+      }.bind(this);
+      three.onclick = function(e) {
+        one.className = '';
+        ball.className = '';
+        two.className = '';
+        four.className = '';
+        three.className = 'active';
+        this.map.setFilter('places', ['any', ['==', 'price', '$$$'], ['==', 'type', 'hike']]);
+        return false;
+      }.bind(this);
+      four.onclick = function(e) {
+        one.className = '';
+        ball.className = '';
+        three.className = '';
+        two.className = '';
+        four.className = 'active';
+        this.map.setFilter('places', ['any', ['==', 'price', '$$$$'], ['==', 'type', 'hike']]);
+        return false;
+      }.bind(this);
+      ball.onclick = function() {
+        one.className = '';
+        two.className = '';
+        three.className = '';
+        four.className = '';
+        ball.className = 'active';
+        this.map.setFilter('places', ['any', ['==', 'type', 'brunch'], ['==', 'type', 'hike']]);
+        return false;
+      }.bind(this);
 
     }.bind(this));
   }
@@ -232,10 +234,10 @@ class Search extends React.Component {
           </nav>
           <nav id='filter-price-ui' className='filter-price-ui'>
             <a href='#' className='active' id='filter-price-ball'>All brunch prices</a>
-            <a href='#' id='filter-one'>$</a>
-            <a href='#' id='filter-two'>$$</a>
-            <a href='#' id='filter-two'>$$$</a>
-            <a href='#' id='filter-two'>$$$$</a>
+            <a href='#' id='filter-price-one'>$</a>
+            <a href='#' id='filter-price-two'>$$</a>
+            <a href='#' id='filter-price-three'>$$$</a>
+            <a href='#' id='filter-price-four'>$$$$</a>
           </nav>
           <Mapbox
             mapboxgl={mapboxgl}
