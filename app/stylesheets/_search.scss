@@ -8,3 +8,73 @@
     font-size: 3vh;
   }
 }
+.filter-length-ui {
+  background:$color-light;
+  position:absolute;
+  margin-top: 10px;right:10px;
+  z-index:1;
+  border-radius:3px;
+  width:100px;
+  border:1px solid $color-dark;
+  }
+  .filter-length-ui a {
+    font-size:12px;
+    color: $color-dark;
+    display:block;
+    margin:0;padding:0;
+    padding:2px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .filter-length-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .filter-length-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .filter-length-ui a:hover {
+      background: $color-alert;
+      color: $color-light;
+      }
+    .filter-length-ui a.active,
+    .filter-length-ui a.active:hover {
+      background:$color-dark;
+      color: $color-light;
+      }
+  .filter-price-ui {
+    background:$color-light;
+    position:absolute;
+    margin-top: 100px;right:10px;
+    z-index:1;
+    border-radius:3px;
+    width:100px;
+    border:1px solid $color-dark;
+    }
+    .filter-price-ui a {
+      font-size:12px;
+      color: $color-dark;
+      display:block;
+      margin:0;padding:0;
+      padding:2px;
+      text-decoration:none;
+      border-bottom:1px solid rgba(0,0,0,0.25);
+      text-align:center;
+      }
+      .filter-price-ui a:first-child {
+        border-radius:3px 3px 0 0;
+        }
+      .filter-price-ui a:last-child {
+        border:none;
+        border-radius:0 0 3px 3px;
+        }
+      .filter-price-ui a:hover {
+        background: $color-alert;
+        color: $color-light;
+        }
+      .filter-price-ui a.active,
+      .filter-price-ui a.active:hover {
+        background:$color-dark;
+        color: $color-light;
+        }

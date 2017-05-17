@@ -21,11 +21,11 @@ class SearchResult extends React.Component {
   }
 
   render() {
-    
+
     return(
       <li className="search-result">
         <p tabIndex="0">{this.props.hike.name}</p>
-        <input className="submit-input" onClick={this.handleFav} type="submit" value="Favorite"></input>
+        <button className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="Favorite"><i className="fa fa-heart-o" aria-hidden="true"></i></button>
       </li>
     )
   }

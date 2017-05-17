@@ -10,6 +10,7 @@ import trailsAPI from "../models/trailsAPI.json";
 import brunchAPI from "../models/brunch_bunch_api.json"
 // components
 import BrunchInfo from "./brunch_info.js"
+import FoodSearchResultsList from "./food_search_results_list.js"
 
 class HikeComponent extends React.Component {
   constructor(props) {
@@ -166,6 +167,7 @@ class HikeComponent extends React.Component {
           getMap={this.getMap}
           options={this.mapOptions(hike)} //mapbox://styles/mapbox/outdoors-v10
         />
+        <FoodSearchResultsList restaurants={brunchAPI.places}/>
       </div>
     );
   }

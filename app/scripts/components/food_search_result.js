@@ -25,7 +25,9 @@ class FoodSearchResult extends React.Component {
     return(
       <li className="search-result">
         <p tabIndex="0">{this.props.restaurant.name}</p>
-        <input className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="Favorite"></input>
+        <p>{this.props.restaurant.price}</p>
+        <p>{this.props.restaurant.webiste}</p>
+        <button className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="Favorite"><i className="fa fa-heart-o" aria-hidden="true"></i></button>
       </li>
     )
   }
