@@ -14,6 +14,7 @@ import FoursquareBrunchDetails from "../components/foursquare_brunch_details.js"
 import HikeInfo from "./hike_info.js"
 // actions
 import getFoursquareBrunchDetails from "../actions/get_foursquare_brunch_details.js"
+import getFavoriteHikes from "../actions/get_favorite_hikes.js"
 
 class BrunchComponent extends React.Component {
   constructor(props) {
@@ -142,10 +143,14 @@ class BrunchComponent extends React.Component {
   }
 
   componentDidMount() {
+    const usertoken = this.props.usertoken;
     this.putBrunchAreaOnTheMap();
     this.props.dispatch(getFoursquareBrunchDetails(this.getBrunch().foursquare_id, function(data) {
       this.setState({foursquareDetails: data.response.venue})
-    }.bind(this)));
+    }.bind(this), function(data) {
+      console.log('some error');
+    }));
+    this.props.dispatch(getFavoriteHikes(usertoken));
   }
 
   render() {

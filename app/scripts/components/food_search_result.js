@@ -12,6 +12,7 @@ class FoodSearchResult extends React.Component {
     super(props)
 
     this.handleFavRestaurant = this.handleFavRestaurant.bind(this)
+    this.hasFavoritedRestaurant = this.hasFavoritedRestaurant.bind(this)
     this.state = {}
   }
 
@@ -23,13 +24,31 @@ class FoodSearchResult extends React.Component {
     this.props.dispatch(favRestaurant(id, name, usertoken));
   }
 
+  hasFavoritedRestaurant(id) {
+    if (this.props.reducer.favoriteRestaurants.length == 0) {
+      return false;
+    }
+    var favRestaurantIds = this.props.reducer.favoriteRestaurants.map( function(favorite) {
+      return favorite.id;
+    });
+
+    return favRestaurantIds.includes(id);
+  }
+
   componentDidMount() {
     this.props.dispatch(getFoursquareBrunchDetails(this.props.restaurant.foursquare_id, function(data) {
       this.setState({foursquareDetails: data.response.venue})
-    }.bind(this)));
+    }.bind(this), function(data) {
+      console.log('some error');
+    }));
   }
 
   render() {
+    let favoriteRestaurantsHTML = <button className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="makeFavorite"><i className="fa fa-heart-o" aria-hidden="true"></i></button>
+
+    if (this.hasFavoritedRestaurant(this.props.restaurant.id)) {
+      favoriteRestaurantsHTML = <button className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="isFavorite"><i className="fa fa-heart" aria-hidden="true"></i></button>
+    }
 
     let brunchfoursquareDetails = <p>Loading details ...</p>;
     if(this.state.foursquareDetails != undefined) {
@@ -37,16 +56,16 @@ class FoodSearchResult extends React.Component {
       if (this.state.foursquareDetails.attributes.groups != undefined && this.state.foursquareDetails.attributes.groups.length > 0) {
         currency = this.state.foursquareDetails.attributes.groups[0].summary
       }
-      brunchfoursquareDetails = <li className="search-result">
-              <p tabIndex="0">{this.props.restaurant.name}</p>
-              <p>{currency}</p>
-              <p>{this.props.restaurant.website}</p>
-              <button className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="Favorite"><i className="fa fa-heart-o" aria-hidden="true"></i></button>
-            </li>
+      brunchfoursquareDetails =
+              <p tabIndex="0">{this.props.restaurant.name} {currency} {this.props.restaurant.website}</p>
+
     }
 
     return(
-      <div>{brunchfoursquareDetails}</div>
+      <li className="search-result">
+      {favoriteRestaurantsHTML}
+      {brunchfoursquareDetails}
+      </li>
     )
   }
 }

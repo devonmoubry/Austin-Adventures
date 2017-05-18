@@ -10,6 +10,7 @@ class SearchResult extends React.Component {
     super(props)
 
     this.handleFav = this.handleFav.bind(this)
+    this.hasFavoritedHike = this.hasFavoritedHike.bind(this)
   }
 
   handleFav(event) {
@@ -20,12 +21,26 @@ class SearchResult extends React.Component {
     this.props.dispatch(favHike(id, name, usertoken));
   }
 
-  render() {
+  hasFavoritedHike(id) {
+    if (this.props.reducer.favoriteHikes.length == 0) {
+      return false;
+    }
+    var favHikeIds = this.props.reducer.favoriteHikes.map( function(favorite) {
+      return favorite.id;
+    });
 
+    return favHikeIds.includes(id);
+  }
+
+  render() {
+    let favoriteHikesHTML = <button className="submit-input" onClick={this.handleFav} type="submit" value="Favorite"><i className="fa fa-heart-o" aria-hidden="true"></i></button>
+    if (this.hasFavoritedHike(this.props.hike.unique_id)) {
+      favoriteHikesHTML = <button className="submit-input" onClick={this.handleFav} type="submit" value="Favorite"><i className="fa fa-heart" aria-hidden="true"></i></button>
+    }
     return(
       <li className="search-result">
+        {favoriteHikesHTML}
         <p tabIndex="0">{this.props.hike.name}</p>
-        <button className="submit-input" onClick={this.handleFavRestaurant} type="submit" value="Favorite"><i className="fa fa-heart-o" aria-hidden="true"></i></button>
       </li>
     )
   }

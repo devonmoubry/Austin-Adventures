@@ -26,7 +26,9 @@ class BrunchInfo extends React.Component {
   componentDidMount() {
     this.props.dispatch(getFoursquareBrunchDetails(this.props.brunch.foursquare_id, function(data) {
       this.setState({foursquareDetails: data.response.venue})
-    }.bind(this)));
+    }.bind(this), function(data) {
+      console.log('some error');
+    }));
   }
 
   render() {

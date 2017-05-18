@@ -11,6 +11,8 @@ import brunchAPI from "../models/brunch_bunch_api.json"
 // components
 import BrunchInfo from "./brunch_info.js"
 import FoodSearchResultsList from "./food_search_results_list.js"
+// actions
+import getFavoriteRestaurants from "../actions/get_favorite_restaurants.js"
 
 class HikeComponent extends React.Component {
   constructor(props) {
@@ -140,6 +142,8 @@ class HikeComponent extends React.Component {
 
   componentDidMount() {
     this.putHikeAreaOnTheMap();
+    const usertoken = this.props.usertoken;
+    this.props.dispatch(getFavoriteRestaurants(usertoken));
   }
 
   render() {

@@ -136,7 +136,9 @@ class PlanComponent extends React.Component {
     this.putMarkersOnTheMap();
     this.props.dispatch(getFoursquareBrunchDetails(this.getBrunch().foursquare_id, function(data) {
       this.setState({foursquareDetails: data.response.venue})
-    }.bind(this)));
+    }.bind(this), function(data) {
+      console.log('some error');
+    }));
   }
 
   render() {
