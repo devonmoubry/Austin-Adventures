@@ -120,11 +120,14 @@
       border-style: none;
     }
 
+    a,
     p {
       align-self: center;
+      color: $color-light;
     }
   }
 
+  a,
   p {
     margin: 0;
     color: $color-light;

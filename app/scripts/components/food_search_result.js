@@ -57,7 +57,7 @@ class FoodSearchResult extends React.Component {
         currency = this.state.foursquareDetails.attributes.groups[0].summary
       }
       brunchfoursquareDetails =
-              <p tabIndex="0">{this.props.restaurant.name} {currency} {this.props.restaurant.website}</p>
+              <a href={this.props.restaurant.website} target="_blank" tabIndex="0">{this.props.restaurant.name} {currency}</a>
 
     }
 
