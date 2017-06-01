@@ -164,7 +164,7 @@ class BrunchComponent extends React.Component {
     let foursquareMenu = <i className="fa fa-foursquare" aria-hidden="true"></i>;
     if(this.state.foursquareDetails != undefined) {
       brunchfoursquareDetails = <FoursquareBrunchDetails details={this.state.foursquareDetails}/>
-      foursquareMenu = <button href={this.state.foursquareDetails.canonicalUrl} className="social-media-button button" target="_blank" type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</button>
+      foursquareMenu = <a href={this.state.foursquareDetails.canonicalUrl} className="social-media-button button" target="_blank" type="submit"><i className="fa fa-foursquare" aria-hidden="true"></i>Foursquare</a>
     }
 
     return (
