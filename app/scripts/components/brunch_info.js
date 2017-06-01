@@ -45,7 +45,7 @@ class BrunchInfo extends React.Component {
         <p>Brunch: {brunch['brunch']}</p>
         {brunchfoursquareDetails}
         {foursquareMenu}
-        <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share</button>
+        <button className="share-button button" onClick={this.handleShareButton} type="submit"><i className="fa fa-map-o" aria-hidden="true"></i>Share your plan</button>
       </div>
     )
   }
