@@ -4,7 +4,7 @@ import { Route, Link, NavLink } from "react-router-dom";
 import container from "../containers/all.js";
 //actions
 import favRestaurant from "../actions/fav_restaurant.js"
-
+import getFavoriteRestaurants from "../actions/get_favorite_restaurants.js"
 import getFoursquareBrunchDetails from "../actions/get_foursquare_brunch_details.js"
 
 class FoodSearchResult extends React.Component {
@@ -22,7 +22,10 @@ class FoodSearchResult extends React.Component {
     const name = this.props.restaurant.name;
     const usertoken = this.props.reducer.usertoken;
     const ownerId = this.props.reducer.ownerId;
-    this.props.dispatch(favRestaurant(id, name, usertoken, ownerId));
+    this.props.dispatch(favRestaurant(id, name, usertoken, ownerId, function(){
+      console.log('success, we saved your restaurant');
+      this.props.dispatch(getFavoriteRestaurants(usertoken, ownerId));
+    }.bind(this)));
   }
 
   hasFavoritedRestaurant(id) {

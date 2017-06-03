@@ -4,6 +4,7 @@ import { Route, Link, NavLink } from "react-router-dom";
 import container from "../containers/all.js";
 //actions
 import favHike from "../actions/fav_hike.js"
+import getFavoriteHikes from "../actions/get_favorite_hikes.js"
 
 class SearchResult extends React.Component {
   constructor(props) {
@@ -19,7 +20,10 @@ class SearchResult extends React.Component {
     const name = this.props.hike.name;
     const usertoken = this.props.reducer.usertoken;
     const ownerId = this.props.reducer.ownerId;
-    this.props.dispatch(favHike(id, name, usertoken, ownerId));
+    this.props.dispatch(favHike(id, name, usertoken, ownerId, function(){
+      console.log('success, we saved the hike');
+      this.props.dispatch(getFavoriteHikes(usertoken, ownerId));
+    }.bind(this)));
   }
 
   hasFavoritedHike(id) {

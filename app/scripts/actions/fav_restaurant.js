@@ -1,4 +1,4 @@
-export default function favRestaurant (id, name, usertoken, ownerId) {
+export default function favRestaurant (id, name, usertoken, ownerId, successHandler) {
   return (dispatch) => {
     return $.ajax({
       type: 'POST',
@@ -16,6 +16,7 @@ export default function favRestaurant (id, name, usertoken, ownerId) {
         "ownerId": ownerId
       }),
       success: (data, status, xhr) => {
+        successHandler();
         console.log('we have saved your restaurant');
         console.log(status);
         console.log(data);
