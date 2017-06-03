@@ -30,6 +30,15 @@ export default function AppReducer(state, action) {
         favoriteRestaurants: action.favoriteRestaurants
       };
       return Object.assign({}, state, newState);
+
+    case "LOG_OUT":
+      var newState = {
+        usertoken: null,
+        ownerId: null,
+        favoriteHikes: [],
+        favoriteRestaurants: []
+      };
+      return Object.assign({}, state, newState);
   }
 
   console.log("Unhandled State!");
