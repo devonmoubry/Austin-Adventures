@@ -5,10 +5,19 @@ import container from '../containers/all.js';
 
 class NavBar extends React.Component {
   render() {
+    let userLinks = <div className="user-links">
+        <Link className="link-button user-button" to="/login">Login</Link>
+        <Link className="link-button user-button" to="/signup">Sign up</Link>
+      </div>
+    if (this.props.reducer.usertoken !== null) {
+      userLinks =  <div className="user-links">
+          <Link className="link-button user-button" to="/">Logout</Link>
+        </div>
+    }
     return (
       <div className="navbar">
         <Link className="link-button" to="/"><h1 className="app-title">AUSTIN ADVENTURES</h1></Link>
-        <Link className="link-button" to="/login"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
+        {userLinks}
       </div>
     );
   }

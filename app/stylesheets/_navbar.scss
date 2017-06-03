@@ -3,26 +3,37 @@
   display: flex;
   justify-content: space-between;
 
-  a {
-    display: flex;
-    padding: 2vh;
-    align-self: center;
-
-    i {
-      text-decoration: none;
-      font-size: 4vh;
-    }
-  }
-
   .app-title {
     font-family: $font-bold;
     letter-spacing: 3px;
     font-size: 5vh;
     color: $color-dark;
-    margin: 1vh;
+    margin: 0;
+    padding: 2vh;
   }
 
   .app-title:hover {
     @include opacity;
   }
 }
+
+// @media (max-width: 600px){
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .user-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .user-button {
+      display: block;
+      font-size: 2vh;
+      // text-align: right;
+      // width: 50px;
+      padding: 1vh;
+    }
+  }
+// }
