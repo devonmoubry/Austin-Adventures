@@ -1,4 +1,4 @@
-export default function favRestaurant (id, name, usertoken) {
+export default function favRestaurant (id, name, usertoken, ownerId) {
   return (dispatch) => {
     return $.ajax({
       type: 'POST',
@@ -12,7 +12,8 @@ export default function favRestaurant (id, name, usertoken) {
       },
       data: JSON.stringify({
         "id": id,
-        "name": name
+        "name": name,
+        "ownerId": ownerId
       }),
       success: (data, status, xhr) => {
         console.log('we have saved your restaurant');

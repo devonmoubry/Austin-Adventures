@@ -143,14 +143,15 @@ class BrunchComponent extends React.Component {
   }
 
   componentDidMount() {
-    const usertoken = this.props.usertoken;
+    const usertoken = this.props.reducer.usertoken;
+    const ownerId = this.props.reducer.ownerId;
     this.putBrunchAreaOnTheMap();
     this.props.dispatch(getFoursquareBrunchDetails(this.getBrunch().foursquare_id, function(data) {
       this.setState({foursquareDetails: data.response.venue})
     }.bind(this), function(data) {
       console.log('some error');
     }));
-    this.props.dispatch(getFavoriteHikes(usertoken));
+    this.props.dispatch(getFavoriteHikes(usertoken, ownerId));
   }
 
   render() {

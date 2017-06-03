@@ -142,8 +142,9 @@ class HikeComponent extends React.Component {
 
   componentDidMount() {
     this.putHikeAreaOnTheMap();
-    const usertoken = this.props.usertoken;
-    this.props.dispatch(getFavoriteRestaurants(usertoken));
+    const usertoken = this.props.reducer.usertoken;
+    const ownerId = this.props.reducer.ownerId;
+    this.props.dispatch(getFavoriteRestaurants(usertoken, ownerId));
   }
 
   render() {

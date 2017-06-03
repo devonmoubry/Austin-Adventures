@@ -20,8 +20,9 @@ class FoodSearchResult extends React.Component {
     event.preventDefault();
     const id = this.props.restaurant.id;
     const name = this.props.restaurant.name;
-    const usertoken = this.props.usertoken;
-    this.props.dispatch(favRestaurant(id, name, usertoken));
+    const usertoken = this.props.reducer.usertoken;
+    const ownerId = this.props.reducer.ownerId;
+    this.props.dispatch(favRestaurant(id, name, usertoken, ownerId));
   }
 
   hasFavoritedRestaurant(id) {

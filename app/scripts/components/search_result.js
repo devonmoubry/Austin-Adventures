@@ -17,8 +17,9 @@ class SearchResult extends React.Component {
     event.preventDefault();
     const id = this.props.hike.unique_id;
     const name = this.props.hike.name;
-    const usertoken = this.props.usertoken;
-    this.props.dispatch(favHike(id, name, usertoken));
+    const usertoken = this.props.reducer.usertoken;
+    const ownerId = this.props.reducer.ownerId;
+    this.props.dispatch(favHike(id, name, usertoken, ownerId));
   }
 
   hasFavoritedHike(id) {

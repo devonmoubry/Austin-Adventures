@@ -14,7 +14,7 @@ export default function loginUser (loginEmail, loginPassword, successFunction, e
         "password": loginPassword
       }),
       success: (data, status, xhr) => {
-        dispatch ({ type: "LOGGED_IN", usertoken: data["user-token"], name: data.name })
+        dispatch ({ type: "LOGGED_IN", usertoken: data["user-token"], name: data.name, ownerId: data.ownerId })
         successFunction()
       },
       error: (data, status, xhr) => {
