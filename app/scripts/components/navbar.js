@@ -28,7 +28,7 @@ class NavBar extends React.Component {
     }
     return (
       <div className="navbar">
-        <Link className="link-button" to="/"><h1 className="app-title">AUSTIN ADVENTURES</h1></Link>
+        <Link className="link-button" to="/"><h1 className="app-title">TX ADVENTURES</h1></Link>
         {userLinks}
       </div>
     );

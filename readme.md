@@ -1,6 +1,6 @@
 ## What is it?
 The Iron Yard Spring 2017 Front End Engineering Cohort final project.
-Austin Adventures.
+TX Adventures.
 This app allows users to search for outdoor activities and restaurants based on location.
 The first phase will include hikes and brunch spots in Austin.
 
@@ -21,7 +21,6 @@ Anonymous users will be able to search for a hike and see brunch locations "near
 onClick map appears with trailhead overlay. user can click on trail for more info and to see overlay of restaurants</p>
 <p>/signup - user can sign up for account and go to login page</p>
 <p>/login - user can login and go to account page</p>
-<p>/account - user can upload trail, restaurant, photos</p>
 
 <p align="center">
   <img src="app/images/Phase-1.jpg" width="350" />

@@ -9,11 +9,24 @@
 @import 'brunch';
 @import 'theadventure';
 
-.app-container {
+body {
   background-color: $color-light;
 }
 
-.link-button, .social-media-button, .share-button{
+// main {
+//   max-width: 800px;
+// }
+
+.app-container {
+  background-color: $color-light;
+  // max-width: 800px;
+  // text-align: center;
+  // margin: 0 auto;
+}
+
+.link-button,
+.social-media-button,
+.share-button {
   font-family: $font-thin;
   font-weight: bold;
   text-decoration: none;
