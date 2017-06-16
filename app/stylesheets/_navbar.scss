@@ -2,6 +2,8 @@
   //@include section-border;
   display: flex;
   justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
 
   .app-title {
     font-family: $font-bold;
@@ -15,13 +17,6 @@
   .app-title:hover {
     @include opacity;
   }
-}
-
-// @media (max-width: 600px){
-  .navbar {
-    display: flex;
-    //justify-content: space-around;
-  }
 
   .user-links {
     display: flex;
@@ -31,11 +26,9 @@
     .user-button {
       display: block;
       font-size: 2vh;
-      // text-align: right;
-      // width: 50px;
       padding: 1vh;
       -webkit-appearance: none;
       border: none;
     }
   }
-// }
+}
